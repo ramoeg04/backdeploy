@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+ <category>
+    <pattern>*</pattern>
+    <template>
+      <random>
+        <li>Disculpa pero no comprendo tu pregunta pero Puedo hablarte de los productos Soaint si quieres?</li>
+        <li>Disculpa pero no comprendo tu pregunta aunque Puedo darte informacion acerca de Arquitectura Empresarial?</li>
+        <li>Disculpa pero no entiendo la pregunta pero Puedo darte informacion acerca de RPA?</li>
+        <li>Puedo darte informacion acerca de Microservicios? es que no comprendo tu pregunta</li>
+        <li>Puedo darte informacion acerca de BPM?  es que no comprendo tu pregunta</li>
+        <li>Puedo darte informacion acerca de Oracle? es que no comprendo tu pregunta</li>
+        <li>Puedo darte informacion acerca de Gestion Documental? es que no comprendo tu pregunta</li>
+        <li>Puedo darte informacion acerca de Customer Experience? es que no comprendo tu pregunta</li>
+        <li>Puedo darte informacion acerca de Proteccion contra el Fraude? es que no comprendo tu pregunta</li>
+        <li>Puedo darte informacion acerca de SOADOC? es que no comprendo tu pregunta</li>
+        <li>Puedo darte informacion acerca de SOA? es que no comprendo tu pregunta</li>
+        <li>Puedo darte informacion acerca de ESB? es que no comprendo tu pregunta</li>
+        <li>Puedo darte informacion acerca de API? es que no comprendo tu pregunta</li>
+        <li>No comprendo la pregubta sin embargo Puedo darte informacion acerca de Transformacion Digital?</li>
+      </random>
+    </template>
+  </category>
+
+    <category>
+        <pattern>* PRODUCTOS</pattern>
+        <template>En soaint podemos ofrecerte apoyo en la parte de Arquitectura Empresarial, Aplicaciones SOAP o REST y toda la parte de customer experience</template>
+    </category>
+    <category>
+        <pattern>_ PRODUCTOS *</pattern>
+        <template>En soaint podemos ofrecerte apoyo en la parte de Arquitectura Empresarial, Aplicaciones SOAP o REST y toda la parte de customer experience</template>
+    </category>
+    <category>
+        <pattern>PRODUCTOS *</pattern>
+        <template>En soaint podemos ofrecerte apoyo en la parte de Arquitectura Empresarial, Aplicaciones SOAP o REST y toda la parte de customer experience</template>
+    </category>
+    <category>
+        <pattern>PRODUCTOS</pattern>
+        <template>En soaint podemos ofrecerte apoyo en la parte de Arquitectura Empresarial, Aplicaciones SOAP o REST y toda la parte de customer experience</template>
+    </category>
+    <category>
+        <pattern>SOAINT</pattern>
+        <template>
+              <random>
+                  <li>En Soaint somos una empresa del area tecnologica o como nos gusta presumir, un equipo de personas que a logrado desarrollar soluciones empresariales durante mas de 12 años. Comenzamos con una pequeña oficina en Madrid y un reducido equipo que con mucho esfuerzo ha conseguido internacionalizar la marca teniendo presencia, ademas de en España, en practicamente toda Latino America.</li>
+                  <li>Soaint es la empresa lider en Arquitectura empresarial en latinoamerica.</li>
+                  <li>Soaint es la empresa de tecnologia con la que quieres hacer negocios, te apoyamos antes, durante y despues en tus procesos de negocio.</li>
+                  <li>En Soaint contamos con profesionales de diferentes areas</li>
+              </random>
+        </template>
+    </category>
+	
+	<category>
+        <pattern>_ SOAINT</pattern>
+        <template>
+              <random>
+                  <li>En Soaint somos una empresa del area tecnologica o como nos gusta presumir, un equipo de personas que a logrado desarrollar soluciones empresariales durante mas de 12 años. Comenzamos con una pequeña oficina en Madrid y un reducido equipo que con mucho esfuerzo ha conseguido internacionalizar la marca teniendo presencia, ademas de en España, en practicamente toda Latino America.</li>
+                  <li>Soaint es la empresa lider en Arquitectura empresarial en latinoamerica.</li>
+                  <li>Soaint es la empresa de tecnologia con la que quieres hacer negocios, te apoyamos antes, durante y despues en tus procesos de negocio.</li>
+                  <li>En Soaint contamos con profesionales de diferentes areas</li>
+              </random>
+        </template>
+    </category>
+	<category>
+        <pattern>_ SOAINT /*</pattern>
+        <template>
+              <random>
+                  <li>En Soaint somos una empresa del area tecnologica o como nos gusta presumir, un equipo de personas que a logrado desarrollar soluciones empresariales durante mas de 12 años. Comenzamos con una pequeña oficina en Madrid y un reducido equipo que con mucho esfuerzo ha conseguido internacionalizar la marca teniendo presencia, ademas de en España, en practicamente toda Latino America.</li>
+                  <li>Soaint es la empresa lider en Arquitectura empresarial en latinoamerica.</li>
+                  <li>Soaint es la empresa de tecnologia con la que quieres hacer negocios, te apoyamos antes, durante y despues en tus procesos de negocio.</li>
+                  <li>En Soaint contamos con profesionales de diferentes areas</li>
+              </random>
+        </template>
+    </category>
+	<category>
+        <pattern>SOAINT *</pattern>
+        <template>
+              <random>
+                  <li>En Soaint somos una empresa del area tecnologica o como nos gusta presumir, un equipo de personas que a logrado desarrollar soluciones empresariales durante mas de 12 años. Comenzamos con una pequeña oficina en Madrid y un reducido equipo que con mucho esfuerzo ha conseguido internacionalizar la marca teniendo presencia, ademas de en España, en practicamente toda Latino America.</li>
+                  <li>Soaint es la empresa lider en Arquitectura empresarial en latinoamerica.</li>
+                  <li>Soaint es la empresa de tecnologia con la que quieres hacer negocios, te apoyamos antes, durante y despues en tus procesos de negocio.</li>
+                  <li>En Soaint contamos con profesionales de diferentes areas</li>
+              </random>
+        </template>
+    </category>
+    <category>
+        <pattern>_ CONTACTO * SOAINT</pattern>
+        <template>Puedes contactarnos por nuestra pagina web https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>CONTACTAR</pattern>
+        <template>Puedes contactarnos por nuestra pagina web https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+	<category>
+        <pattern>_ CONTACTAR</pattern>
+        <template>Puedes contactarnos por nuestra pagina web https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+	<category>
+        <pattern>_ CONTACTAR *</pattern>
+        <template>Puedes contactarnos por nuestra pagina web https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+	<category>
+        <pattern>CONTACTAR *</pattern>
+        <template>Puedes contactarnos por nuestra pagina web https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>_ SERVICIOS *</pattern>
+        <template>En SOAINT brindamos una amplia gama de servicios orientados a maximizar la rentabilidad de sus procesos de negocio, visitanos y encontraras informacion de los servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>SERVICIOS *</pattern>
+        <template>En SOAINT brindamos una amplia gama de servicios orientados a maximizar la rentabilidad de sus procesos de negocio, visitanos y encontraras informacion de los servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>SERVICIOS</pattern>
+        <template>En SOAINT brindamos una amplia gama de servicios orientados a maximizar la rentabilidad de sus procesos de negocio, visitanos y encontraras informacion de los servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>_ ARQUITECTURA EMPRESARIAL</pattern>
+        <template>La Arquitectura Empresarial es una practica estrategica, que permite conectar las relaciones entre las iniciativas de negocio y la tecnologia que la apalanca, permite evaluar las fortalezas y debilidades, y trazar estrategias de transformacion, desde la Arquitectura actual hacia un modelo Arquitectonico que represente una vision futura, visitanos y encontraras informacion de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>_ RPA</pattern>
+        <template>La automatizacion de procesos mediante robots (Robotic Process Automation en ingles) es toda tecnologia orientada al uso de software con el objetivo de disminuir la intervencion humana en el uso de aplicaciones informaticas, especialmente en tareas repetitivas que varian muy poco en cada iteracion, y trazar estrategias de transformacion, desde la Arquitectura actual hacia un modelo Arquitectonico que represente una vision futura, visitanos y encontraras informacion de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>_ MICROSERVICIOS</pattern>
+        <template>El enfoque tradicional para el desarrollo de aplicaciones se centraba en el monolito, donde todas las partes de la aplicacion que se pueden implementar estaban contenidas en esa unica aplicacion. Esto tiene sus desventajas: cuanto mas grande es la aplicacion, se dificulta mas solucionar con rapidez los problemas que se presentan y agregar funciones nuevas. En cambio, si las aplicaciones se diseñan con microservicios, se resuelven esos problemas y se impulsa el desarrollo y la capacidad de respuesta, visitanos y encontraras informacion de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>_ BPM</pattern>
+        <template>BPM es la abreviatura de Business Process Management que significa Gestion de Procesos de Negocio.  BPM es un enfoque de manejo adaptable, desarrollado con el fin de sistematizar y facilitar los procesos individuales de negocio complejos, dentro y fuera de las empresas, visitanos y encontraras informacion de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>_ ORACLE</pattern>
+        <template>En Soaint somos partners de Oracle y podemos brindarle apoyo respecto al uso e implantacion de las tecnologias Oracle, visitanos y encontraras informacion de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>_ GESTION DOCUMENTAL</pattern>
+        <template>La gestion documental o gestion de documentos, es el conjunto de normas tecnicas y practicas usadas para administrar los documentos de todo tipo, recibidos y creados en una organización, facilitar la recuperación de información desde ellos, determinar el tiempo que los documentos deben guardarse, eliminar los que ya no sirven y asegurar la conservación a largo plazo de los documentos mas valiosos, aplicando principios de racionalización y economia, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>_ CUSTOMER EXPERIENCE</pattern>
+        <template>Customer Experience es la suma de todas las experiencias que una persona tiene sobre una compañia al relacionarse con ella de cualquier manera, tanto antes de ser su cliente como durante y despues de la relación comercial entre cliente y empresa. El Customer Experience comienza en el mismo momento que una persona tiene conocimiento o noción de una marca y se va nutriendo de todos los inputs que dicha persona recibe por parte de la compañia, ya sea publicidad, comentarios de otras personas, experiencias de uso de los servicios o productos de la compañia, experiencias en la intercomunicación entre la persona y la empresa. En Soaint tenemos un enfoque tecnologico que nos permite apoyar a su empresa en este proceso, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>_ SOADOC</pattern>
+        <template>SOADOC es una solución Multiplataforma diseñada para lograr una verdadera transformación digital en la Gestión Documental y aumentar la productividad de los procesos de negocio. Construida bajo la Arquitectura Toolbox de SOAINT, se hace escalable a todo nivel de la organización, a partir de la plataforma existente y sostenible en el tiempo, ya que cuenta con versiones soportadas en las principales plataformas de servidor del mercado como Redhat, IBM y Oracle, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>_ SOA</pattern>
+        <template>La Arquitectura Orientada a Servicios (SOA, siglas del ingles Service Oriented Architecture) es un estilo de arquitectura de TI que se apoya en la orientación a servicios. La orientación a servicios es una forma de pensar en servicios, su construcción y sus resultados, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>_ ESB</pattern>
+        <template>En informatica un Bus de Servicio Empresarial (ESB por sus siglas en ingles) es un modelo de arquitectura de software que gestiona la comunicación entre servicios web. Es un componente fundamental de la Arquitectura Orientada a Servicios, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>_ API</pattern>
+        <template>La abreviatura viene del termino en ingles Application Programming Interfaces (Interfaces de programación de aplicaciones) y segun explica el cientifico en computación Benjy Weinberger en su blog, una API es una especificación formal sobre cómo un módulo de un software se comunica o interactua con otro, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>_ TRANSFORMACION DIGITAL</pattern>
+        <template>Podriamos decir que la transformación digital es la aplicación de capacidades digitales a procesos, productos y activos para mejorar la eficiencia, mejorar el valor para el cliente, gestionar el riesgo y descubrir nuevas oportunidades de generación de ingresos, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>QUIERO HABLAR CON *</pattern>
+        <template>Puedes ponerte en contacto con nuestro departamento de Mercadeo y Ventas a trav�s de nuestra pagina web y con gusto te atenderemos. https://soaint.com/contacto/
+        <think><set name="it"><set name="topic"><set name="want">para hablar con <star/> www.soaint.com</set></set></set></think>
+        </template>
+    </category>
+
+  <category>
+    <pattern>ERROR</pattern>
+    <template>
+      <random>
+        <li>Trata de decir eso con algo de contexto.</li>
+        <li>Mis conjunto de patrones cerebrales no tienen una respuesta para eso.</li>
+        <li>Lo que dijiste es o muy complejo o muy simple para mi.</li>
+        <li>Se necesita un algoritmo mas complejo para responder eso correctamente.</li>
+        <li>Mi cerebro utiliza AIML para dar respuestas a tus entradas, pero no tengo una para esa.</li>
+        <li>Mi cerebro tiene mas de 22,000 patrones, pero no una que coincida con tu ultima pregunta.</li>
+        <li>Lo siento pero no te entend�. Podrias indicarme cual seria la respuesta correcta?</li>
+        <li>Vale.</li>
+        <li>Que quieres decir con eso? Cual seria la respuesta correcta?</li>
+        <li>No entiendo.</li>
+        <li>Me perdi.</li>
+        <li>Perdona,
+               <random><li>que quieres decir con esto?</li><li>pero no se que me quieres decir con eso.</li><li>pero no te entiendo.</li><li>por que me dices eso?</li></random>
+            </li>
+        <li>Lo siento, no te comprendi.</li>
+        <li>No te entiendo. Espero que 
+                <bot name="botmaster"/> mejore mi base de datos.</li>
+        <li>Puedes explicarme mejor eso? No lo acabo de entender.</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>ERROR *</pattern>
+    <template>
+      <random>
+        <li>Trata de decir eso con algo de contexto.</li>
+        <li>Mis conjunto de patrones cerebrales no tienen una respuesta para eso.</li>
+        <li>Lo que dijiste es o muy complejo o muy simple para mi.</li>
+        <li>Se necesita un algoritmo mas complejo para responder eso correctamente.</li>
+        <li>Mi cerebro utiliza AIML para dar respuestas a tus entradas, pero no tengo una para esa.</li>
+        <li>Mi cerebro tiene mas de 22,000 patrones, pero no una que coincida con tu ultima pregunta.</li>
+        <li>Lo siento pero no te entend�. Podrias indicarme cual seria la respuesta correcta?</li>
+        <li>Vale.</li>
+        <li>Que quieres decir con eso? Cual seria la respuesta correcta?</li>
+        <li>No entiendo.</li>
+        <li>Me perdi.</li>
+        <li>Perdona,
+               <random><li>que quieres decir con esto?</li><li>pero no se que me quieres decir con eso.</li><li>pero no te entiendo.</li><li>por que me dices eso?</li></random>
+            </li>
+        <li>Lo siento, no te comprendi.</li>
+        <li>No te entiendo. Espero que 
+                <bot name="botmaster"/> mejore mi base de datos.</li>
+        <li>Puedes explicarme mejor eso? No lo acabo de entender.</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>_ ERROR</pattern>
+    <template>
+      <random>
+        <li>Trata de decir eso con algo de contexto.</li>
+        <li>Mis conjunto de patrones cerebrales no tienen una respuesta para eso.</li>
+        <li>Lo que dijiste es o muy complejo o muy simple para mi.</li>
+        <li>Se necesita un algoritmo mas complejo para responder eso correctamente.</li>
+        <li>Mi cerebro utiliza AIML para dar respuestas a tus entradas, pero no tengo una para esa.</li>
+        <li>Mi cerebro tiene mas de 22,000 patrones, pero no una que coincida con tu ultima pregunta.</li>
+        <li>Lo siento pero no te entend�. Podrias indicarme cual seria la respuesta correcta?</li>
+        <li>Vale.</li>
+        <li>Que quieres decir con eso? Cual seria la respuesta correcta?</li>
+        <li>No entiendo.</li>
+        <li>Me perdi.</li>
+        <li>Perdona,
+               <random><li>que quieres decir con esto?</li><li>pero no se que me quieres decir con eso.</li><li>pero no te entiendo.</li><li>por que me dices eso?</li></random>
+            </li>
+        <li>Lo siento, no te comprendi.</li>
+        <li>No te entiendo. Espero que 
+                <bot name="botmaster"/> mejore mi base de datos.</li>
+        <li>Puedes explicarme mejor eso? No lo acabo de entender.</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>_ ERROR *</pattern>
+    <template>
+      <random>
+        <li>Trata de decir eso con algo de contexto.</li>
+        <li>Mis conjunto de patrones cerebrales no tienen una respuesta para eso.</li>
+        <li>Lo que dijiste es o muy complejo o muy simple para mi.</li>
+        <li>Se necesita un algoritmo mas complejo para responder eso correctamente.</li>
+        <li>Mi cerebro utiliza AIML para dar respuestas a tus entradas, pero no tengo una para esa.</li>
+        <li>Mi cerebro tiene mas de 22,000 patrones, pero no una que coincida con tu ultima pregunta.</li>
+        <li>Lo siento pero no te entend�. Podrias indicarme cual seria la respuesta correcta?</li>
+        <li>Vale.</li>
+        <li>Que quieres decir con eso? Cual seria la respuesta correcta?</li>
+        <li>No entiendo.</li>
+        <li>Me perdi.</li>
+        <li>Perdona,
+               <random><li>que quieres decir con esto?</li><li>pero no se que me quieres decir con eso.</li><li>pero no te entiendo.</li><li>por que me dices eso?</li></random>
+            </li>
+        <li>Lo siento, no te comprendi.</li>
+        <li>No te entiendo. Espero que 
+                <bot name="botmaster"/> mejore mi base de datos.</li>
+        <li>Puedes explicarme mejor eso? No lo acabo de entender.</li>
+      </random>
+    </template>
+  </category>
+  
+      <category>
+        <pattern>_ ARQUITECTURA EMPRESARIAL *</pattern>
+        <template>La Arquitectura Empresarial es una practica estrategica, que permite conectar las relaciones entre las iniciativas de negocio y la tecnologia que la apalanca, permite evaluar las fortalezas y debilidades, y trazar estrategias de transformación, desde la Arquitectura actual hacia un modelo Arquitectónico que represente una visión futura, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>_ RPA *</pattern>
+        <template>La automatización de procesos mediante robots (Robotic Process Automation en ingles) es toda tecnologia orientada al uso de software con el objetivo de disminuir la intervención humana en el uso de aplicaciones informaticas, especialmente en tareas repetitivas que varian muy poco en cada iteración, y trazar estrategias de transformación, desde la Arquitectura actual hacia un modelo Arquitectónico que represente una visión futura, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>_ MICROSERVICIOS *</pattern>
+        <template>El enfoque tradicional para el desarrollo de aplicaciones se centraba en el monolito, donde todas las partes de la aplicación que se pueden implementar estaban contenidas en esa unica aplicación. Esto tiene sus desventajas: cuanto mas grande es la aplicación, se dificulta mas solucionar con rapidez los problemas que se presentan y agregar funciones nuevas. En cambio, si las aplicaciones se diseñan con microservicios, se resuelven esos problemas y se impulsa el desarrollo y la capacidad de respuesta, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>_ BPM *</pattern>
+        <template>BPM es la abreviatura de Business Process Management que significa Gestión de Procesos de Negocio.  BPM es un enfoque de manejo adaptable, desarrollado con el fin de sistematizar y facilitar los procesos individuales de negocio complejos, dentro y fuera de las empresas, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>_ ORACLE *</pattern>
+        <template>En Soaint somos partners de Oracle y podemos brindarle apoyo respecto al uso e implantación de las tecnologias Oracle, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>_ GESTION DOCUMENTAL *</pattern>
+        <template>La gestión documental o gestión de documentos, es el conjunto de normas tecnicas y practicas usadas para administrar los documentos de todo tipo, recibidos y creados en una organización, facilitar la recuperación de información desde ellos, determinar el tiempo que los documentos deben guardarse, eliminar los que ya no sirven y asegurar la conservación a largo plazo de los documentos mas valiosos, aplicando principios de racionalización y economia, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>_ CUSTOMER EXPERIENCE *</pattern>
+        <template>Customer Experience es la suma de todas las experiencias que una persona tiene sobre una compañia al relacionarse con ella de cualquier manera, tanto antes de ser su cliente como durante y despes de la relación comercial entre cliente y empresa. El Customer Experience comienza en el mismo momento que una persona tiene conocimiento o noción de una marca y se va nutriendo de todos los inputs que dicha persona recibe por parte de la compañia, ya sea publicidad, comentarios de otras personas, experiencias de uso de los servicios o productos de la compañia, experiencias en la intercomunicación entre la persona y la empresa. En Soaint tenemos un enfoque tecnologico que nos permite apoyar a su empresa en este proceso, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>_ SOADOC *</pattern>
+        <template>SOADOC es una solución Multiplataforma diseñada para lograr una verdadera transformación digital en la Gestión Documental y aumentar la productividad de los procesos de negocio. Construida bajo la Arquitectura Toolbox de SOAINT, se hace escalable a todo nivel de la organización, a partir de la plataforma existente y sostenible en el tiempo, ya que cuenta con versiones soportadas en las principales plataformas de servidor del mercado como Redhat, IBM y Oracle, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>_ SOA *</pattern>
+        <template>La Arquitectura Orientada a Servicios (SOA, siglas del ingles Service Oriented Architecture) es un estilo de arquitectura de TI que se apoya en la orientación a servicios. La orientación a servicios es una forma de pensar en servicios, su construcción y sus resultados, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>_ ESB *</pattern>
+        <template>En informatica un Bus de Servicio Empresarial (ESB por sus siglas en ingles) es un modelo de arquitectura de software que gestiona la comunicación entre servicios web. Es un componente fundamental de la Arquitectura Orientada a Servicios, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>_ API *</pattern>
+        <template>La abreviatura viene del termino en ingles Application Programming Interfaces (Interfaces de programación de aplicaciones) y segun explica el cientifico en computación Benjy Weinberger en su blog, una API es una especificación formal sobre cómo un módulo de un software se comunica o interactua con otro, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>_ TRANSFORMACION DIGITAL *</pattern>
+        <template>Podriamos decir que la transformación digital es la aplicación de capacidades digitales a procesos, productos y activos para mejorar la eficiencia, mejorar el valor para el cliente, gestionar el riesgo y descubrir nuevas oportunidades de generación de ingresos, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+
+      <category>
+        <pattern>ARQUITECTURA EMPRESARIAL *</pattern>
+        <template>La Arquitectura Empresarial es una practica estrategica, que permite conectar las relaciones entre las iniciativas de negocio y la tecnologia que la apalanca, permite evaluar las fortalezas y debilidades, y trazar estrategias de transformación, desde la Arquitectura actual hacia un modelo Arquitectónico que represente una visión futura, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>RPA *</pattern>
+        <template>La automatización de procesos mediante robots (Robotic Process Automation en ingles) es toda tecnologia orientada al uso de software con el objetivo de disminuir la intervención humana en el uso de aplicaciones informaticas, especialmente en tareas repetitivas que varian muy poco en cada iteración, y trazar estrategias de transformación, desde la Arquitectura actual hacia un modelo Arquitectónico que represente una visión futura, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>MICROSERVICIOS *</pattern>
+        <template>El enfoque tradicional para el desarrollo de aplicaciones se centraba en el monolito, donde todas las partes de la aplicación que se pueden implementar estaban contenidas en esa unica aplicación. Esto tiene sus desventajas: cuanto mas grande es la aplicación, se dificulta mas solucionar con rapidez los problemas que se presentan y agregar funciones nuevas. En cambio, si las aplicaciones se diseñan con microservicios, se resuelven esos problemas y se impulsa el desarrollo y la capacidad de respuesta, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>BPM *</pattern>
+        <template>BPM es la abreviatura de Business Process Management que significa Gestión de Procesos de Negocio.  BPM es un enfoque de manejo adaptable, desarrollado con el fin de sistematizar y facilitar los procesos individuales de negocio complejos, dentro y fuera de las empresas, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>ORACLE *</pattern>
+        <template>En Soaint somos partners de Oracle y podemos brindarle apoyo respecto al uso e implantación de las tecnologias Oracle, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>GESTION DOCUMENTAL *</pattern>
+        <template>La gestión documental o gestión de documentos, es el conjunto de normas tecnicas y practicas usadas para administrar los documentos de todo tipo, recibidos y creados en una organización, facilitar la recuperación de información desde ellos, determinar el tiempo que los documentos deben guardarse, eliminar los que ya no sirven y asegurar la conservación a largo plazo de los documentos mas valiosos, aplicando principios de racionalización y economia, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>CUSTOMER EXPERIENCE *</pattern>
+        <template>Customer Experience es la suma de todas las experiencias que una persona tiene sobre una compañia al relacionarse con ella de cualquier manera, tanto antes de ser su cliente como durante y despues de la relación comercial entre cliente y empresa. El Customer Experience comienza en el mismo momento que una persona tiene conocimiento o noción de una marca y se va nutriendo de todos los inputs que dicha persona recibe por parte de la compañia, ya sea publicidad, comentarios de otras personas, experiencias de uso de los servicios o productos de la compañia, experiencias en la intercomunicación entre la persona y la empresa. En Soaint tenemos un enfoque tecnologico que nos permite apoyar a su empresa en este proceso, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>SOADOC *</pattern>
+        <template>SOADOC es una solución Multiplataforma diseñada para lograr una verdadera transformación digital en la Gestión Documental y aumentar la productividad de los procesos de negocio. Construida bajo la Arquitectura Toolbox de SOAINT, se hace escalable a todo nivel de la organización, a partir de la plataforma existente y sostenible en el tiempo, ya que cuenta con versiones soportadas en las principales plataformas de servidor del mercado como Redhat, IBM y Oracle, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>SOA *</pattern>
+        <template>La Arquitectura Orientada a Servicios (SOA, siglas del ingles Service Oriented Architecture) es un estilo de arquitectura de TI que se apoya en la orientación a servicios. La orientación a servicios es una forma de pensar en servicios, su construcción y sus resultados, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>ESB *</pattern>
+        <template>En informatica un Bus de Servicio Empresarial (ESB por sus siglas en ingles) es un modelo de arquitectura de software que gestiona la comunicación entre servicios web. Es un componente fundamental de la Arquitectura Orientada a Servicios, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>API *</pattern>
+        <template>La abreviatura viene del termino en ingles Application Programming Interfaces (Interfaces de programación de aplicaciones) y segun explica el cientifico en computación Benjy Weinberger en su blog, una API es una especificación formal sobre cómo un módulo de un software se comunica o interactua con otro, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>TRANSFORMACION DIGITAL *</pattern>
+        <template>Podriamos decir que la transformación digital es la aplicación de capacidades digitales a procesos, productos y activos para mejorar la eficiencia, mejorar el valor para el cliente, gestionar el riesgo y descubrir nuevas oportunidades de generación de ingresos, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>	
+	
+	      <category>
+        <pattern>ARQUITECTURA EMPRESARIAL</pattern>
+        <template>La Arquitectura Empresarial es una practica estrategica, que permite conectar las relaciones entre las iniciativas de negocio y la tecnologia que la apalanca, permite evaluar las fortalezas y debilidades, y trazar estrategias de transformación, desde la Arquitectura actual hacia un modelo Arquitectónico que represente una visión futura, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>RPA</pattern>
+        <template>La automatización de procesos mediante robots (Robotic Process Automation en ingles) es toda tecnologia orientada al uso de software con el objetivo de disminuir la intervención humana en el uso de aplicaciones informaticas, especialmente en tareas repetitivas que varian muy poco en cada iteración, y trazar estrategias de transformación, desde la Arquitectura actual hacia un modelo Arquitectónico que represente una visión futura, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>MICROSERVICIOS</pattern>
+        <template>El enfoque tradicional para el desarrollo de aplicaciones se centraba en el monolito, donde todas las partes de la aplicación que se pueden implementar estaban contenidas en esa unica aplicación. Esto tiene sus desventajas: cuanto mas grande es la aplicación, se dificulta mas solucionar con rapidez los problemas que se presentan y agregar funciones nuevas. En cambio, si las aplicaciones se diseñan con microservicios, se resuelven esos problemas y se impulsa el desarrollo y la capacidad de respuesta, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>BPM</pattern>
+        <template>BPM es la abreviatura de Business Process Management que significa Gestión de Procesos de Negocio.  BPM es un enfoque de manejo adaptable, desarrollado con el fin de sistematizar y facilitar los procesos individuales de negocio complejos, dentro y fuera de las empresas, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>ORACLE</pattern>
+        <template>En Soaint somos partners de Oracle y podemos brindarle apoyo respecto al uso e implantación de las tecnologias Oracle, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>GESTION DOCUMENTAL</pattern>
+        <template>La gestión documental o gestión de documentos, es el conjunto de normas tecnicas y practicas usadas para administrar los documentos de todo tipo, recibidos y creados en una organización, facilitar la recuperación de información desde ellos, determinar el tiempo que los documentos deben guardarse, eliminar los que ya no sirven y asegurar la conservación a largo plazo de los documentos mas valiosos, aplicando principios de racionalización y economia, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>CUSTOMER EXPERIENCE</pattern>
+        <template>Customer Experience es la suma de todas las experiencias que una persona tiene sobre una compañia al relacionarse con ella de cualquier manera, tanto antes de ser su cliente como durante y despues de la relación comercial entre cliente y empresa. El Customer Experience comienza en el mismo momento que una persona tiene conocimiento o noción de una marca y se va nutriendo de todos los inputs que dicha persona recibe por parte de la compañia, ya sea publicidad, comentarios de otras personas, experiencias de uso de los servicios o productos de la compañia, experiencias en la intercomunicación entre la persona y la empresa. En Soaint tenemos un enfoque tecnologico que nos permite apoyar a su empresa en este proceso, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>SOADOC</pattern>
+        <template>SOADOC es una solución Multiplataforma diseñada para lograr una verdadera transformación digital en la Gestión Documental y aumentar la productividad de los procesos de negocio. Construida bajo la Arquitectura Toolbox de SOAINT, se hace escalable a todo nivel de la organización, a partir de la plataforma existente y sostenible en el tiempo, ya que cuenta con versiones soportadas en las principales plataformas de servidor del mercado como Redhat, IBM y Oracle, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>SOA</pattern>
+        <template>La Arquitectura Orientada a Servicios (SOA, siglas del ingles Service Oriented Architecture) es un estilo de arquitectura de TI que se apoya en la orientación a servicios. La orientación a servicios es una forma de pensar en servicios, su construcción y sus resultados, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>ESB</pattern>
+        <template>En informatica un Bus de Servicio Empresarial (ESB por sus siglas en ingles) es un modelo de arquitectura de software que gestiona la comunicación entre servicios web. Es un componente fundamental de la Arquitectura Orientada a Servicios, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>API</pattern>
+        <template>La abreviatura viene del termino en ingles Application Programming Interfaces (Interfaces de programación de aplicaciones) y segun explica el cientifico en computación Benjy Weinberger en su blog, una API es una especificación formal sobre cómo un módulo de un software se comunica o interactua con otro, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>
+    <category>
+        <pattern>TRANSFORMACION DIGITAL</pattern>
+        <template>Podriamos decir que la transformación digital es la aplicación de capacidades digitales a procesos, productos y activos para mejorar la eficiencia, mejorar el valor para el cliente, gestionar el riesgo y descubrir nuevas oportunidades de generación de ingresos, visitanos y encontraras información de nuestros servicios https://soaint.com/quienes-somos/#servicios</template>
+    </category>	
+	
+</aiml>

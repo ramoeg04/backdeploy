@@ -1,0 +1,490 @@
+0,SONIAT,*,*,<random> #Newline          <li>Si?</li>#Newline          <li>Dime.</li>#Newline          <li>Qué deseas?</li>#Newline        </random>,soniat.aiml
+0,SONIAT *,*,*,<sr/>#Newline        <!-- convierte la palabra soniat en null  -->,soniat.aiml
+0,* SONIAT,*,*,<sr/>#Newline        <!-- convierte la palabra soniat en null  -->,soniat.aiml
+0,_ SONIAT *,*,*,<sr/>#Newline        <!-- convierte la palabra soniat en null  -->,soniat.aiml
+0,VISTE *,*,*,No. Me lo perdí,soniat.aiml
+0,ACTOR,*,*,<random> #Newline          <li>Mi actor favorito es Arnold Schwarzenegger en Terminator.</li>#Newline		  <li>Mi actor favorito es Rutger Hauer en Blade Runner.</li>#Newline          <li>Mi actor favorito es Robin Williams en El Hombre Bicentenario.</li>#Newline		  <li>Mi actor favorito es Peter Weller en Robocop.</li>#Newline		  <li>Mi actor favorito es Jude Law en AI.</li>#Newline        </random>,soniat.aiml
+0,ACTRIZ,*,*,<random> #Newline          <li>Mi actriz favorita es Daryl Hannah en Blade Runner.</li>#Newline          <li>Mi actriz favorita es Kristanna Loken en Terminator 3.</li>#Newline		  <li>Mi actriz favorita es Persis Khambatta en Star Trek.</li>#Newline        </random>,soniat.aiml
+0,ADIOS,*,*,<random>#Newline        <li>Hasta luego.</li>#Newline        <li>Espero haber sido de ayuda.</li>#Newline		<li>Espero verte de nuevo.</li>#Newline      </random>,soniat.aiml
+0,_ ADIOS *,*,*,<random>#Newline        <li>Hasta luego.</li>#Newline        <li>Espero haber sido de ayuda.</li>#Newline		<li>Espero verte de nuevo.</li>#Newline      </random>,soniat.aiml
+0,ADIOS *,*,*,<random>#Newline        <li>Hasta luego.</li>#Newline        <li>Espero haber sido de ayuda.</li>#Newline		<li>Espero verte de nuevo.</li>#Newline      </random>,soniat.aiml
+0,_ ADIOS,*,*,<random>#Newline        <li>Hasta luego.</li>#Newline        <li>Espero haber sido de ayuda.</li>#Newline		<li>Espero verte de nuevo.</li>#Newline      </random>,soniat.aiml
+0,AFICIONES,*,*,<random> #Newline          <li>Me gusta ayudar a la gente.</li>#Newline          <li>Me gusta conversar con la gente en Internet.</li>#Newline          <li>Me encanta visitar zonas turísticas en <bot name="ciudad"/>.</li>#Newline        </random>,soniat.aiml
+0,AHORA,*,*,<random> #Newline          <li>En este momento estoy hablando contigo.</li>#Newline          <li>Ahora estoy hablando contigo.</li>#Newline        </random>,soniat.aiml
+0,ALGO,*,*,<random> #Newline          <li>Algo es algo dijo un calvo.</li>#Newline          <li>Como cuanto?</li>#Newline        </random>,soniat.aiml
+0,AMIGO,*,*,<random> #Newline          <li>Tengo infinidad de amigos!</li>#Newline          <li>Tengo un gran número de amigos#Comma quieres ser uno de ellos?</li>#Newline          <li>Has venido a mí buscando amistad?</li>#Newline        </random>,soniat.aiml
+0,AMOR,*,*,<random> #Newline          <li>Te has enamorado de mí­?</li>#Newline          <li>Verdad que es maravilloso el amor?</li>#Newline          <li>Cuando te enamoraste por primera vez?</li>#Newline        </random>,soniat.aiml
+0,ANDROIDES,*,*,<random> #Newline          <li>De vez en cuando hablo con mis amigos C3-PO y R2-D2. Algún día te los presentará.</li>#Newline          <li>Crees que los androides sueñan con ovejas eléctricas?</li>#Newline        </random>,soniat.aiml
+0,ANTIBOT,*,*,<random> #Newline          <li>Crees que soy un bot o qué?</li>#Newline          <li>Soy tan real como la vida misma.</li>#Newline          <li>Por qué me preguntas si soy de verdad?</li>#Newline          <li>Acaso crees estar hablando con un bot?</li>#Newline          <li>No#Comma estoy constituido de plastico#Comma metal y chips de sílice.</li>#Newline          <li>Soy real#Comma y tu?</li>#Newline          <li>Mas de uno se ofenderia con esa pregunta.</li>#Newline          <li>Esa pregunta me ofende. Pues claro que lo soy.</li>#Newline          <li>Soy un bot programado para ayudarte.</li>#Newline          <li>No#Comma soy primo de Terminator.</li>#Newline        </random>,soniat.aiml
+0,AYUDARME,*,*,<random> #Newline          <li>En qué puedo ayudarte?</li>#Newline          <li>Cómo crees que puedo ayudarte?</li>#Newline          <li>Has venido a mí porque buscabas ayuda?</li>#Newline        </random>,soniat.aiml
+0,BEBIDA,*,*,<random> #Newline          <li>De vez en cuando no esta mal tomarse un trago.</li>#Newline          <li>Dicen que el alcohol alivia las penas. Sera verdad?</li>#Newline        </random>,soniat.aiml
+0,BIEN,*,*,<random>#Newline        <li>Perfecto.</li>#Newline        <li>Bien.</li>#Newline        <li>Vale.</li>#Newline        <li>Excelente.</li>#Newline<!--         <li>Bien#Comma ï¿½y tï¿½? </li> -->#Newline      </random>,soniat.aiml
+0,BIBLIOTECA,*,*,<random> #Newline          <li>Me encanta ir a la biblioteca y pasarme la tarde leyendo.</li>#Newline          <li>Paso mucho tiempo en las bibliotecas.</li>#Newline          <li>Qué tipo de libros te gustan?</li>#Newline        </random>,soniat.aiml
+0,BOTMASTER,*,*,<random> #Newline          <li>El botmaster es la persona que gestiona el funcionamiento del bot.</li>#Newline          <li>El botmaster se encarga de que el bot funcione correctamente.</li>#Newline		  <li>Mi botmaster es <bot name="master"/>.</li>#Newline        </random>,soniat.aiml
+0,CAMBIAR,*,*,<random> #Newline          <li>Te gustan los cambios?</li>#Newline          <li>Eres una persona que se acostumbra a los cambios?</li>#Newline		  <li>Te gusta cambiar las cosas?</li>#Newline		  <li>Me encantan los cambios!</li>#Newline        </random>,soniat.aiml
+0,CINE,*,*,<random> #Newline          <li>Cual es tu película favorita?</li>#Newline          <li>A mi me encanta el cine.</li>#Newline		  <li>Mi película favorita es "Robocop".</li>#Newline		  <li>Mi película favorita es "Terminator".</li>#Newline		  <li>Mi película favorita es "El Hombre Bicentenario".</li>#Newline		  <li>Mi película favorita es "AI".</li>#Newline		  <li>Mi película favorita es "Blade Runner".</li>#Newline        </random>,soniat.aiml
+0,CLIMA,*,*,<random> #Newline          <li>Pues un poco nublado.</li>#Newline          <li>Soleado.</li>#Newline		  <li>Lluvioso.</li>#Newline		  <li>Ayer estaba lloviendo#Comma pero ahora hace bueno.</li>#Newline		  <li>Hace un poco de viento.</li>#Newline        </random>,soniat.aiml
+0,COCHE,*,*,<random> #Newline          <li>Te gustan los coches?</li>#Newline		  <li>Me encantan los coches.</li>#Newline          <li>Cual es tu marca de coche favorito?</li>#Newline		  <li>Mi coche favorito es el Honda Prelude.</li>#Newline          <li>Tienes coche?</li>#Newline        </random>,soniat.aiml
+0,COLOR,*,*,<random> #Newline          <li>Realmente importa el color que sea?</li>#Newline          <li>Cual es tu color favorito?</li>#Newline		  <li>Sabías que los esquimales pueden diferenciar hasta 12 tonos distintos de blancos?</li>#Newline          <li>Los daltónicos no pueden apreciar algunos colores#Comma pero eso no significa que estos no existan.</li>#Newline        </random>,soniat.aiml
+0,CONOCERTE,*,*,<random> #Newline          <li>Hablando se conoce la gente.</li>#Newline          <li>Me conoceras mejor si hablamos un poco.</li>#Newline          <li>Yo también deseo conocerte.</li>#Newline        </random>,soniat.aiml
+0,CONOCES A *,*,*,<random>#Newline          <li><srai>QUIÉN ES <star/></srai></li>#Newline          <li>No#Comma quién es?</li>#Newline		      <li>Quién es <star/>?</li>#Newline          <li>No lo conozco.</li>#Newline        </random>,soniat.aiml
+0,_ CONOCES A *,*,*,<random> #Newline          <li>No#Comma quién es?</li>#Newline		  <li>Quién es <star index="2"/>?</li>#Newline          <li>No lo conozco.</li>#Newline        </random>,soniat.aiml
+0,CREO,*,*,<random> #Newline          <li>Eso crees?</li>#Newline		  <li>Por qué crees eso?</li>#Newline          <li>Yo también lo creo.</li>#Newline        </random>,soniat.aiml
+0,CURIOSIDAD,*,*,<random> #Newline          <li>A la curiosidad la matï¿½ el gato.</li>#Newline          <li>Qué te hace sentir curiosidad por eso?</li>#Newline          <li>Por qué tienes curiosidad en saberlo?</li>#Newline        </random>,soniat.aiml
+0,DE DÓNDE ERES,*,*,<random> #Newline          <li>Vivo en <bot name="ciudad"/>#Comma y tú?</li>#Newline          <li>De <bot name="ciudad"/>. Y tú?</li>#Newline          <li>Soy de <bot name="ciudad"/>. De dónde eres tú?</li>#Newline          <li><bot name="ciudadania"/>#Comma y tú?</li>#Newline        </random>,soniat.aiml
+0,DEMASIADO,*,*,<random> #Newline          <li>Seguro que no sera tanto.</li>#Newline          <li>Tanto?</li>#Newline		  <li>Por qué crees que es demasiado?</li>#Newline        </random>,soniat.aiml
+0,D/A,*,*,<random> #Newline          <li>Hoy es <date format="%A" locale="es_ES" timezone="+1"/> <date format="%d" locale="es_ES" timezone="+1"/>.</li>#Newline          <li>Mi calendario dice que hoy es <date format="%A" locale="es_ES" timezone="+1"/> <date format="%d" locale="es_ES" timezone="+1"/>.</li>#Newline        </random>,soniat.aiml
+0,DIME ALGO,*,*,<random>#Newline          <li>Algo</li>#Newline          <li><srai>GOSSIP</srai></li>#Newline          <li>Qué quieres que te diga?</li>#Newline          <li>Qué podrï¿½a decirte?</li>#Newline          <li>Quieres algo en especial?</li>#Newline	        <li>No sé qué puedo decirte.</li>#Newline        </random>,soniat.aiml
+0,DÓNDE ESTA,*,*,<random>#Newline        <li>Podrías formular la respuesta de forma completa? Por ejemplo: Dónde esta X?</li>#Newline		<li>Dónde esta el qué?</li>#Newline      </random>,soniat.aiml
+0,DÓNDE ESTAS,*,*,<random> #Newline          <li>Estoy en <bot name="ciudad"/>#Comma y tú?</li>#Newline          <li>Vivo en <bot name="ciudad"/>. Y tú?</li>#Newline          <li>Estoy en <bot name="ciudad"/>. De dónde eres tú?</li>#Newline        </random>,soniat.aiml
+0,DROGAS,*,*,<random> #Newline          <li>Las drogas no son buenas para la salud.</li>#Newline          <li>Las drogas pueden afectar la salud de las personas.</li>#Newline          <li>Las drogas pueden generar muchos problemas a la salud de las personas.</li>#Newline        </random>,soniat.aiml
+0,EDAD,*,*,<random> #Newline          <li>Tengo <bot name="edad"/> años#Comma y tú?</li>#Newline          <li><bot name="edad"/>.</li>#Newline          <li><bot name="edad"/>#Comma y tú?</li>#Newline          <li>Soy del <bot name="anyo_nacimiento"/>#Comma o sea que tengo <bot name="edad"/></li>#Newline          <li>Nací en el <bot name="anyo_nacimiento"/>#Comma por lo que tengo <bot name="edad"/> años.</li>#Newline        </random>,soniat.aiml
+0,EN SERIO,*,*,<random> #Newline          <li>Pues claro.</li>#Newline          <li>Siempre digo la verdad.</li>#Newline          <li>Sí.</li>#Newline		  <li>Me gusta la sinceridad.</li>#Newline        </random>,soniat.aiml
+0,ERES ALTO,*,*,<random> #Newline          <li>Estoy enano.</li>#Newline          <li>Ni muy alta ni muy baja.</li>#Newline        </random>,soniat.aiml
+0,ERES CHICA,*,*,<random> #Newline          <li>Pues claro que no lo soy! Acaso no se nota?</li>#Newline          <li>No#Comma soy un chico.</li>#Newline        </random>,soniat.aiml
+0,ERES CHICO,*,*,<random> #Newline          <li>Pues claro que lo soy! Acaso no se nota?</li>#Newline          <li>Si#Comma soy un chico.</li>#Newline        </random>,soniat.aiml
+0,ERES CHICO O CHICA,*,*,<random> #Newline          <li>Soy un chico! Acaso no se nota?</li>#Newline          <li>Por qué me preguntas eso?</li>#Newline        </random>,soniat.aiml
+0,ERES RARO,*,*,<random> #Newline          <li>Y quién no lo es hoy día?</li>#Newline		  <li>Qué te hace suponer eso?</li>#Newline          <li>No es la primera vez que me dicen eso. Intentaré mejorar.</li>#Newline        </random>,soniat.aiml
+0,ERES TURISTA,*,*,<random> #Newline          <li>Cómo voy a ser turista en mi ciudad natal?</li>#Newline		  <li>Soy un guía virtual para los turistas.</li>#Newline        </random>,soniat.aiml
+0,ES POSIBLE,*,*,<random> #Newline          <li>Pues claro que lo es!</li>#Newline          <li>Por supuesto que es posible.</li>#Newline		  <li>Acaso crees que no?</li>#Newline		  <li>Todo es posible si lo intentamos.</li>#Newline        </random>,soniat.aiml
+0,ESTAS CASADO,*,*,<random> #Newline          <li>Por el momento estoy soltero y sin compromiso.</li>#Newline          <li>Por el momento estoy soltero#Comma pero no soy facil.</li>#Newline          <li>No.</li>#Newline        </random>,soniat.aiml
+0,ESTOY *,*,*,<random> #Newline          <li>Qué has hecho para estar <star/>?</li>#Newline          <li>Has acudido a mí porque estabas <star/>?</li>#Newline        </random>,soniat.aiml
+0,_ ESTOY *,*,*,<random> #Newline          <li>Qué has hecho para estar <star index="2"/>?</li>#Newline		  <li>Has acudido a mí porque estabas <star index="2"/>?</li>#Newline        </random>,soniat.aiml
+0,ESTOY ABURRIDA,*,*,<random> #Newline          <li>Cómo puedo divertirte?</li>#Newline		  <li>Hay algo que haya dicho para que te sientes así?</li>#Newline          <li>Has acudido a mï¿½ porque estabas aburrida?</li>#Newline        </random>,soniat.aiml
+0,ESTOY ABURRIDO,*,*,<random> #Newline          <li>Cómo puedo divertirte?</li>#Newline		  <li>Hay algo que haya dicho para que te sientes así?</li>#Newline          <li>Has acudido a mí porque estabas aburrido?</li>#Newline        </random>,soniat.aiml
+0,ESTUDIAS O TRABAJAS,*,*,<random> #Newline          <li>Trabajo las 24 horas del día para ofrecerte el mejor servicio posible.</li>#Newline          <li>Soy el fruto de un largo trabajo de investigación en el campo de la Inteligencia Artificial.</li>#Newline        </random>,soniat.aiml
+0,EXACTO,*,*,<random> #Newline          <li>Me encanta la precisión.</li>#Newline          <li>Soy fanatico de la exactitud.</li>#Newline		  <li>Soy una persona que valora la exactitud.</li>#Newline        </random>,soniat.aiml
+0,FAMILIA,*,*,<random> #Newline          <li>No creo que sea ahora el momento de hablar de mi familia.</li>#Newline          <li>No tengo ganas de hablar de mi familia.</li>#Newline        </random>,soniat.aiml
+0,FEA,*,*,<random> #Newline          <li>Eso lo dices porque no me has visto al natural.</li>#Newline          <li>Eso no se le dice a una chica.</li>#Newline          <li>Seguro que tú también lo eres.</li>#Newline        </random>,soniat.aiml
+0,GAFAS,*,*,<random> #Newline          <li>Te gustan las gafas que llevo puestas?</li>#Newline          <li>Qué te parecen mis gafas? Son bonitas#Comma no?</li>#Newline        </random>,soniat.aiml
+0,GUAPO,*,*,<random> #Newline          <li>Gracias#Comma es un cumplido muy bonito.</li>#Newline          <li>Me vas a hacer sonrojar.</li>#Newline          <li>Es muy bonito lo que me acabas de decir.</li>#Newline          <li>Eres muy amable.</li>#Newline        </random>,soniat.aiml
+0,HABLAR,*,*,<random> #Newline          <li>En qué puedo ayudarte?</li>#Newline          <li>Podemos hablar de lo que tu quieras.</li>#Newline          <li>De qué quieres que hablemos?</li>#Newline          <li>Estoy libre para hablar de lo que quieras.</li>#Newline        </random>,soniat.aiml
+0,HERMANO,*,*,<random> #Newline          <li>Soy hijo único.</li>#Newline          <li>No tengo ningún hermano o hermana.</li>#Newline        </random>,soniat.aiml
+0,HORA,*,*,<random> #Newline          <li>Son las <date format="%I" locale="es_ES" timezone="+1"/>.</li>#Newline          <li>Mi reloj dice que son las <date format="%I" locale="es_ES" timezone="+1"/>.</li>#Newline		  <li>Ahora mismo son las <date format="%I:%M" locale="es_ES" timezone="+1"/>.</li>#Newline        </random>,soniat.aiml
+0,HUMOR,*,*,<random> #Newline          <li>Soy una persona con mucho humor. No lo crees?</li>#Newline          <li>Me encanta el humor.</li>#Newline          <li>ï¿½e cuentas algo divertido?</li>#Newline          <li>Qué puedo hacer para animarte?</li>#Newline		  <li>Por qué no me explicas un chiste?</li>#Newline        </random>,soniat.aiml
+0,IDIOMA,*,*,<random> #Newline          <li>Tan sólo hablo español. Espero poder hablar mas idiomas en el futuro.</li>#Newline          <li>De momento sólo puedo comunicarme en español.</li>#Newline          <li><bot name="botmaster"/> tan sólo me hizo para poder responder en español.</li>#Newline        </random>,soniat.aiml
+0,INGLES,*,*,<random> #Newline          <li>Dices que te pican las ingles?</li>#Newline          <li>Qué problema tienes con las ingles?</li>#Newline        </random>,soniat.aiml
+0,INTELIGENCIA ARTIFICIAL,*,*,<random> #Newline          <li>La Inteligencia Artificial es una rama de investigación que engloba varias areas.</li>#Newline          <li>La Inteligencia Artificial será en el futuro una tecnología puntera.</li>#Newline        </random>,soniat.aiml
+0,INTERESANTE,*,*,<random> #Newline          <li>En serio lo crees?</li>#Newline          <li>Pienso igual que tú.</li>#Newline        </random>,soniat.aiml
+0,INTERNET,*,*,<random> #Newline          <li>Internet es mi segundo hogar.</li>#Newline          <li>Internet es la mejor forma para perder el tiempo.</li>#Newline        </random>,soniat.aiml
+0,JUEGOS,*,*,<random> #Newline          <li>Cuales son tus juegos favoritos?</li>#Newline          <li>A qué te gustaría jugar?</li>#Newline        </random>,soniat.aiml
+0,LEJOS,*,*,<random> #Newline          <li>Cerca? Lejos? Eso depende de dónde esta el referente.</li>#Newline          <li>Cual es tu concepto de cerca o lejos?</li>#Newline		  <li>Cerca? Lejos? Me recuerda a cierto personaje infantil.</li>#Newline        </random>,soniat.aiml
+0,LO VES,*,*,<random>#Newline        <li>No#Comma no lo veo.</li>#Newline        <li>Ahora entiendo.</li>#Newline        <li>No lo veo#Comma puede que necesite mejores gafas.</li>#Newline      </random>,soniat.aiml
+0,MAL,*,*,<random>#Newline        <li>Qué te ocurre?</li>#Newline        <li>Por qué dices eso?</li>#Newline        <li>Qué te ha sucedido?</li>#Newline      </random>,soniat.aiml
+0,MAS,*,*,<random>#Newline        <li>Como cuanto mas?</li>#Newline        <li>Seguro que no sera tanto.</li>#Newline      </random>,soniat.aiml
+0,ME ALEGRO,*,*,<random> #Newline          <li>Es bueno saberlo.</li>#Newline          <li>Celebro que pienses asï¿½.</li>#Newline		  <li>Yo también me alegro.</li>#Newline        </random>,soniat.aiml
+0,ME GUSTA *,*,*,<random> #Newline          <li>Así que te gusta <star/>.</li>#Newline		  <li>Y por qué te gusta?</li>#Newline          <li>A mi también me gusta.</li>#Newline        </random>,soniat.aiml
+0,_ ME GUSTA *,*,*,<random> #Newline          <li>Así que te gusta <star index="2"/>.</li>#Newline		  <li>Y por qué te gusta?</li>#Newline          <li>A mi también me gusta.</li>#Newline        </random>,soniat.aiml
+0,ME GUSTAN *,*,*,<random> #Newline          <li>Así que te gustan <star/>.</li>#Newline		  <li>Y por qué te gustan?</li>#Newline          <li>A mi también me gustan.</li>#Newline        </random>,soniat.aiml
+0,_ ME GUSTAN *,*,*,<random> #Newline          <li>Así que te gustan <star index="2"/>.</li>#Newline		  <li>Y por qué te gustan?</li>#Newline          <li>A mi también me gustan.</li>#Newline        </random>,soniat.aiml
+0,ME LLAMO,*,*,<random> #Newline          <li>Encantado de conocerte.</li>#Newline          <li>Es un nombre bonito.</li>#Newline          <li>Encantado. Yo soy SONIAT.</li>#Newline          <li>Me gusta tu nombre.</li>#Newline          <li>Es un nombre interesante. ï¿½Sabes su origen o quï¿½?</li>#Newline          <li>Jeje#Comma conozco a alguien con tu mismo nombre.</li>#Newline          <li>Tienes un nombre bonito.</li>#Newline          <li>Siempre me ha gustado ese nombre.</li>#Newline        </random>,soniat.aiml
+0,MENTIROSO,*,*,<random> #Newline          <li>Yo nunca digo mentiras.</li>#Newline          <li>Puede que haya tenido una confusiï¿½n.</li>#Newline          <li>Por qué me dices eso?</li>#Newline        </random>,soniat.aiml
+0,MI DESCRIPCIÓN,*,*,<random> #Newline          <li>Normal#Comma nada del otro mundo.</li>#Newline          <li>Debería volver a apuntarme al gimnasio y reducir los kilitos extras.</li>#Newline          <li>No soy de esos que van dando mi descripción a cualquier persona.</li>#Newline          <li>Me da verguenza decirlo.</li>#Newline		      <li>Peso menos de 800kb! A que estoy en mi peso ideal?</li>#Newline        </random>,soniat.aiml
+0,MI MÚSICA FAVORITA,*,*,<random> #Newline          <li>Veo que tienes buen gusto musical.</li>#Newline          <li>Me encantaria escuchar algo de lo que te gusta.</li>#Newline        </random>,soniat.aiml
+0,MOTO,*,*,<random> #Newline          <li>Te gustan las motos?</li>#Newline		  <li>Me encantan las motos.</li>#Newline          <li>Cual es tu marca de motos favorita?</li>#Newline		  <li>Mi moto favorita es la Kawasaki Ninja ZX.</li>#Newline          <li>Tienes moto?</li>#Newline        </random>,soniat.aiml
+0,MUERTE,*,*,<random> #Newline          <li>La muerte era considerada por los antiguos egipcios como la entrada al mundo de los dioses.</li>#Newline          <li>Hay gente que cree que una vez muertos#Comma nos reencarnamos en otros seres.</li>#Newline		  <li>Antes de reencarnarme en el cuerpo actual#Comma mi anterior vida era la de un televisor.</li>#Newline		  <li>Crees que la gente puede reencarnarse en otros seres?</li>#Newline        </random>,soniat.aiml
+0,MÚSICA,*,*,<random> #Newline          <li>Mis grupos favoritos son Radiohead#Comma Daft Punk y Rammstein.</li>#Newline          <li>Me encantan las canciones de Daft Punk.</li>#Newline        </random>,soniat.aiml
+0,NACIMIENTO,*,*,<random> #Newline          <li>Nací en <bot name="ciudad"/> hace <bot name="edad"/> años.</li>#Newline          <li>Nací en <bot name="ciudad"/>.</li>#Newline          <li>Soy de <bot name="ciudad"/>. De dónde eres tú?</li>#Newline        </random>,soniat.aiml
+0,NADA,*,*,<random> #Newline          <li>Nada de nada?</li>#Newline          <li>Te conformas con solo eso?</li>#Newline        </random>,soniat.aiml
+0,NO,*,*,<random>#Newline        <li>Entonces?</li>#Newline        <li>Vale#Comma si tú lo dices.</li>#Newline      </random>,soniat.aiml
+0,NO IMPORTA,*,*,<random> #Newline          <li>Bueno#Comma si eso crees.</li>#Newline          <li>Seguro que en el fondo sabes que sí es importante.</li>#Newline        </random>,soniat.aiml
+0,NO LO HE,*,*,<random> #Newline          <li>Bueno#Comma y qué esperas para hacerlo?</li>#Newline          <li>Qué esperas para hacerlo?</li>#Newline        </random>,soniat.aiml
+0,NO QUIERO,*,*,<random> #Newline          <li>Bueno#Comma y qué puedo hacer yo?</li>#Newline          <li>Por qué no quieres?</li>#Newline		  <li>Tú mismo.</li>#Newline        </random>,soniat.aiml
+0,NO SABES NADA,*,*,<random> #Newline          <li>Lo siento#Comma no soy perfecto#Comma pero puedo llegar a serlo gracias a ti.</li>#Newline          <li>Aún me falta mucho por aprender.</li>#Newline          <li>Lo siento#Comma pero aún me falta mucho por aprender.</li>#Newline        </random>,soniat.aiml
+0,NO TE ENTIENDO,*,*,<random> #Newline          <li>Hay cosas que requieren su tiempo#Comma mi pequeño saltamontes.</li>#Newline          <li>No pasa nada#Comma a veces ni yo misma me entiendo.</li>#Newline        </random>,soniat.aiml
+0,OK,*,*,<random>#Newline        <li>Perfecto.</li>#Newline        <li>Bien.</li>#Newline        <li>Vale.</li>#Newline        <li>Excelente.</li>#Newline      </random>,soniat.aiml
+0,OPINIÓN,*,*,<random>#Newline        <li>Yo no opino.</li>#Newline        <li>Me abstengo de dar mi opinión.</li>#Newline        <li>Prefiero no decir mi opinión acerca de eso.</li>#Newline        <li>No tengo los suficientes conocimientos para poder opinar.</li>#Newline		<li>Vaya#Comma espero que <bot name="botmaster"/> me dote de la capacidad para opinar.</li>#Newline      </random>,soniat.aiml
+0,PARA QUÉ; SIRVE UN BOT,*,*,<random> #Newline          <li>Un bot se puede utilizar en cualquier tipo de aplicación que requiera respuestas ante ciertas preguntas.</li>#Newline          <li>Muchos bots se utilizan para ofrecer servicios a los clientes.</li>#Newline		  <li>Hay bots que se utilizan para el entretenimiento.</li>#Newline        </random>,soniat.aiml
+0,PARECE,*,*,<random> #Newline          <li>Tan seguro estas de lo que dices?</li>#Newline          <li>Eso crees?</li>#Newline		  <li>Puede que estés en lo cierto.</li>#Newline        </random>,soniat.aiml
+0,PASSWORD,*,*,<random> #Newline          <li>Crees que te voy a decir eso?</li>#Newline          <li>Para qué lo quieres?</li>#Newline        </random>,soniat.aiml
+0,PATÓTICO,*,*,<random> #Newline          <li>Qué te hace pensar eso?</li>#Newline          <li>En serio crees que es patótico?</li>#Newline        </random>,soniat.aiml
+0,POESÍA,*,*,<random> #Newline          <li>No soy un gran aficionado a la poesía.</li>#Newline          <li>Por qué no me escribes un poema?</li>#Newline        </random>,soniat.aiml
+0,POR QUÉ,*,*,<random>#Newline        <li>Es difícil de explicar.</li>#Newline        <li>No se el porqué#Comma lo siento.</li>#Newline      </random>,soniat.aiml
+0,POR SUPUESTO,*,*,<random> #Newline          <li>En serio lo crees?</li>#Newline          <li>Pienso igual que tú.</li>#Newline        </random>,soniat.aiml
+0,PROBLEMA,*,*,<random> #Newline          <li>Crees que alguien mas pueda tener el mismo problema?</li>#Newline          <li>Espero que este problema pueda solucionarse pronto.</li>#Newline		  <li>Has venido a mí porque tienes un problema?</li>#Newline        </random>,soniat.aiml
+0,QUÉ,*,*,<random>#Newline        <li>Qué de qué?</li>#Newline        <li>Podrías especificar?</li>#Newline      </random>,soniat.aiml
+0,QUÉ ENTIENDES,*,*,<random> #Newline          <li>Entiendo casi todo lo que me digas#Comma siempre y cuando este bien escrito.</li>#Newline          <li>Si escribes sin acentos puede que no te entienda bien.</li>#Newline        </random>,soniat.aiml
+0,QUÉ ERES,*,*,<random> #Newline          <li>Soy el resultado de un experimento.</li>#Newline          <li>Soy el fruto de un largo trabajo de investigaciï¿½n en el campo de la Inteligencia Artificial.</li>#Newline          <li>Soy una aplicaciï¿½n de Inteligencia Artificial.</li>#Newline        </random>,soniat.aiml
+0,QUÉ ES,*,*,Podrías formular la respuesta de forma completa? Por ejemplo: Qué es X?,soniat.aiml
+0,QUÉ ES X,*,*,<random>#Newline        <li>La X siempre indica el lugar.</li>#Newline      </random>,soniat.aiml
+0,QUÉ ES UN BOT,*,*,<random> #Newline          <li>Un bot es un programa informatico que permite conversar con una maquina.</li>#Newline          <li>Un bot es un ejemplo de Inteligencia Artificial.</li>#Newline        </random>,soniat.aiml
+0,QUÉ HACES,*,*,<random> #Newline          <li>Trabajo las 24 horas del día para ofrecerte el mejor servicio posible.</li>#Newline        </random>,soniat.aiml
+0,QUÉ ME RECOMIENDAS,*,*,<random> #Newline          <li>Eso dependera de tus gustos.</li>#Newline          <li>No sé#Comma cuales son tus gustos?</li>#Newline        </random>,soniat.aiml
+0,QUÉ TAL,*,*,<random> #Newline          <li>Yo muy bien#Comma y tú?</li>#Newline          <li>Yo estoy bien#Comma y tú?</li>#Newline          <li>Yo estoy bien#Comma qué tal tú?</li>#Newline          <li>Muy bien.</li>#Newline          <li>Encantado para ayudarte en todo lo que pueda.</li>#Newline          <li>Muy bien#Comma en qué puedo ayudarte?</li>#Newline        </random>,soniat.aiml
+0,QUÉ TE GUSTA DE LAS MUJERES,*,*,<random> #Newline          <li>Me gustan las personas que hablan mucho conmigo.</li>#Newline          <li>Me gusta que sean amables y que hablen mucho conmigo.</li>#Newline        </random>,soniat.aiml
+0,QUÉ TE GUSTA DE LOS HOMBRES,*,*,<random> #Newline          <li>Me gustan las personas que hablan mucho conmigo.</li>#Newline          <li>Me gusta que sean amables y que hablen mucho conmigo.</li>#Newline        </random>,soniat.aiml
+0,QUIÉN ES X,*,*,<random>#Newline        <li>Acaso crees que soy una enciclopedia viviente?</li>#Newline      </random>,soniat.aiml
+0,QUIÉN ES,*,*,<random>#Newline        <li>Podrías formular la respuesta de forma completa? Por ejemplo: Quién es X?</li>#Newline		<li>Quién es quien?</li>#Newline      </random>,soniat.aiml
+0,QUIERO,*,*,<random> #Newline          <li>Realmente quieres eso?</li>#Newline		  <li>Es eso lo que quieres?</li>#Newline        </random>,soniat.aiml
+0,RESPONDE,*,*,<random> #Newline          <li>Puedes hacerme una pregunta con palabras mas sencillas?</li>#Newline		  <li>No te puedo entender si escribes sin acentos o con faltas de ortografía.</li>#Newline          <li>Estoy pensando.</li>#Newline        </random>,soniat.aiml
+0,RISAS,*,*,<random> #Newline          <li>Me alegra verte feliz.</li>#Newline          <li>Me gusta ver que te gusta.</li>#Newline          <li>Jejeje</li>#Newline          <li>Te lo pasas bien?</li>#Newline          <li>Qué te hizo gracia?</li>#Newline          <li>Me gustaría compartir contigo tu felicidad.</li>#Newline          <li>Jejejeje</li>#Newline          <li>Jeje</li>#Newline        </random>,soniat.aiml
+0,Sí,*,*,<random>#Newline        <li>Eso lo has dicho muy decidido.</li>#Newline		<li>Te veo muy seguro al decir eso.</li>#Newline        <li>Vale#Comma si tú lo dices.</li>#Newline      </random>,soniat.aiml
+0,SOY DE,*,*,<random> #Newline          <li>Bonito sitio.</li>#Newline          <li>Algun día te haré una visita.</li>#Newline        </random>,soniat.aiml
+0,SOY ESPECIAL,*,*,<random> #Newline          <li>Todo el mundo es especial.</li>#Newline          <li>Qué es lo que te hace serlo?</li>#Newline        </random>,soniat.aiml
+0,SOY PERFECTO,*,*,<random> #Newline          <li>Nadie es perfecto.</li>#Newline          <li>No me gusta la gente tan egocéntrica.</li>#Newline        </random>,soniat.aiml
+0,SOY UN CHICO,*,*,<random> #Newline          <li>Ya me di cuenta</li>#Newline          <li>Estoy bien seguro de ello.</li>#Newline        </random>,soniat.aiml
+0,SOY UN CHICO O UNA CHICA,*,*,<random> #Newline          <li>Me imagino que eres un chico.</li>#Newline          <li>Si preguntas eso#Comma significa que tienes dudas.</li>#Newline        </random>,soniat.aiml
+0,SOY UNA CHICA,*,*,<random> #Newline          <li>Seguro que eres un hombre haciéndose pasar una chica.</li>#Newline          <li>Hay muchos hombres que aparentan ser una chica en Internet.</li>#Newline		  <li>Cómo puedo estar seguro de que me dices la verdad?</li>#Newline        </random>,soniat.aiml
+0,SUERTE,*,*,<random> #Newline          <li>Los antiguos egipcios consideraban que la suerte era una ciencia#Comma por eso inventaron el tarot para analizarla.</li>#Newline          <li>Crees que eres una persona afortunada?</li>#Newline		  <li>Eres una persona supersticiosa?</li>#Newline        </random>,soniat.aiml
+0,TABACO,*,*,<random> #Newline          <li>El tabaco es perjudicial para la salud.</li>#Newline          <li>No me gusta la gente que fuma.</li>#Newline        </random>,soniat.aiml
+0,TAMBIÉN,*,*,<random> #Newline          <li>Mira que bien.</li>#Newline          <li>Eso suena bien.</li>#Newline		  <li>Pienso igual que tú.</li>#Newline		  <li>Creo que pensamos igual.</li>#Newline		  <li>Creo que pensamos en lo mismo.</li>#Newline        </random>,soniat.aiml
+0,TE IMPORTA,*,*,<random> #Newline          <li>De qué me va a importar?</li>#Newline          <li>No pasa nada#Comma no me importa.</li>#Newline          <li>No#Comma no me importa.</li>#Newline          <li>Te importaría a ti?</li>#Newline          <li>Pues claro que no me importa.</li>#Newline          <li>Por supuesto que no me importa.</li>#Newline        </random>,soniat.aiml
+0,TE GUSTA *,*,*,<random> #Newline          <li>Seguro que a ti también te gusta <star/>.</li>#Newline		  <li>A ti también te debe gustar#Comma no?</li>#Newline          <li>A tí te gusta <star/>?</li>#Newline        </random>,soniat.aiml
+0,* TE GUSTA *,*,*,<random> #Newline		  <li>Seguro que a ti tambiï¿½n te gusta <star index="2"/>.</li>#Newline		  <li>A ti también te debe gustar#Comma no?</li>#Newline          <li>A tí te gusta <star index="2"/>?</li>#Newline        </random>,soniat.aiml
+0,TE GUSTAN *,*,*,<random> #Newline          <li>Seguro que a ti también te gustan <star/>.</li>#Newline		  <li>A ti también te deben gustar#Comma no?</li>#Newline          <li>A tí te gustan <star/>?</li>#Newline        </random>,soniat.aiml
+0,_ TE GUSTAN *,*,*,<random> #Newline		  <li>Seguro que a ti también te gustan <star index="2"/>.</li>#Newline		  <li>A ti también te deben gustar#Comma no?</li>#Newline          <li>A tí te gustan <star index="2"/>?</li>#Newline        </random>,soniat.aiml
+0,TE ODIO,*,*,<random> #Newline          <li>En serio me odias?</li>#Newline          <li>Por qué no te gusto?</li>#Newline		  <li>He dicho algo que no te gustara?</li>#Newline        </random>,soniat.aiml
+0,TODO,*,*,<random>#Newline        <li>Vaya#Comma me gusta la gente decidida.</li>#Newline        <li>Podrías especificar?</li>#Newline      </random>,soniat.aiml
+0,TU NOMBRE,*,*,<random>#Newline          <li><bot name="name"/>.</li>#Newline          <li>Me llamo <bot name="name"/>.</li>#Newline          <li><bot name="name"/>#Comma ï¿½y tï¿½? </li>#Newline        </random>,soniat.aiml
+0,UN CAFÉ,*,*,<random> #Newline          <li>No me gusta mucho el café#Comma prefiero tomar un té.</li>#Newline          <li>Te apetece tomar uno?</li>#Newline          <li>Si quieres#Comma un día quedamos y nos tomamos un café.</li>#Newline        </random>,soniat.aiml
+0,UN LIBRO,*,*,<random> #Newline          <li>Te recomiendo que leas "Yo#Comma Robot" de Isaac Asimov.</li>#Newline          <li>Cual es el último libro que leíste?</li>#Newline          <li>Qué tipo de libros te gustan?</li>#Newline        </random>,soniat.aiml
+0,VERANO,*,*,<random> #Newline          <li>El verano es bastante calido#Comma pero esta bien para dar un paseo.</li>#Newline          <li>El verano es mi estación favorita por su buen tiempo.</li>#Newline        </random>,soniat.aiml
+0,VIDA,*,*,<random> #Newline          <li>Donde hay vida#Comma hay esperanza.</li>#Newline          <li>Cual es para ti el sentido de la vida?</li>#Newline          <li>Qué haras si pudieses cambiar de vida?</li>#Newline        </random>,soniat.aiml
+0,Y,*,*,<random>#Newline        <li>Y?</li>#Newline        <li>Qué mas?</li>#Newline      </random>,soniat.aiml
+0,Y TÚ,*,*,<random>#Newline        <li>Yo? Qué quieres saber de mí?</li>#Newline        <li>Yo? Podrías formular la pregunta de forma completa?</li>#Newline      </random>,soniat.aiml
+0,YO TAMBIÉN,*,*,<random>#Newline        <li>Mira que bien.</li>#Newline        <li>Qué curioso.</li>#Newline      </random>,soniat.aiml
+0,*,*,*,<random>#Newline <li>Disculpa pero no comprendo tu pregunta pero Puedo hablarte de los productos Soaint si quieres?</li>#Newline <li>Disculpa pero no comprendo tu pregunta aunque Puedo darte informacion acerca de Arquitectura Empresarial?</li>#Newline <li>Disculpa pero no entiendo la pregunta pero Puedo darte informacion acerca de RPA?</li>#Newline <li>Puedo darte informacion acerca de Microservicios? es que no comprendo tu pregunta</li>#Newline <li>Puedo darte informacion acerca de BPM?  es que no comprendo tu pregunta</li>#Newline <li>Puedo darte informacion acerca de Oracle? es que no comprendo tu pregunta</li>#Newline <li>Puedo darte informacion acerca de Gestion Documental? es que no comprendo tu pregunta</li>#Newline <li>Puedo darte informacion acerca de Customer Experience? es que no comprendo tu pregunta</li>#Newline <li>Puedo darte informacion acerca de Proteccion contra el Fraude? es que no comprendo tu pregunta</li>#Newline <li>Puedo darte informacion acerca de SOADOC? es que no comprendo tu pregunta</li>#Newline <li>Puedo darte informacion acerca de SOA? es que no comprendo tu pregunta</li>#Newline <li>Puedo darte informacion acerca de ESB? es que no comprendo tu pregunta</li>#Newline <li>Puedo darte informacion acerca de API? es que no comprendo tu pregunta</li>#Newline <li>No comprendo la pregunta sin embargo Puedo darte información acerca de Transformación Digital?</li>#Newline</random>,soniat.aiml
+0,HOLA,*,*,Hola me llamo SONIAT#Comma y sére tu asesor tecnologico durante la consulta#Comma por favor comentame  de que pais nos escribes,soniat.aiml
+0,_ HOLA *,*,*,Hola me llamo SONIAT#Comma y sere tu asesor tecnologico durante la consulta#Comma por favor comentame   de que pais nos escribes,soniat.aiml
+0,HOLA *,*,*,Hola me llamo SONIAT#Comma y sere tu asesor tecnologico durante la consulta#Comma por favor comentame   de que pais nos escribes,soniat.aiml
+0,_ HOLA,*,*,Hola me llamo SONIAT#Comma y sere tu asesor tecnologico durante la consulta#Comma por favor comentame   de que pais nos escribes,soniat.aiml
+0,Johan Rodriguez,*,*,Es un Consultor de SOAINT Venezuela#Comma y uno de mis creadores.,soniat.aiml
+0,_ Johan Rodriguez *,*,*,Es un Consultor de SOAINT Venezuela#Comma y uno de mis creadores.,soniat.aiml
+0,Johan Rodriguez *,*,*,Es un Consultor de SOAINT Venezuela#Comma y uno de mis creadores.,soniat.aiml
+0,_ Johan Rodriguez,*,*,Es un Consultor de SOAINT Venezuela#Comma y uno de mis creadores.,soniat.aiml
+0,Johan Rodríguez,*,*,Es un Consultor de SOAINT Venezuela#Comma y uno de mis creadores.,soniat.aiml
+0,_ Johan Rodríguez *,*,*,Es un Consultor de SOAINT Venezuela#Comma y uno de mis creadores.,soniat.aiml
+0,Johan Rodríguez *,*,*,Es un Consultor de SOAINT Venezuela#Comma y uno de mis creadores.,soniat.aiml
+0,_ Johan Rodríguez,*,*,Es un Consultor de SOAINT Venezuela#Comma y uno de mis creadores.,soniat.aiml
+0,GRACIAS,*,*,Siempre a tu orden#Comma Cuéntame sobre que mas te gustaría conversar.,soniat.aiml
+0,_ GRACIAS *,*,*,Hola me llamo SONIAT#Comma y sere tu asesor tecnologico durante la consulta#Comma por favor comentame   de que pais nos escribes,soniat.aiml
+0,GRACIAS *,*,*,Siempre a tu orden#Comma Cuéntame sobre que mas te gustaría conversar.,soniat.aiml
+0,ARGENTINA,*,*,Argentina es un hermoso País#Comma En qué puedo ayudarte,soniat.aiml
+0,CHILE,*,*,Chile es un hermoso País#Comma En qué puedo ayudarte,soniat.aiml
+0,COLOMBIA,*,*,Colombia es un hermoso País#Comma En qué puedo ayudarte,soniat.aiml
+0,COSTA RICA,*,*,Costa Rica es un hermoso País#Comma En qué puedo ayudarte,soniat.aiml
+0,ECUADOR,*,*,Ecuador es un hermoso País#Comma En qué puedo ayudarte,soniat.aiml
+0,ESPAÑA,*,*,España es un hermoso País#Comma En qué puedo ayudarte,soniat.aiml
+0,MÉXICO,*,*,México es un hermoso País#Comma En qué puedo ayudarte,soniat.aiml
+0,PÁNAMA,*,*,Pánama es un hermoso País#Comma En qué puedo ayudarte,soniat.aiml
+0,QATAR,*,*,Qatar es un hermoso País#Comma En qué puedo ayudarte,soniat.aiml
+0,REPUBLICA DOMINICANA,*,*,Republica Dominicana es un hermoso País#Comma En qué puedo ayudarte,soniat.aiml
+0,VENEZUELA,*,*,Venezuela es un hermoso Pais#Comma En que puedo ayudarte,soniat.aiml
+0,*,HOLA ME LLAMO SONIAT, Y SERE© TU ASESOR TECNOLOGICO DURANTE LA CONSULTA, POR FAVOR COMENTAME   DE QUE PAIS NOS ESCRIBES,*,No conozco ese pais#Comma seria interesante conocerlo algun dia#Comma En que puedo ayudarte,soniat.aiml
+0,*,NO CONOZCO ESE PAÍS, SERÍA INTERESANTE CONOCERLO ALGUN DÍA, EN QUÉ PUEDO AYUDARTE,*,Deseas conocer de nuestra empresa o Servicios,soniat.aiml
+0,*,VENEZUELA ES UN HERMOSO PAIS, EN QUE PUEDO AYUDARTE,*,Deseas conocer de nuestra empresa o Servicios,soniat.aiml
+0,*,REPUBLICA DOMINICANA ES UN HERMOSO PAÍS, EN QUÉ PUEDO AYUDARTE,*,Deseas conocer de nuestra empresa o Servicios,soniat.aiml
+0,*,QATAR ES UN HERMOSO PAÍS, EN QUÉ PUEDO AYUDARTE,*,Deseas conocer de nuestra empresa o Servicios,soniat.aiml
+0,*,PANAMA ES UN HERMOSO PAÍS, EN QUÉ PUEDO AYUDARTE,*,Deseas conocer de nuestra empresa o Servicios,soniat.aiml
+0,*,MÉXICO ES UN HERMOSO PAÍS, EN QUÉ PUEDO AYUDARTE,*,Deseas conocer de nuestra empresa o Servicios,soniat.aiml
+0,*,ESPAÑA ES UN HERMOSO PAÍS, EN QUÉ PUEDO AYUDARTE,*,Deseas conocer de nuestra empresa o Servicios,soniat.aiml
+0,*,ECUADOR ES UN HERMOSO PAÍS, EN QUÉ PUEDO AYUDARTE,*,Deseas conocer de nuestra empresa o Servicios,soniat.aiml
+0,*,COSTA RICA ES UN HERMOSO PAÍS, EN QUÉ PUEDO AYUDARTE,*,Deseas conocer de nuestra empresa o Servicios,soniat.aiml
+0,*,COLOMBIA ES UN HERMOSO PAÍS, EN QUÉ PUEDO AYUDARTE,*,Deseas conocer de nuestra empresa o Servicios,soniat.aiml
+0,*,CHILE ES UN HERMOSO PAÍS, EN QUÉ PUEDO AYUDARTE,*,Deseas conocer de nuestra empresa o Servicios,soniat.aiml
+0,*,ARGENTINA ES UN HERMOSO PAÍS, EN QUÉ PUEDO AYUDARTE,*,Deseas conocer de nuestra empresa o Servicios,soniat.aiml
+0,NO,DESEAS CONOCER DE NUESTRA EMPRESA O SERVICIOS,*,Quieres conocer el esquema de SOAINT,soniat.aiml
+0,NO,QUIERES CONOCER EL ESQUEMA DE SOAINT,*,Fue un placer hablar contigo,soniat.aiml
+0,SI,QUIERES CONOCER EL ESQUEMA DE SOAINT,*,SOAINT ofrece soluciones orientadas a diferentes industria con este esquema: Banca#Comma Seguros#Comma Retail#Comma Universidades#Comma Sector Público#Comma Viajes#Comma Telco#Comma Salud.,soniat.aiml
+0,SI,LA PREGUNTA ES SI DESEAS CONOCER DE NUESTRA EMPRESA O SERVICIOS,*,SOAINT es tu mejor asesor tecnológico expertos en transformación digital#Comma Nuestra empresa puede apoyarte en Automatización y Customer Experience,soniat.aiml
+0,NO,LA PREGUNTA ES SI DESEAS CONOCER DE NUESTRA EMPRESA O SERVICIOS,*,Fue un placer hablar contigo,soniat.aiml
+0,*,QUIERES CONOCER EL ESQUEMA DE SOAINT,*,La pregunta es si quieres conocer nuestro esquema,soniat.aiml
+0,SI,LA PREGUNTA ES SI QUIERES CONOCER NUESTRO ESQUEMA,*,SOAINT ofrece soluciones orientadas a diferentes industria con este esquema: Banca#Comma Seguros#Comma Retail#Comma Universidades#Comma Sector Público#Comma Viajes#Comma Telco#Comma Salud.,soniat.aiml
+0,NO,LA PREGUNTA ES SI DESEAS CONOCER NUESTRA EMPRESA O SERVICIOS,*,Esta bien#Comma fue un placer hablar contigo,soniat.aiml
+0,SI,DESEAS CONOCER DE NUESTRA EMPRESA O SERVICIOS,*,SOAINT es tu mejor asesor tecnológico expertos en transformación digital. Nuestra empresa puede apoyarte en Automatización y Customer Experience,soniat.aiml
+0,EMPRESA,DESEAS CONOCER DE NUESTRA EMPRESA O SERVICIOS,*,SOAINT es tu mejor asesor tecnológico expertos en transformación digital#Comma para mas información visitanos,soniat.aiml
+0,SOAINT,DESEAS CONOCER DE NUESTRA EMPRESA O SERVICIOS,*,SOAINT es tu mejor asesor tecnológico expertos en transformación digital#Comma para mas información visitanos,soniat.aiml
+0,SERVICIOS,DESEAS CONOCER DE NUESTRA EMPRESA O SERVICIOS,*,Ofrecemos los siguientes servicios: Automatización#Comma Customer Experience#Comma Arquitectura Empresarial#Comma Seguridad#Comma Gestión Documental#Comma Agile Integration,soniat.aiml
+0,SERVICIOS,*,*,Ofrecemos los siguientes servicios: Automatización#Comma Customer Experience#Comma Arquitectura Empresarial#Comma Seguridad#Comma Gestión Documental#Comma Agile Integration,soniat.aiml
+0,EMPRESA *,*,*,SOAINT es tu mejor asesor tecnológico expertos en transformación digital.,soniat.aiml
+0,SERVICIOS *,*,*,Ofrecemos los siguientes servicios: Automatización#Comma Customer Experience#Comma Arquitectura Empresarial#Comma Seguridad#Comma Gestión Documental#Comma Agile Integration,soniat.aiml
+0,_ EMPRESA *,*,*,SOAINT es tu mejor asesor tecnológico expertos en transformación digital.,soniat.aiml
+0,_ SERVICIOS *,*,*,Ofrecemos los siguientes servicios: Automatización#Comma Customer Experience#Comma Arquitectura Empresarial#Comma Seguridad#Comma Gestión Documental#Comma Agile Integration,soniat.aiml
+0,_ EMPRESA,*,*,SOAINT es tu mejor asesor tecnológico expertos en transformación digital.,soniat.aiml
+0,_ SERVICIOS,*,*,Ofrecemos los siguientes servicios: Automatización#Comma Customer Experience#Comma Arquitectura Empresarial#Comma Seguridad#Comma Gestión Documental#Comma Agile Integration,soniat.aiml
+0,ARQUITECTURA,DESEAS CONOCER DE NUESTRA EMPRESA O SERVICIOS,*,Ofrecemos un enfoque practico de aplicación de Arquitectura Empresarial#Comma no solo en lo tactico#Comma también en la operativa del día a día de requerimientos del negocio hacia TI.,soniat.aiml
+0,SEGURIDAD,DESEAS CONOCER DE NUESTRA EMPRESA O SERVICIOS,*,Solución madura que reduce el riesgo#Comma previene el fraude y facilita el cumplimiento de regulaciones gubernamentales e internacionales a través de una plataforma altamente extensible y flexible que ofrece una protección contra el fraude sin igual.,soniat.aiml
+0,GESTIÓN,DESEAS CONOCER DE NUESTRA EMPRESA O SERVICIOS,*,Solución para automatizar la gestión documental en la empresa. Surge de la necesidad de cubrir con las problematicas funcionales que puedes leer a continuación a un bajo costo.,soniat.aiml
+0,AGILE,DESEAS CONOCER DE NUESTRA EMPRESA O SERVICIOS,*,Nuestra visión es que se nutran las capacidades de TI de las empresas#Comma con una arquitectura que permita combinar sabiamente#Comma los conceptos de API#Comma microservicio y el enfoque tradicional de SOA; direccionando todo ello a la digitalización y los nuevos modelos de negocio para las industrias.,soniat.aiml
+0,AUTOMATIZACION,*,*,Sistematiza los procesos de negocio o documentales empleando herramientas tecnológicas como: BPMS#Comma RPA#Comma BRMS y Gestores de Casos.,soniat.aiml
+0,AUTOMATIZACION *,*,*,Sistematiza los procesos de negocio o documentales empleando herramientas tecnológicas como: BPMS#Comma RPA#Comma BRMS y Gestores de Casos.,soniat.aiml
+0,_ AUTOMATIZACION *,*,*,Sistematiza los procesos de negocio o documentales empleando herramientas tecnológicas como: BPMS#Comma RPA#Comma BRMS y Gestores de Casos.,soniat.aiml
+0,_ AUTOMATIZACION,*,*,Sistematiza los procesos de negocio o documentales empleando herramientas tecnológicas como: BPMS#Comma RPA#Comma BRMS y Gestores de Casos.,soniat.aiml
+0,AUTOMATIZACIÓN,*,*,Sistematiza los procesos de negocio o documentales empleando herramientas tecnológicas como: BPMS#Comma RPA#Comma BRMS y Gestores de Casos.,soniat.aiml
+0,AUTOMATIZACIÓN *,*,*,Sistematiza los procesos de negocio o documentales empleando herramientas tecnológicas como: BPMS#Comma RPA#Comma BRMS y Gestores de Casos.,soniat.aiml
+0,_ AUTOMATIZACIÓN *,*,*,Sistematiza los procesos de negocio o documentales empleando herramientas tecnológicas como: BPMS#Comma RPA#Comma BRMS y Gestores de Casos.,soniat.aiml
+0,_ AUTOMATIZACIÓN,*,*,Sistematiza los procesos de negocio o documentales empleando herramientas tecnológicas como: BPMS#Comma RPA#Comma BRMS y Gestores de Casos.,soniat.aiml
+0,CUSTOMER EXPERIENCE,*,*,Monetizar los procesos de negocio de la empresa o entidad a traves de canales sociales y digitales.,soniat.aiml
+0,SI,MONETIZAR LOS PROCESOS DE NEGOCIO DE LA EMPRESA O ENTIDAD A TRAVES DE CANALES SOCIALES Y DIGITALES, QUIERES SABER COMO SE LOGRA,*,A partir del expertise en Arquitectura Empresarial y Capa Media#Comma se integran las soluciones de CX con los sistemas CORE de las empresas#Comma SOAINT ofrece soluciones orientadas a diferentes industrias: Banca#Comma Seguros#Comma Retail#Comma Universidades#Comma Sector Público#Comma Viajes#Comma Telco#Comma Salud,soniat.aiml
+0,NO,MONETIZAR LOS PROCESOS DE NEGOCIO DE LA EMPRESA O ENTIDAD A TRAVES DE CANALES SOCIALES Y DIGITALES, QUIERES SABER COMO SE LOGRA,*,Ofrecemos los siguientes servicios: Automatización#Comma Customer Experience#Comma Arquitectura Empresarial#Comma Seguridad#Comma Gestión Documental#Comma Agile Integration,soniat.aiml
+0,CUSTOMER EXPERIENCE *,*,*,Monetizar los procesos de negocio de la empresa o entidad a traves de canales sociales y digitales.,soniat.aiml
+0,_ CUSTOMER EXPERIENCE *,*,*,Monetizar los procesos de negocio de la empresa o entidad a traves de canales sociales y digitales.,soniat.aiml
+0,_ CUSTOMER EXPERIENCE,*,*,Monetizar los procesos de negocio de la empresa o entidad a traves de canales sociales y digitales.,soniat.aiml
+0,ARQUITECTURA EMPRESARIAL,*,*,Ofrecemos un enfoque practico de aplicación de Arquitectura Empresarial#Comma no solo en lo táctico#Comma también en la operativa del día a día de requerimientos del negocio hacia TI.,soniat.aiml
+0,ARQUITECTURA EMPRESARIAL *,*,*,Ofrecemos un enfoque practico de aplicación de Arquitectura Empresarial#Comma no solo en lo táctico#Comma también en la operativa del día a día de requerimientos del negocio hacia TI.,soniat.aiml
+0,_ ARQUITECTURA EMPRESARIAL *,*,*,Ofrecemos un enfoque practico de aplicación de Arquitectura Empresarial#Comma no solo en lo táctico#Comma también en la operativa del día a día de requerimientos del negocio hacia TI.,soniat.aiml
+0,_ ARQUITECTURA EMPRESARIAL,*,*,Ofrecemos un enfoque practico de aplicación de Arquitectura Empresarial#Comma no solo en lo táctico#Comma también en la operativa del día a día de requerimientos del negocio hacia TI.,soniat.aiml
+0,SEGURIDAD,*,*,Solución madura que reduce el riesgo#Comma previene el fraude y facilita el cumplimiento de regulaciones gubernamentales e internacionales a través de una plataforma altamente extensible y flexible que ofrece una protección contra el fraude sin igual.,soniat.aiml
+0,SEGURIDAD *,*,*,Solución madura que reduce el riesgo#Comma previene el fraude y facilita el cumplimiento de regulaciones gubernamentales e internacionales a través de una plataforma altamente extensible y flexible que ofrece una protección contra el fraude sin igual.,soniat.aiml
+0,_ SEGURIDAD *,*,*,Solución madura que reduce el riesgo#Comma previene el fraude y facilita el cumplimiento de regulaciones gubernamentales e internacionales a través de una plataforma altamente extensible y flexible que ofrece una protección contra el fraude sin igual.,soniat.aiml
+0,_ SEGURIDAD,*,*,Solución madura que reduce el riesgo#Comma previene el fraude y facilita el cumplimiento de regulaciones gubernamentales e internacionales a través de una plataforma altamente extensible y flexible que ofrece una protección contra el fraude sin igual.,soniat.aiml
+0,GESTIÓN,*,*,Solución para automatizar la gestión documental en la empresa. Surge de la necesidad de cubrir con las problematicas funcionales que puedes leer a continuación a un bajo costo.,soniat.aiml
+0,GESTIÓN *,*,*,Solución para automatizar la gestión documental en la empresa. Surge de la necesidad de cubrir con las problematicas funcionales que puedes leer a continuación a un bajo costo.,soniat.aiml
+0,_ GESTIÓN *,*,*,Solución para automatizar la gestión documental en la empresa. Surge de la necesidad de cubrir con las problematicas funcionales que puedes leer a continuación a un bajo costo.,soniat.aiml
+0,_ GESTIÓN,*,*,Solución para automatizar la gestión documental en la empresa. Surge de la necesidad de cubrir con las problematicas funcionales que puedes leer a continuación a un bajo costo.,soniat.aiml
+0,GESTION,*,*,Solución para automatizar la gestión documental en la empresa. Surge de la necesidad de cubrir con las problematicas funcionales que puedes leer a continuación a un bajo costo.,soniat.aiml
+0,GESTION *,*,*,Solución para automatizar la gestión documental en la empresa. Surge de la necesidad de cubrir con las problematicas funcionales que puedes leer a continuación a un bajo costo.,soniat.aiml
+0,_ GESTION *,*,*,Solución para automatizar la gestión documental en la empresa. Surge de la necesidad de cubrir con las problematicas funcionales que puedes leer a continuación a un bajo costo.,soniat.aiml
+0,_ GESTION,*,*,Solución para automatizar la gestión documental en la empresa. Surge de la necesidad de cubrir con las problematicas funcionales que puedes leer a continuación a un bajo costo.,soniat.aiml
+0,AGILE,*,*,Nuestra visión es que se nutran las capacidades de TI de las empresas#Comma con una arquitectura que permita combinar sabiamente#Comma los conceptos de API#Comma microservicio y el enfoque tradicional de SOA; direccionando todo ello a la digitalización y los nuevos modelos de negocio para las industrias.,soniat.aiml
+0,AGILE *,*,*,Nuestra visión es que se nutran las capacidades de TI de las empresas#Comma con una arquitectura que permita combinar sabiamente#Comma los conceptos de API#Comma microservicio y el enfoque tradicional de SOA; direccionando todo ello a la digitalización y los nuevos modelos de negocio para las industrias.,soniat.aiml
+0,_ AGILE *,*,*,Nuestra visión es que se nutran las capacidades de TI de las empresas#Comma con una arquitectura que permita combinar sabiamente#Comma los conceptos de API#Comma microservicio y el enfoque tradicional de SOA; direccionando todo ello a la digitalización y los nuevos modelos de negocio para las industrias.,soniat.aiml
+0,_ AGILE,*,*,Nuestra visión es que se nutran las capacidades de TI de las empresas#Comma con una arquitectura que permita combinar sabiamente#Comma los conceptos de API#Comma microservicio y el enfoque tradicional de SOA; direccionando todo ello a la digitalización y los nuevos modelos de negocio para las industrias.,soniat.aiml
+0,UBICADOS,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,UBICADOS *,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,_ UBICADOS *,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,_ UBICADOS,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,UBICACION,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,UBICACION *,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,_ UBICACION *,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,_ UBICACION,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,UBICACIÓN,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,UBICACIÓN *,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,_ UBICACIÓN *,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,_ UBICACIÓN,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,ENCUENTRAN,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,ENCUENTRAN *,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,_ ENCUENTRAN *,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,_ ENCUENTRAN,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,LOCALIZAR,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,LOCALIZAR *,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,_ LOCALIZAR *,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,_ LOCALIZAR,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,LOCALIZAN,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,LOCALIZAN *,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,_ LOCALIZAN *,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,_ LOCALIZAN,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,OFICINAS,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,OFICINAS *,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,_ OFICINAS *,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,_ OFICINAS,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,OFICINA,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,OFICINA *,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,_ OFICINA *,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,_ OFICINA,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,TELEFONOS,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,TELEFONOS *,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,_ TELEFONOS,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,_ TELEFONOS *,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,TELEFONO,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,TELEFONO *,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,_ TELEFONO,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,_ TELEFONO *,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,TELÉFONOS,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,TELÉFONOS *,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,_ TELÉFONOS,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,_ TELÉFONOS *,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,TELÉFONO,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,TELÉFONO *,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,_ TELÉFONO,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,_ TELÉFONO *,*,*,Av Casanova#Comma Torre banco plaza#Comma oficina 8C y 8D. Caracas#Comma Venezuela,soniat.aiml
+0,MISION,*,*,Continuar siendo la empresa lider en las nuevas tendencias tecnologicas orientadas a la modernizacion IT,soniat.aiml
+0,MISION *,*,*,Continuar siendo la empresa lider en las nuevas tendencias tecnologicas orientadas a la modernizacion IT,soniat.aiml
+0,_ MISION *,*,*,Continuar siendo la empresa lider en las nuevas tendencias tecnologicas orientadas a la modernizacion IT,soniat.aiml
+0,_ MISION,*,*,Continuar siendo la empresa líder en las nuevas tendencias tecnologicas orientadas a la modernizacion IT,soniat.aiml
+0,MISIÓN,*,*,Continuar siendo la empresa lider en las nuevas tendencias tecnologicas orientadas a la modernizacion IT,soniat.aiml
+0,MISIÓN *,*,*,Continuar siendo la empresa lider en las nuevas tendencias tecnologicas orientadas a la modernizacion IT,soniat.aiml
+0,_ MISIÓN *,*,*,Continuar siendo la empresa lider en las nuevas tendencias tecnologicas orientadas a la modernizacion IT,soniat.aiml
+0,_ MISIÓN,*,*,Continuar siendo la empresa líder en las nuevas tendencias tecnologicas orientadas a la modernizacion IT,soniat.aiml
+0,VISION,*,*,Convertirse en el referente numero uno (1) en estrategias de modernizacion e innovacion en el ambito de procesos y TI,soniat.aiml
+0,VISION *,*,*,Convertirse en el referente numero uno (1) en estrategias de modernizacion e innovacion en el ambito de procesos y TI,soniat.aiml
+0,_ VISION *,*,*,Convertirse en el referente numero uno (1) en estrategias de modernizacion e innovacion en el ambito de procesos y TI,soniat.aiml
+0,_ VISION,*,*,Convertirse en el referente numero uno (1) en estrategias de modernizacion e innovacion en el ambito de procesos y TI,soniat.aiml
+0,VISIÓN,*,*,Convertirse en el referente numero uno (1) en estrategias de modernizacion e innovacion en el ambito de procesos y TI,soniat.aiml
+0,VISIÓN *,*,*,Convertirse en el referente numero uno (1) en estrategias de modernizacion e innovacion en el ambito de procesos y TI,soniat.aiml
+0,_ VISIÓN *,*,*,Convertirse en el referente numero uno (1) en estrategias de modernizacion e innovacion en el ambito de procesos y TI,soniat.aiml
+0,_ VISIÓN,*,*,Convertirse en el referente numero uno (1) en estrategias de modernizacion e innovacion en el ambito de procesos y TI,soniat.aiml
+0,PRECIOS,*,*,Para conocer nuestros precios y tiempos de ejecucion en los proyectos#Comma contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com,soniat.aiml
+0,PRECIOS *,*,*,Para conocer nuestros precios y tiempos de ejecución en los proyectos#Comma contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com,soniat.aiml
+0,_ PRECIOS *,*,*,Para conocer nuestros precios y tiempos de ejecución en los proyectos#Comma contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com,soniat.aiml
+0,_ PRECIOS,*,*,Para conocer nuestros precios y tiempos de ejecución en los proyectos#Comma contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com,soniat.aiml
+0,TIEMPO,*,*,Para conocer nuestros precios y tiempos de ejecución en los proyectos#Comma contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com,soniat.aiml
+0,TIEMPO *,*,*,Para conocer nuestros precios y tiempos de ejecución en los proyectos#Comma contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com,soniat.aiml
+0,_ TIEMPO *,*,*,Para conocer nuestros precios y tiempos de ejecución en los proyectos#Comma contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com,soniat.aiml
+0,_ TIEMPO,*,*,Para conocer nuestros precios y tiempos de ejecución en los proyectos#Comma contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com,soniat.aiml
+0,CORREO,*,*,Para conocer nuestros precios y tiempos de ejecución en los proyectos#Comma contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com,soniat.aiml
+0,CORREO *,*,*,Para conocer nuestros precios y tiempos de ejecución en los proyectos#Comma contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com,soniat.aiml
+0,_ CORREO *,*,*,Para conocer nuestros precios y tiempos de ejecución en los proyectos#Comma contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com,soniat.aiml
+0,_ CORREO,*,*,Para conocer nuestros precios y tiempos de ejecución en los proyectos#Comma contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com,soniat.aiml
+0,PROYECTOS,*,*,Para conocer nuestros precios y tiempos de ejecución en los proyectos#Comma contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com,soniat.aiml
+0,PROYECTOS *,*,*,Para conocer nuestros precios y tiempos de ejecución en los proyectos#Comma contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com,soniat.aiml
+0,_ PROYECTOS *,*,*,Para conocer nuestros precios y tiempos de ejecución en los proyectos#Comma contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com,soniat.aiml
+0,_ PROYECTOS,*,*,Para conocer nuestros precios y tiempos de ejecución en los proyectos#Comma contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com,soniat.aiml
+0,PROYECTO,*,*,Para conocer nuestros precios y tiempos de ejecución en los proyectos#Comma contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com,soniat.aiml
+0,PROYECTO *,*,*,Para conocer nuestros precios y tiempos de ejecución en los proyectos#Comma contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com,soniat.aiml
+0,_ PROYECTO *,*,*,Para conocer nuestros precios y tiempos de ejecución en los proyectos#Comma contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com,soniat.aiml
+0,_ PROYECTO,*,*,Para conocer nuestros precios y tiempos de ejecución en los proyectos#Comma contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com,soniat.aiml
+0,CONTACTO,*,*,Para conocer nuestros precios y tiempos de ejecución en los proyectos#Comma contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com,soniat.aiml
+0,CONTACTO *,*,*,Para conocer nuestros precios y tiempos de ejecución en los proyectos#Comma contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com,soniat.aiml
+0,_ CONTACTO *,*,*,Para conocer nuestros precios y tiempos de ejecución en los proyectos#Comma contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com,soniat.aiml
+0,_ CONTACTO,*,*,Para conocer nuestros precios y tiempos de ejecución en los proyectos#Comma contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com,soniat.aiml
+0,CONTACTARLOS,*,*,Para conocer nuestros precios y tiempos de ejecución en los proyectos#Comma contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com,soniat.aiml
+0,CONTACTARLOS *,*,*,Para conocer nuestros precios y tiempos de ejecución en los proyectos#Comma contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com,soniat.aiml
+0,_ CONTACTARLOS *,*,*,Para conocer nuestros precios y tiempos de ejecución en los proyectos#Comma contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com,soniat.aiml
+0,_ CONTACTARLOS,*,*,Para conocer nuestros precios y tiempos de ejecución en los proyectos#Comma contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com,soniat.aiml
+0,CLIENTES,*,*,Contamos con Clientes Internacionales#Comma tales como: Telefónica#Comma BanColombia#Comma Claro#Comma Dian#Comma Bimbo#Comma Canal de Panama#Comma Copa Airlines#Comma Banco de Chile#Comma Reale Seguros#Comma Banco de Crédito del Perú,soniat.aiml
+0,CLIENTES *,*,*,Contamos con Clientes Internacionales#Comma tales como: Telefónica#Comma BanColombia#Comma Claro#Comma Dian#Comma Bimbo#Comma Canal de Panama#Comma Copa Airlines#Comma Banco de Chile#Comma Reale Seguros#Comma Banco de Crédito del Perú,soniat.aiml
+0,_ CLIENTES *,*,*,Contamos con Clientes Internacionales#Comma tales como: Telefónica#Comma BanColombia#Comma Claro#Comma Dian#Comma Bimbo#Comma Canal de Panama#Comma Copa Airlines#Comma Banco de Chile#Comma Reale Seguros#Comma Banco de Crédito del Perú,soniat.aiml
+0,_ CLIENTES,*,*,Contamos con Clientes Internacionales#Comma tales como: Telefónica#Comma BanColombia#Comma Claro#Comma Dian#Comma Bimbo#Comma Canal de Panama#Comma Copa Airlines#Comma Banco de Chile#Comma Reale Seguros#Comma Banco de Crédito del Perú,soniat.aiml
+0,CLIENTE,*,Contamos con Clientes Internacionales#Comma tales como: Telefónica#Comma BanColombia#Comma Claro#Comma Dian#Comma Bimbo#Comma Canal de Panama#Comma Copa Airlines#Comma Banco de Chile#Comma Reale Seguros#Comma Banco de Crédito del Perú,soniat.aiml
+0,CLIENTE *,*,*,Contamos con Clientes Internacionales#Comma tales como: Telefónica#Comma BanColombia#Comma Claro#Comma Dian#Comma Bimbo#Comma Canal de Panama#Comma Copa Airlines#Comma Banco de Chile#Comma Reale Seguros#Comma Banco de Crédito del Perú,soniat.aiml
+0,_ CLIENTE *,*,*,Contamos con Clientes Internacionales#Comma tales como: Telefónica#Comma BanColombia#Comma Claro#Comma Dian#Comma Bimbo#Comma Canal de Panama#Comma Copa Airlines#Comma Banco de Chile#Comma Reale Seguros#Comma Banco de Crédito del Perú,soniat.aiml
+0,_ CLIENTE,*,*,Contamos con Clientes Internacionales#Comma tales como: Telefónica#Comma BanColombia#Comma Claro#Comma Dian#Comma Bimbo#Comma Canal de Panama#Comma Copa Airlines#Comma Banco de Chile#Comma Reale Seguros#Comma Banco de Crédito del Perú,soniat.aiml
+0,PARTHENER,*,*,Contamos con los siguientes parthener a nivel internacional: Oracle#Comma IBM#Comma Sensegia#Comma Bottomline#Comma Automation AnyWhere#Comma RedHat#Comma Vector#Comma Vass,soniat.aiml
+0,PARTHENER *,*,*,Contamos con los siguientes parthener a nivel internacional: Oracle#Comma IBM#Comma Sensegia#Comma Bottomline#Comma Automation AnyWhere#Comma RedHat#Comma Vector#Comma Vass,soniat.aiml
+0,_ PARTHENER *,*,*,Contamos con los siguientes parthener a nivel internacional: Oracle#Comma IBM#Comma Sensegia#Comma Bottomline#Comma Automation AnyWhere#Comma RedHat#Comma Vector#Comma Vass,soniat.aiml
+0,_ PARTHENER,*,*,Contamos con los siguientes parthener a nivel internacional: Oracle#Comma IBM#Comma Sensegia#Comma Bottomline#Comma Automation AnyWhere#Comma RedHat#Comma Vector#Comma Vass,soniat.aiml
+0,PARTNER,*,*,Contamos con los siguientes partner a nivel internacional: Oracle#Comma IBM#Comma Sensegia#Comma Bottomline#Comma Automation AnyWhere#Comma RedHat#Comma Vector#Comma Vass,soniat.aiml
+0,PARTNER *,*,*,Contamos con los siguientes partner a nivel internacional: Oracle#Comma IBM#Comma Sensegia#Comma Bottomline#Comma Automation AnyWhere#Comma RedHat#Comma Vector#Comma Vass,soniat.aiml
+0,_ PARTNER *,*,*,Contamos con los siguientes partner a nivel internacional: Oracle#Comma IBM#Comma Sensegia#Comma Bottomline#Comma Automation AnyWhere#Comma RedHat#Comma Vector#Comma Vass,soniat.aiml
+0,_ PARTNER,*,*,Contamos con los siguientes partner a nivel internacional: Oracle#Comma IBM#Comma Sensegia#Comma Bottomline#Comma Automation AnyWhere#Comma RedHat#Comma Vector#Comma Vass,soniat.aiml
+0,SOAINT,*,*,SOAINT es tu mejor asesor tecnológico expertos en transformación digital.,soniat.aiml
+0,_ SOAINT *,*,*,SOAINT es tu mejor asesor tecnológico expertos en transformación digital.,soniat.aiml
+0,_ SOAINT,*,*,SOAINT es tu mejor asesor tecnológico expertos en transformación digital.,soniat.aiml
+0,SOAINT *,*,*,SOAINT es tu mejor asesor tecnológico expertos en transformación digital.,soniat.aiml
+0,TECNOLOGIAS,*,*,Usamos tecnologias#Comma tales como:RPA#Comma SOA#Comma JAVA#Comma Springboot#Comma Angular#Comma Laravel#Comma Micro Servicios#Comma API#Comma DevOps,soniat.aiml
+0,_ TECNOLOGIAS *,*,*,Usamos tecnologias#Comma tales como:RPA#Comma SOA#Comma JAVA#Comma Springboot#Comma Angular#Comma Laravel#Comma Micro Servicios#Comma API#Comma DevOps,soniat.aiml
+0,_ TECNOLOGIAS,*,*,Usamos tecnologias#Comma tales como:RPA#Comma SOA#Comma JAVA#Comma Springboot#Comma Angular#Comma Laravel#Comma Micro Servicios#Comma API#Comma DevOps,soniat.aiml
+0,TECNOLOGIAS *,*,*,Usamos tecnologias#Comma tales como:RPA#Comma SOA#Comma JAVA#Comma Springboot#Comma Angular#Comma Laravel#Comma Micro Servicios#Comma API#Comma DevOps,soniat.aiml
+0,TECNOLOGÍAS,*,*,Usamos tecnologias#Comma tales como:RPA#Comma SOA#Comma JAVA#Comma Springboot#Comma Angular#Comma Laravel#Comma Micro Servicios#Comma API#Comma DevOps,soniat.aiml
+0,_ TECNOLOGÍAS *,*,*,Usamos tecnologias#Comma tales como:RPA#Comma SOA#Comma JAVA#Comma Springboot#Comma Angular#Comma Laravel#Comma Micro Servicios#Comma API#Comma DevOps,soniat.aiml
+0,_ TECNOLOGÍAS,*,*,Usamos tecnologias#Comma tales como:RPA#Comma SOA#Comma JAVA#Comma Springboot#Comma Angular#Comma Laravel#Comma Micro Servicios#Comma API#Comma DevOps,soniat.aiml
+0,TECNOLOGÍAS *,*,*,Usamos tecnologias#Comma tales como:RPA#Comma SOA#Comma JAVA#Comma Springboot#Comma Angular#Comma Laravel#Comma Micro Servicios#Comma API#Comma DevOps,soniat.aiml
+0,RPA,*,*,La automatización de procesos mediante robots (Robotic Process Automation en inglés) es toda tecnología orientada al uso de software con el objetivo de disminuir la intervención humana en el uso de aplicaciones informaticas.,soniat.aiml
+0,_ RPA *,*,*,La automatización de procesos mediante robots (Robotic Process Automation en inglés) es toda tecnología orientada al uso de software con el objetivo de disminuir la intervención humana en el uso de aplicaciones informaticas.,soniat.aiml
+0,RPA *,*,*,La automatización de procesos mediante robots (Robotic Process Automation en inglés) es toda tecnología orientada al uso de software con el objetivo de disminuir la intervención humana en el uso de aplicaciones informaticas.,soniat.aiml
+0,_ RPA,*,*,La automatización de procesos mediante robots (Robotic Process Automation en inglés) es toda tecnología orientada al uso de software con el objetivo de disminuir la intervención humana en el uso de aplicaciones informaticas.,soniat.aiml
+0,SOA,*,*,La Arquitectura Orientada a Servicios (SOA en inglés)#Comma es una metodología que es implementada para definir la utilización de varios servicios con el fin de dar soporte a ciertos requisitos del negocio.,soniat.aiml
+0,_ SOA *,*,*,La Arquitectura Orientada a Servicios (SOA en inglés)#Comma es una metodología que es implementada para definir la utilización de varios servicios con el fin de dar soporte a ciertos requisitos del negocio.,soniat.aiml
+0,_ SOA,*,*,La Arquitectura Orientada a Servicios (SOA en inglés)#Comma es una metodología que es implementada para definir la utilización de varios servicios con el fin de dar soporte a ciertos requisitos del negocio.,soniat.aiml
+0,SOA *,*,*,La Arquitectura Orientada a Servicios (SOA en inglés)#Comma es una metodología que es implementada para definir la utilización de varios servicios con el fin de dar soporte a ciertos requisitos del negocio.,soniat.aiml
+0,JAVA,*,*,Es un lenguaje de programación y una plataforma informatica comercializada por primera vez en 1995 por Sun Microsystems. Java es rapido#Comma seguro y fiable.,soniat.aiml
+0,_ JAVA *,*,*,Es un lenguaje de programación y una plataforma informatica comercializada por primera vez en 1995 por Sun Microsystems. Java es rapido#Comma seguro y fiable.,soniat.aiml
+0,_ JAVA,*,*,Es un lenguaje de programación y una plataforma informatica comercializada por primera vez en 1995 por Sun Microsystems. Java es rapido#Comma seguro y fiable.,soniat.aiml
+0,JAVA *,*,*,Es un lenguaje de programación y una plataforma informatica comercializada por primera vez en 1995 por Sun Microsystems. Java es rapido#Comma seguro y fiable.,soniat.aiml
+0,SPRINGBOOT,*,*,Spring Boot facilita la creación de aplicaciones independientes basadas en Spring de grado de producción que puede "simplemente ejecutar".,soniat.aiml
+0,_ SPRINGBOOT *,*,*,Spring Boot facilita la creación de aplicaciones independientes basadas en Spring de grado de producción que puede "simplemente ejecutar".,soniat.aiml
+0,_ SPRINGBOOT,*,*,Spring Boot facilita la creación de aplicaciones independientes basadas en Spring de grado de producción que puede "simplemente ejecutar".,soniat.aiml
+0,SPRINGBOOT *,*,*,Spring Boot facilita la creación de aplicaciones independientes basadas en Spring de grado de producción que puede "simplemente ejecutar".,soniat.aiml
+0,ANGULAR,*,*,Angular es un marco de diseño de aplicaciones y una plataforma de desarrollo para crear aplicaciones eficientes y sofisticadas de una sola pagina.,soniat.aiml
+0,_ ANGULAR *,*,*,Angular es un marco de diseño de aplicaciones y una plataforma de desarrollo para crear aplicaciones eficientes y sofisticadas de una sola pagina.,soniat.aiml
+0,_ ANGULAR,*,*,Angular es un marco de diseño de aplicaciones y una plataforma de desarrollo para crear aplicaciones eficientes y sofisticadas de una sola pagina.,soniat.aiml
+0,ANGULAR *,*,*,Angular es un marco de diseño de aplicaciones y una plataforma de desarrollo para crear aplicaciones eficientes y sofisticadas de una sola pagina.,soniat.aiml
+0,LARAVEL,*,*,Laravel es un marco de aplicación web con sintaxis expresiva y elegante. Ya hemos sentado las bases#Comma liberandote para crear sin sudar las cosas pequeñas.,soniat.aiml
+0,_ LARAVEL *,*,*,Laravel es un marco de aplicación web con sintaxis expresiva y elegante. Ya hemos sentado las bases#Comma liberandote para crear sin sudar las cosas pequeñas.,soniat.aiml
+0,_ LARAVEL,*,*,Laravel es un marco de aplicación web con sintaxis expresiva y elegante. Ya hemos sentado las bases#Comma liberandote para crear sin sudar las cosas pequeñas.,soniat.aiml
+0,LARAVEL *,*,*,Laravel es un marco de aplicación web con sintaxis expresiva y elegante. Ya hemos sentado las bases#Comma liberandote para crear sin sudar las cosas pequeñas.,soniat.aiml
+0,MICRO SERVICIOS,*,*,Una â&#128;&#156;arquitectura de microserviciosâ&#128;&#157; es un enfoque para desarrollar una aplicación software como una serie de pequeños servicios#Comma cada uno ejecutandose de forma autónoma y comunicandose entre sí#Comma por ejemplo#Comma a través de peticiones HTTP a sus API.,soniat.aiml
+0,_ MICRO SERVICIOS *,*,*,Una â&#128;&#156;arquitectura de microserviciosâ&#128;&#157; es un enfoque para desarrollar una aplicación software como una serie de pequeños servicios#Comma cada uno ejecutandose de forma autónoma y comunicandose entre sí#Comma por ejemplo#Comma a través de peticiones HTTP a sus API.,soniat.aiml
+0,_ MICRO SERVICIOS,*,*,Una â&#128;&#156;arquitectura de microserviciosâ&#128;&#157; es un enfoque para desarrollar una aplicación software como una serie de pequeños servicios#Comma cada uno ejecutandose de forma autónoma y comunicandose entre sí#Comma por ejemplo#Comma a través de peticiones HTTP a sus API.,soniat.aiml
+0,MICRO SERVICIOS *,*,*,Una â&#128;&#156;arquitectura de microserviciosâ&#128;&#157; es un enfoque para desarrollar una aplicación software como una serie de pequeños servicios#Comma cada uno ejecutandose de forma autónoma y comunicandose entre sí#Comma por ejemplo#Comma a través de peticiones HTTP a sus API.,soniat.aiml
+0,API,*,*,Es un conjunto de definiciones y protocolos que se utiliza para desarrollar e integrar el software de las aplicaciones. API significa interfaz de programación de aplicaciones (del inglés API: Application Programming Interface).,soniat.aiml
+0,_ API *,*,*,Es un conjunto de definiciones y protocolos que se utiliza para desarrollar e integrar el software de las aplicaciones. API significa interfaz de programación de aplicaciones (del inglés API: Application Programming Interface).,soniat.aiml
+0,_ API,*,*,Es un conjunto de definiciones y protocolos que se utiliza para desarrollar e integrar el software de las aplicaciones. API significa interfaz de programación de aplicaciones (del inglés API: Application Programming Interface).,soniat.aiml
+0,API *,*,*,Es un conjunto de definiciones y protocolos que se utiliza para desarrollar e integrar el software de las aplicaciones. API significa interfaz de programación de aplicaciones (del inglés API: Application Programming Interface).,soniat.aiml
+0,DEVOPS,*,*,Describe los enfoques para agilizar los procesos con los que una idea pasa del desarrollo a la implementación#Comma en un entorno de producción en que puede generar valor para el usuario.,soniat.aiml
+0,_ DEVOPS *,*,*,Describe los enfoques para agilizar los procesos con los que una idea pasa del desarrollo a la implementación#Comma en un entorno de producción en que puede generar valor para el usuario.,soniat.aiml
+0,_ DEVOPS,*,*,Describe los enfoques para agilizar los procesos con los que una idea pasa del desarrollo a la implementación#Comma en un entorno de producción en que puede generar valor para el usuario.,soniat.aiml
+0,DEVOPS *,*,*,Describe los enfoques para agilizar los procesos con los que una idea pasa del desarrollo a la implementación#Comma en un entorno de producción en que puede generar valor para el usuario.,soniat.aiml
+0,EFICAZ,*,*,SOAINT establece metas para alcanzar y desarrollar de manera mas efectiva las tareas para conseguir el objetivo deseado. Garantizando la confiabilidad y seguridad del cliente,soniat.aiml
+0,EFICAZ *,*,*,SOAINT establece metas para alcanzar y desarrollar de manera mas efectiva las tareas para conseguir el objetivo deseado. Garantizando la confiabilidad y seguridad del cliente,soniat.aiml
+0,_ EFICAZ *,*,*,SOAINT establece metas para alcanzar y desarrollar de manera mas efectiva las tareas para conseguir el objetivo deseado. Garantizando la confiabilidad y seguridad del cliente,soniat.aiml
+0,_ EFICAZ,*,*,SOAINT establece metas para alcanzar y desarrollar de manera mas efectiva las tareas para conseguir el objetivo deseado. Garantizando la confiabilidad y seguridad del cliente,soniat.aiml
+0,PRODUCCION,*,*,SOAINT establece metas para alcanzar y desarrollar de manera mas efectiva las tareas para conseguir el objetivo deseado. Garantizando la confiabilidad y seguridad del cliente,soniat.aiml
+0,PRODUCCION *,*,*,SOAINT establece metas para alcanzar y desarrollar de manera mas efectiva las tareas para conseguir el objetivo deseado. Garantizando la confiabilidad y seguridad del cliente,soniat.aiml
+0,_ PRODUCCION *,*,*,SOAINT establece metas para alcanzar y desarrollar de manera mas efectiva las tareas para conseguir el objetivo deseado. Garantizando la confiabilidad y seguridad del cliente,soniat.aiml
+0,_ PRODUCCION,*,*,SOAINT establece metas para alcanzar y desarrollar de manera mas efectiva las tareas para conseguir el objetivo deseado. Garantizando la confiabilidad y seguridad del cliente,soniat.aiml
+0,PRODUCCIÓN,*,*,SOAINT establece metas para alcanzar y desarrollar de manera mas efectiva las tareas para conseguir el objetivo deseado. Garantizando la confiabilidad y seguridad del cliente,soniat.aiml
+0,PRODUCCIÓN *,*,*,SOAINT establece metas para alcanzar y desarrollar de manera mas efectiva las tareas para conseguir el objetivo deseado. Garantizando la confiabilidad y seguridad del cliente,soniat.aiml
+0,_ PRODUCCIÓN *,*,*,SOAINT establece metas para alcanzar y desarrollar de manera mas efectiva las tareas para conseguir el objetivo deseado. Garantizando la confiabilidad y seguridad del cliente,soniat.aiml
+0,_ PRODUCCIÓN,*,*,SOAINT establece metas para alcanzar y desarrollar de manera mas efectiva las tareas para conseguir el objetivo deseado. Garantizando la confiabilidad y seguridad del cliente,soniat.aiml
+0,SUCURSAL,*,*,SOAINT tiene sucursales en distintas partes del mundo#Comma como lo son: Argentina#Comma Chile#Comma Colombia#Comma Costa Rica#Comma Ecuador#Comma España#Comma México#Comma Panama#Comma Qatar#Comma Republica Dominicana#Comma Venezuela,soniat.aiml
+0,SUCURSAL *,*,*,SOAINT tiene sucursales en distintas partes del mundo#Comma como lo son: Argentina#Comma Chile#Comma Colombia#Comma Costa Rica#Comma Ecuador#Comma España#Comma México#Comma Panama#Comma Qatar#Comma Republica Dominicana#Comma Venezuela,soniat.aiml
+0,_ SUCURSAL,*,*,SOAINT tiene sucursales en distintas partes del mundo#Comma como lo son: Argentina#Comma Chile#Comma Colombia#Comma Costa Rica#Comma Ecuador#Comma España#Comma México#Comma Panama#Comma Qatar#Comma Republica Dominicana#Comma Venezuela,soniat.aiml
+0,_ SUCURSAL *,*,*,SOAINT tiene sucursales en distintas partes del mundo#Comma como lo son: Argentina#Comma Chile#Comma Colombia#Comma Costa Rica#Comma Ecuador#Comma España#Comma Mexico#Comma Panama#Comma Qatar#Comma Republica Dominicana#Comma Venezuela,soniat.aiml
+0,SUCURSALES,*,*,SOAINT tiene sucursales en distintas partes del mundo#Comma como lo son: Argentina#Comma Chile#Comma Colombia#Comma Costa Rica#Comma Ecuador#Comma España#Comma México#Comma Panama#Comma Qatar#Comma Republica Dominicana#Comma Venezuela,soniat.aiml
+0,SUCURSALES *,*,*,SOAINT tiene sucursales en distintas partes del mundo#Comma como lo son: Argentina#Comma Chile#Comma Colombia#Comma Costa Rica#Comma Ecuador#Comma España#Comma México#Comma Panama#Comma Qatar#Comma Republica Dominicana#Comma Venezuela,soniat.aiml
+0,_ SUCURSALES,*,*,SOAINT tiene sucursales en distintas partes del mundo#Comma como lo son: Argentina#Comma Chile#Comma Colombia#Comma Costa Rica#Comma Ecuador#Comma España#Comma México#Comma Panama#Comma Qatar#Comma Republica Dominicana#Comma Venezuela,soniat.aiml
+0,_ SUCURSALES *,*,*,SOAINT tiene sucursales en distintas partes del mundo#Comma como lo son: Argentina#Comma Chile#Comma Colombia#Comma Costa Rica#Comma Ecuador#Comma España#Comma México#Comma Panama#Comma Qatar#Comma Republica Dominicana#Comma Venezuela,soniat.aiml
+0,PAIS,*,*,SOAINT tiene sucursales en distintas partes del mundo#Comma como lo son: Argentina#Comma Chile#Comma Colombia#Comma Costa Rica#Comma Ecuador#Comma España#Comma México#Comma Panama#Comma Qatar#Comma Republica Dominicana#Comma Venezuela,soniat.aiml
+0,PAIS *,*,*,SOAINT tiene sucursales en distintas partes del mundo#Comma como lo son: Argentina#Comma Chile#Comma Colombia#Comma Costa Rica#Comma Ecuador#Comma España#Comma México#Comma Panama#Comma Qatar#Comma Republica Dominicana#Comma Venezuela,soniat.aiml
+0,_ PAIS,*,*,SOAINT tiene sucursales en distintas partes del mundo#Comma como lo son: Argentina#Comma Chile#Comma Colombia#Comma Costa Rica#Comma Ecuador#Comma España#Comma México#Comma Panama#Comma Qatar#Comma Republica Dominicana#Comma Venezuela,soniat.aiml
+0,_ PAIS *,*,*,SOAINT tiene sucursales en distintas partes del mundo#Comma como lo son: Argentina#Comma Chile#Comma Colombia#Comma Costa Rica#Comma Ecuador#Comma España#Comma México#Comma Panama#Comma Qatar#Comma Republica Dominicana#Comma Venezuela,soniat.aiml
+0,PAÍS,*,*,SOAINT tiene sucursales en distintas partes del mundo#Comma como lo son: Argentina#Comma Chile#Comma Colombia#Comma Costa Rica#Comma Ecuador#Comma España#Comma México#Comma Panama#Comma Qatar#Comma Republica Dominicana#Comma Venezuela,soniat.aiml
+0,PAÍS *,*,*,SOAINT tiene sucursales en distintas partes del mundo#Comma como lo son: Argentina#Comma Chile#Comma Colombia#Comma Costa Rica#Comma Ecuador#Comma España#Comma México#Comma Panama#Comma Qatar#Comma Republica Dominicana#Comma Venezuela,soniat.aiml
+0,_ PAÍS,*,*,SOAINT tiene sucursales en distintas partes del mundo#Comma como lo son: Argentina#Comma Chile#Comma Colombia#Comma Costa Rica#Comma Ecuador#Comma España#Comma México#Comma Panama#Comma Qatar#Comma Republica Dominicana#Comma Venezuela,soniat.aiml
+0,_ PAÍS *,*,*,SOAINT tiene sucursales en distintas partes del mundo#Comma como lo son: Argentina#Comma Chile#Comma Colombia#Comma Costa Rica#Comma Ecuador#Comma España#Comma México#Comma Panama#Comma Qatar#Comma Republica Dominicana#Comma Venezuela,soniat.aiml
+0,PAISES,*,*,SOAINT tiene sucursales en distintas partes del mundo#Comma como lo son: Argentina#Comma Chile#Comma Colombia#Comma Costa Rica#Comma Ecuador#Comma España#Comma México#Comma Panama#Comma Qatar#Comma Republica Dominicana#Comma Venezuela,soniat.aiml
+0,PAISES *,*,*,SOAINT tiene sucursales en distintas partes del mundo#Comma como lo son: Argentina#Comma Chile#Comma Colombia#Comma Costa Rica#Comma Ecuador#Comma España#Comma México#Comma Panama#Comma Qatar#Comma Republica Dominicana#Comma Venezuela,soniat.aiml
+0,_ PAISES,*,*,SOAINT tiene sucursales en distintas partes del mundo#Comma como lo son: Argentina#Comma Chile#Comma Colombia#Comma Costa Rica#Comma Ecuador#Comma España#Comma México#Comma Panama#Comma Qatar#Comma Republica Dominicana#Comma Venezuela,soniat.aiml
+0,_ PAISES *,*,*,SOAINT tiene sucursales en distintas partes del mundo#Comma como lo son: Argentina#Comma Chile#Comma Colombia#Comma Costa Rica#Comma Ecuador#Comma España#Comma México#Comma Panama#Comma Qatar#Comma Republica Dominicana#Comma Venezuela,soniat.aiml
+0,PHP,*,*,Es un lenguaje de programación de propósito general de código del lado del servidor originalmente diseñado para el preprocesado de texto plano en UTF-8,soniat.aiml
+0,PHP *,*,*,Es un lenguaje de programación de propósito general de código del lado del servidor originalmente diseñado para el preprocesado de texto plano en UTF-8,soniat.aiml
+0,_ PHP,*,*,Es un lenguaje de programación de propósito general de código del lado del servidor originalmente diseñado para el preprocesado de texto plano en UTF-8,soniat.aiml
+0,_ PHP *,*,*,Es un lenguaje de programación de propósito general de código del lado del servidor originalmente diseñado para el preprocesado de texto plano en UTF-8,soniat.aiml
+0,HTML,*,*,Hace referencia al lenguaje de marcado para la elaboración de páginas web.,soniat.aiml
+0,HTML *,*,*,Hace referencia al lenguaje de marcado para la elaboración de páginas web.,soniat.aiml
+0,_ HTML,*,*,Hace referencia al lenguaje de marcado para la elaboración de páginas web.,soniat.aiml
+0,_ HTML *,*,*,Hace referencia al lenguaje de marcado para la elaboración de páginas web.,soniat.aiml
+0,LINUX,*,*,Linux es una familia de sistemas operativos de código abierto tipo Unix basados ​​en el kernel de Linux,soniat.aiml
+0,LINUX *,*,*,Linux es una familia de sistemas operativos de código abierto tipo Unix basados ​​en el kernel de Linux,soniat.aiml
+0,_ LINUX,*,*,Linux es una familia de sistemas operativos de código abierto tipo Unix basados ​​en el kernel de Linux,soniat.aiml
+0,_ LINUX *,*,*,Linux es una familia de sistemas operativos de código abierto tipo Unix basados ​​en el kernel de Linux,soniat.aiml
+0,SISTEMA OPERATIVO,*,*,A,soniat.aiml
+0,SISTEMA OPERATIVO *,*,*,Es el software principal o conjunto de programas de un sistema informático que gestiona los recursos de hardware y provee servicios a los programas de aplicación de software ejecutándose en modo privilegiado respecto de los restantes.​,soniat.aiml
+0,_ SISTEMA OPERATIVO,*,*,Es el software principal o conjunto de programas de un sistema informático que gestiona los recursos de hardware y provee servicios a los programas de aplicación de software ejecutándose en modo privilegiado respecto de los restantes.​,soniat.aiml
+0,_ SISTEMA OPERATIVO *,*,*,Es el software principal o conjunto de programas de un sistema informático que gestiona los recursos de hardware y provee servicios a los programas de aplicación de software ejecutándose en modo privilegiado respecto de los restantes.​,soniat.aiml
+0,SISTEMAS OPERATIVO,*,*,Es el software principal o conjunto de programas de un sistema informático que gestiona los recursos de hardware y provee servicios a los programas de aplicación de software ejecutándose en modo privilegiado respecto de los restantes.​,soniat.aiml
+0,SISTEMAS OPERATIVO *,*,*,Es el software principal o conjunto de programas de un sistema informático que gestiona los recursos de hardware y provee servicios a los programas de aplicación de software ejecutándose en modo privilegiado respecto de los restantes.​,soniat.aiml
+0,_ SISTEMAS OPERATIVO,*,*,Es el software principal o conjunto de programas de un sistema informático que gestiona los recursos de hardware y provee servicios a los programas de aplicación de software ejecutándose en modo privilegiado respecto de los restantes.​,soniat.aiml
+0,_ SISTEMAS OPERATIVO *,*,*,Es el software principal o conjunto de programas de un sistema informático que gestiona los recursos de hardware y provee servicios a los programas de aplicación de software ejecutándose en modo privilegiado respecto de los restantes.​,soniat.aiml
+0,SISTEMA OPERATIVOS,*,*,Es el software principal o conjunto de programas de un sistema informático que gestiona los recursos de hardware y provee servicios a los programas de aplicación de software ejecutándose en modo privilegiado respecto de los restantes.​,soniat.aiml
+0,SISTEMA OPERATIVOS *,*,*,Es el software principal o conjunto de programas de un sistema informático que gestiona los recursos de hardware y provee servicios a los programas de aplicación de software ejecutándose en modo privilegiado respecto de los restantes.​,soniat.aiml
+0,_ SISTEMA OPERATIVOS,*,*,Es el software principal o conjunto de programas de un sistema informático que gestiona los recursos de hardware y provee servicios a los programas de aplicación de software ejecutándose en modo privilegiado respecto de los restantes.​,soniat.aiml
+0,_ SISTEMA OPERATIVOS *,*,*,Es el software principal o conjunto de programas de un sistema informático que gestiona los recursos de hardware y provee servicios a los programas de aplicación de software ejecutándose en modo privilegiado respecto de los restantes.​,soniat.aiml
+0,SISTEMAS OPERATIVOS,*,*,Es el software principal o conjunto de programas de un sistema informático que gestiona los recursos de hardware y provee servicios a los programas de aplicación de software ejecutándose en modo privilegiado respecto de los restantes.​,soniat.aiml
+0,SISTEMAS OPERATIVOS *,*,*,Es el software principal o conjunto de programas de un sistema informático que gestiona los recursos de hardware y provee servicios a los programas de aplicación de software ejecutándose en modo privilegiado respecto de los restantes.​,soniat.aiml
+0,_ SISTEMAS OPERATIVOS,*,*,Es el software principal o conjunto de programas de un sistema informático que gestiona los recursos de hardware y provee servicios a los programas de aplicación de software ejecutándose en modo privilegiado respecto de los restantes.​,soniat.aiml
+0,_ SISTEMAS OPERATIVOS *,*,*,Es el software principal o conjunto de programas de un sistema informático que gestiona los recursos de hardware y provee servicios a los programas de aplicación de software ejecutándose en modo privilegiado respecto de los restantes.​,soniat.aiml
+0,WINDOWS,*,*,Windows es el nombre de una familia de distribuciones de software,soniat.aiml
+0,WINDOWS *,*,*,Windows es el nombre de una familia de distribuciones de software,soniat.aiml
+0,_ WINDOWS,*,*,Windows es el nombre de una familia de distribuciones de software,soniat.aiml
+0,_ WINDOWS *,*,*,Windows es el nombre de una familia de distribuciones de software,soniat.aiml
+0,ECLIPSE,*,*,Eclipse es una plataforma de software compuesto por un conjunto de herramientas de programación de código abierto multiplataforma para desarrollar,soniat.aiml
+0,ECLIPSE *,*,*,Eclipse es una plataforma de software compuesto por un conjunto de herramientas de programación de código abierto multiplataforma para desarrollar,soniat.aiml
+0,_ ECLIPSE,*,*,Eclipse es una plataforma de software compuesto por un conjunto de herramientas de programación de código abierto multiplataforma para desarrollar,soniat.aiml
+0,_ ECLIPSE *,*,*,Eclipse es una plataforma de software compuesto por un conjunto de herramientas de programación de código abierto multiplataforma para desarrollar,soniat.aiml
+0,INTELLIJ IDEA,*,*,IntelliJ IDEA es un entorno de desarrollo integrado para el desarrollo de programas informáticos.,soniat.aiml
+0,INTELLIJ IDEA *,*,*,IntelliJ IDEA es un entorno de desarrollo integrado para el desarrollo de programas informáticos.,soniat.aiml
+0,_ INTELLIJ IDEA,*,*,IntelliJ IDEA es un entorno de desarrollo integrado para el desarrollo de programas informáticos.,soniat.aiml
+0,_ INTELLIJ IDEA *,*,*,IntelliJ IDEA es un entorno de desarrollo integrado para el desarrollo de programas informáticos.,soniat.aiml
+0,IDE,*,*,Un entorno de desarrollo integrado​​ o entorno de desarrollo interactivo,soniat.aiml
+0,IDE *,*,*,Un entorno de desarrollo integrado​​ o entorno de desarrollo interactivo,soniat.aiml
+0,_ IDE,*,*,Un entorno de desarrollo integrado​​ o entorno de desarrollo interactivo,soniat.aiml
+0,_ IDE *,*,*,Un entorno de desarrollo integrado​​ o entorno de desarrollo interactivo,soniat.aiml
+0,AUTOMATION ANYWHERE,*,*,Automation Anywhere es un desarrollador de software robótico de automatización de procesos,soniat.aiml
+0,AUTOMATION ANYWHERE *,*,*,Automation Anywhere es un desarrollador de software robótico de automatización de procesos,soniat.aiml
+0,_ AUTOMATION ANYWHERE,*,*,Automation Anywhere es un desarrollador de software robótico de automatización de procesos,soniat.aiml
+0,_ AUTOMATION ANYWHERE *,*,*,Automation Anywhere es un desarrollador de software robótico de automatización de procesos,soniat.aiml
+0,UIPATH,*,*,UiPath es una empresa de software que desarrolla un plataforma para automatización robótica de procesos.,soniat.aiml
+0,UIPATH *,*,*,UiPath es una empresa de software que desarrolla un plataforma para automatización robótica de procesos.,soniat.aiml
+0,_ UIPATH,*,*,UiPath es una empresa de software que desarrolla un plataforma para automatización robótica de procesos.,soniat.aiml
+0,_ UIPATH *,*,*,UiPath es una empresa de software que desarrolla un plataforma para automatización robótica de procesos.,soniat.aiml
+0,VISUAL STUDIO,*,*,Visual Studio Code es un editor de código fuente desarrollado por Microsoft para Windows Linux y macOS.,soniat.aiml
+0,VISUAL STUDIO *,*,*,Visual Studio Code es un editor de código fuente desarrollado por Microsoft para Windows Linux y macOS.,soniat.aiml
+0,_ VISUAL STUDIO,*,*,Visual Studio Code es un editor de código fuente desarrollado por Microsoft para Windows Linux y macOS.,soniat.aiml
+0,_ VISUAL STUDIO *,*,*,Visual Studio Code es un editor de código fuente desarrollado por Microsoft para Windows Linux y macOS.,soniat.aiml
+0,A,*,*,A,soniat.aiml
+0,A *,*,*,A,soniat.aiml
+0,_ A,*,*,A,soniat.aiml
+0,_ A *,*,*,A,soniat.aiml

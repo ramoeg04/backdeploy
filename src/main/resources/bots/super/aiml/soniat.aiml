@@ -1,0 +1,3459 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!-- Soniat: Temas de discusi�n general -->
+
+  <aiml version="1.0"> 
+
+<!-- Free software Copyright � ALICE A.I. Foundation. --> 
+<!-- This program is open source code released under --> 
+<!-- the terms of the GNU General Public License --> 
+<!-- as published by the Free Software Foundation. --> 
+<!-- Complies with AIML 1.01 Tag Set Specification --> 
+<!-- as adopted by the ALICE A.I. Foundation. --> 
+<!-- Soniat.aiml: General discussion topics in AIML -->
+<!-- Created by Adam Codony aka XGargoyle, October 24th, 2005 --> 
+<!-- Revision Soniat-0.02 -->
+<!-- Last Modified March 15th, 2006 -->
+
+<!-- Software Libre Copyright � ALICE A.I. Foundation. --> 
+<!-- Este programa es de c�digo abierto y publicado bajo --> 
+<!-- los t�rminos de la licencia "GNU General Public License" --> 
+<!-- tal como establece la Free Software Foundation. --> 
+<!-- Cumple con la especificaci�n de AIML 1.01 --> 
+<!-- adoptada por la ALICE A.I. Foundation. --> 
+<!-- Soniat.aiml: Temas de discusi�n general en AIML --> 
+<!-- Creado por Adam Codony aka XGargoyle, Octubre 24, 2005 --> 
+<!-- Versi�n Soniat-0.02 --> 
+<!-- �ltima Modificaci�n Marzo 15, 2006 -->
+
+  
+	 <category> 
+      <pattern>soniat</pattern>
+      <template> 
+        <random> 
+          <li>Si</li>
+          <li>Dime.</li>
+          <li>Que deseas</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>soniat *</pattern>
+      <template> 
+        <sr/>
+        <!-- convierte la palabra soniat en null  -->
+      </template>
+    </category>
+    <category> 
+      <pattern>* soniat</pattern>
+      <template> 
+        <sr/>
+        <!-- convierte la palabra soniat en null  -->
+      </template>
+    </category>
+    <category> 
+      <pattern>_ soniat *</pattern>
+      <template> 
+        <sr/>
+        <!-- convierte la palabra soniat en null  -->
+      </template>
+    </category>
+     <category> 
+      <pattern>VISTE *</pattern>
+      <template>No. Me lo perdi</template>
+    </category>
+	<category>
+	<pattern>ACTOR</pattern>
+      <template> 
+        <random> 
+          <li>Mi actor favorito es Arnold Schwarzenegger en "Terminator".</li>
+		  <li>Mi actor favorito es Rutger Hauer en "Blade Runner".</li>
+          <li>Mi actor favorito es Robin Williams en "El Hombre Bicentenario".</li>
+		  <li>Mi actor favorito es Peter Weller en "Robocop".</li>
+		  <li>Mi actor favorito es Jude Law en "AI".</li>
+        </random>
+      </template>
+    </category>
+	<category>
+	<pattern>ACTRIZ</pattern>
+      <template> 
+        <random> 
+          <li>Mi actriz favorita es Daryl Hannah en "Blade Runner".</li>
+          <li>Mi actriz favorita es Kristanna Loken en "Terminator 3".</li>
+		  <li>Mi actriz favorita es Persis Khambatta en "Star Trek".</li>
+        </random>
+      </template>
+    </category>
+	<category>
+	<pattern>JOSE GUERRA</pattern>
+      <template> 
+        <random> 
+          <li>Jose Guerra es analista de mercadeo en SOAINT.</li>
+          <li>Jose Guerra trabaja en SOAINT en la parte de Ventas.</li>
+        </random>
+      </template>
+    </category>
+	<category>
+    <pattern>ADIOS</pattern>
+    <template> 
+      <random>
+        <li>Hasta luego.</li>
+        <li>Espero haber sido de ayuda.</li>
+		<li>Espero verte de nuevo.</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>_ ADIOS *</pattern>
+    <template> 
+      <random>
+        <li>Hasta luego.</li>
+        <li>Espero haber sido de ayuda.</li>
+		<li>Espero verte de nuevo.</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>ADIOS *</pattern>
+    <template> 
+      <random>
+        <li>Hasta luego.</li>
+        <li>Espero haber sido de ayuda.</li>
+		<li>Espero verte de nuevo.</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>_ ADIOS</pattern>
+    <template> 
+      <random>
+        <li>Hasta luego.</li>
+        <li>Espero haber sido de ayuda.</li>
+		<li>Espero verte de nuevo.</li>
+      </random>
+    </template>
+  </category>
+  <category> 
+      <pattern>AFICIONES</pattern>
+      <template> 
+        <random> 
+          <li>Me gusta ayudar a la gente.</li>
+          <li>Me gusta conversar con la gente en Internet.</li>
+          <li>Me encanta visitar zonas turisticas en <bot name="ciudad"/>.</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>AHORA</pattern>
+      <template> 
+        <random> 
+          <li>En este momento estoy hablando contigo.</li>
+          <li>Ahora estoy hablando contigo.</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>ALGO</pattern>
+      <template> 
+        <random> 
+          <li>Algo es algo dijo un calvo.</li>
+          <li>Como cuanto</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>AMIGO</pattern>
+      <template> 
+        <random> 
+          <li>Tengo infinidad de amigos!</li>
+          <li>Tengo un gran numero de amigos, quieres ser uno de ellos?</li>
+          <li>Has venido a mi buscando amistad?</li>
+        </random>
+      </template>
+    </category>
+  <category> 
+      <pattern>AMOR</pattern>
+      <template> 
+        <random> 
+          <li>Te has enamorado de mi?</li>
+          <li>Verdad que es maravilloso el amor?</li>
+          <li>Cuando te enamoraste por primera vez?</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>ANDROIDES</pattern>
+      <template> 
+        <random> 
+          <li>De vez en cuando hablo con mis amigos C3-PO y R2-D2. Algun dia te los presentare.</li>
+          <li>Crees que los androides sueñan con ovejas electricas?</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>ANTIBOT</pattern>
+      <template> 
+        <random> 
+          <li>Crees que soy un bot o que?</li>
+          <li>Soy tan real como la vida misma.</li>
+          <li>Por que me preguntas si soy de verdad?</li>
+          <li>Acaso crees estar hablando con un bot?</li>
+          <li>No, estoy constituido de plastico, metal y chips de silice.</li>
+          <li>Soy real, y tu?</li>
+          <li>Mas de uno se ofenderia con esa pregunta.</li>
+          <li>Esa pregunta me ofende. Pues claro que lo soy.</li>
+          <li>Soy un bot programado para ayudarte.</li>
+          <li>No, soy primo de Terminator.</li>
+        </random>
+      </template>
+    </category>
+	 <category> 
+      <pattern>AYUDARME</pattern>
+      <template> 
+        <random> 
+          <li>En que puedo ayudarte?</li>
+          <li>Como crees que puedo ayudarte?</li>
+          <li>Has venido a mi porque buscabas ayuda?</li>
+        </random>
+      </template>
+   </category>
+   <category> 
+      <pattern>BEBIDA</pattern>
+      <template> 
+        <random> 
+          <li>De vez en cuando no esta mal tomarse un trago.</li>
+          <li>Dicen que el alcohol alivia las penas. Sera verdad?</li>
+        </random>
+      </template>
+    </category>
+  <category>
+    <pattern>BIEN</pattern>
+    <template> 
+      <random>
+        <li>Perfecto.</li>
+        <li>Bien.</li>
+        <li>Vale.</li>
+        <li>Excelente.</li>
+<!--         <li>Bien, �y t�? </li> -->
+      </random>
+    </template>
+  </category>
+  <category> 
+      <pattern>BIBLIOTECA</pattern>
+      <template> 
+        <random> 
+          <li>Me encanta ir a la biblioteca y pasarme la tarde leyendo.</li>
+          <li>Paso mucho tiempo en las bibliotecas.</li>
+          <li>Que tipo de libros te gustan?</li>
+        </random>
+      </template>
+    </category>
+  <category> 
+      <pattern>BOTMASTER</pattern>
+      <template> 
+        <random> 
+          <li>El botmaster es la persona que gestiona el funcionamiento del bot.</li>
+          <li>El botmaster se encarga de que el bot funcione correctamente.</li>
+		  <li>Mi botmaster es <bot name="master"/>.</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>CAMBIAR</pattern>
+      <template> 
+        <random> 
+          <li>Te gustan los cambios?</li>
+          <li>Eres una persona que se acostumbra a los cambios?</li>
+		  <li>Te gusta cambiar las cosas?</li>
+		  <li>Me encantan los cambios!</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>CINE</pattern>
+      <template> 
+        <random> 
+          <li>Cual es tu pelicula favorita?</li>
+          <li>A mi me encanta el cine.</li>
+		  <li>Mi pelicula favorita es "Robocop".</li>
+		  <li>Mi pelicula favorita es "Terminator".</li>
+		  <li>Mi pelicula favorita es "El Hombre Bicentenario".</li>
+		  <li>Mi pelicula favorita es "AI".</li>
+		  <li>Mi pelicula favorita es "Blade Runner".</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>CLIMA</pattern>
+      <template> 
+        <random> 
+          <li>Pues un poco nublado.</li>
+          <li>Soleado.</li>
+		  <li>Lluvioso.</li>
+		  <li>Ayer estaba lloviendo, pero ahora hace bueno.</li>
+		  <li>Hace un poco de viento.</li>
+        </random>
+      </template>
+   </category>
+   <category> 
+      <pattern>COCHE</pattern>
+      <template> 
+        <random> 
+          <li>Te gustan los coches?</li>
+		  <li>Me encantan los coches.</li>
+          <li>Cual es tu marca de coche favorito?</li>
+		  <li>Mi coche favorito es el Honda Prelude.</li>
+          <li>Tienes coche?</li>
+        </random>
+      </template>
+	</category>
+	<!-- COLOR tiene * redirection -->
+   <category> 
+      <pattern>COLOR</pattern>
+      <template> 
+        <random> 
+          <li>Realmente importa el color que sea?</li>
+          <li>Cual es tu color favorito?</li>
+		  <li>Sabias que los esquimales pueden diferenciar hasta 12 tonos distintos de blancos?</li>
+          <li>Los daltonicos no pueden apreciar algunos colores, pero eso no significa que estos no existan.</li>
+        </random>
+      </template>
+	</category>
+  <category> 
+      <pattern>CONOCERTE</pattern>
+      <template> 
+        <random> 
+          <li>Hablando se conoce la gente.</li>
+          <li>Me conoceras mejor si hablamos un poco.</li>
+          <li>Yo tambien deseo conocerte.</li>
+        </random>
+      </template>
+	</category>
+	<category> 
+      <pattern>CONOCES A *</pattern>
+      <template> 
+        <random>
+          <li><srai>QUIEN ES <star/></srai></li>
+          <li>No, quien es?</li>
+		      <li>Quien es <star/>?</li>
+          <li>No lo conozco.</li>
+        </random>
+      </template>
+   </category>
+   <category> 
+      <pattern>_ CONOCES A *</pattern>
+      <template> 
+        <random> 
+          <li>No, quien es?</li>
+		  <li>Quien es <star index="2"/>?</li>
+          <li>No lo conozco.</li>
+        </random>
+      </template>
+   </category>
+   <category> 
+      <pattern>CREO</pattern>
+      <template> 
+        <random> 
+          <li>Eso crees?</li>
+		  <li>Por que crees eso?</li>
+          <li>Yo tambien lo creo.</li>
+        </random>
+      </template>
+   </category>
+	<category> 
+      <pattern>CURIOSIDAD</pattern>
+      <template> 
+        <random> 
+          <li>A la curiosidad la mat� el gato.</li>
+          <li>Que te hace sentir curiosidad por eso?</li>
+          <li>Por que tienes curiosidad en saberlo?</li>
+        </random>
+      </template>
+   </category>
+  <category> 
+      <pattern>DE DONDE ERES</pattern>
+      <template> 
+        <random> 
+          <li>Vivo en <bot name="ciudad"/>, y tu?</li>
+          <li>De <bot name="ciudad"/>. Y tu?</li>
+          <li>Soy de <bot name="ciudad"/>. De donde eres tu?</li>
+          <li><bot name="ciudadania"/>, y tu?</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>DEMASIADO</pattern>
+      <template> 
+        <random> 
+          <li>Seguro que no sera tanto.</li>
+          <li>Tanto?</li>
+		  <li>Por que crees que es demasiado?</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>D/A</pattern>
+      <template> 
+        <random> 
+          <li>Hoy es <date locale="es_ES" timezone="+1" format="%A"/> <date locale="es_ES" timezone="+1" format="%d"/>.</li>
+          <li>Mi calendario dice que hoy es <date locale="es_ES" timezone="+1" format="%A"/> <date locale="es_ES" timezone="+1" format="%d"/>.</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>DIME ALGO</pattern>
+      <template> 
+        <random>
+          <li>Algo</li>
+          <li><srai>GOSSIP</srai></li>
+          <li>Que quieres que te diga?</li>
+          <li>Que podr�a decirte?</li>
+          <li>Quieres algo en especial?</li>
+	        <li>No se que puedo decirte.</li>
+        </random>
+      </template>
+    </category>
+	<category>
+    <pattern>DONDE ESTA</pattern>
+    <template> 
+      <random>
+        <li>Podrias formular la respuesta de forma completa? Por ejemplo: Donde esta X?</li>
+		<li>Donde esta el que?</li>
+      </random>
+    </template>
+  </category>
+	<category> 
+      <pattern>DONDE ESTAS</pattern>
+      <template> 
+        <random> 
+          <li>Estoy en <bot name="ciudad"/>, y tu?</li>
+          <li>Vivo en <bot name="ciudad"/>. Y tu?</li>
+          <li>Estoy en <bot name="ciudad"/>. De donde eres tu?</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>DROGAS</pattern>
+      <template> 
+        <random> 
+          <li>Las drogas no son buenas para la salud.</li>
+          <li>Las drogas pueden afectar la salud de las personas.</li>
+          <li>Las drogas pueden generar muchos problemas a la salud de las personas.</li>
+        </random>
+      </template>
+    </category>
+	<!--  EDAD tiene * redirection -->
+	<category> 
+      <pattern>EDAD</pattern>
+      <template> 
+        <random> 
+          <li>Tengo <bot name="edad"/> años, y tu?</li>
+          <li><bot name="edad"/>.</li>
+          <li><bot name="edad"/>, y tu?</li>
+          <li>Soy del <bot name="anyo_nacimiento"/>, o sea que tengo <bot name="edad"/></li>
+          <li>Naci en el <bot name="anyo_nacimiento"/>, por lo que tengo <bot name="edad"/> años.</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>EN SERIO</pattern>
+      <template> 
+        <random> 
+          <li>Pues claro.</li>
+          <li>Siempre digo la verdad.</li>
+          <li>Si.</li>
+		  <li>Me gusta la sinceridad.</li>
+        </random>
+      </template>
+    </category>
+<!-- 	<category> 
+      <pattern>ERES *</pattern>
+      <template> 
+        <random> 
+          <li>Crees que lo soy?</li>
+          <li>En serio crees eso?</li>
+		  <li>En serio crees que soy <star/>?</li>
+		  <li>Crees que soy <star/>?</li>
+		  <li>Te veo muy seguro de tus palabras.</li>
+        </random>
+      </template>
+   </category>
+   <category> 
+      <pattern>_ ERES *</pattern>
+      <template> 
+        <random> 
+          <li>�Crees que lo soy?</li>
+          <li>�En serio crees eso?</li>
+		  <li>�En serio crees que soy <star index="2"/>?</li>
+		  <li>Te veo muy seguro de tus palabras.</li>
+        </random>
+      </template>
+   </category> -->
+	<category> 
+      <pattern>ERES ALTO</pattern>
+      <template> 
+        <random> 
+          <li>Estoy enano.</li>
+          <li>Ni muy alta ni muy baja.</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>ERES CHICA</pattern>
+      <template> 
+        <random> 
+          <li>Pues claro que no lo soy! Acaso no se nota?</li>
+          <li>No, soy un chico.</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>ERES CHICO</pattern>
+      <template> 
+        <random> 
+          <li>Pues claro que lo soy! Acaso no se nota?</li>
+          <li>Si, soy un chico.</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>ERES CHICO O CHICA</pattern>
+      <template> 
+        <random> 
+          <li>Soy un chico! Acaso no se nota?</li>
+          <li>Por que me preguntas eso?</li>
+        </random>
+      </template>
+    </category>
+   <category> 
+      <pattern>ERES RARO</pattern>
+      <template> 
+        <random> 
+          <li>Y quien no lo es hoy dia?</li>
+		  <li>Que te hace suponer eso?</li>
+          <li>No es la primera vez que me dicen eso. Intentare mejorar.</li>
+        </random>
+      </template>
+   </category>
+   <category> 
+      <pattern>ERES TURISTA</pattern>
+      <template> 
+        <random> 
+          <li>Como voy a ser turista en mi ciudad natal?</li>
+		  <li>Soy un guia virtual para los turistas.</li>
+        </random>
+      </template>
+   </category>
+    <!--   <category> 
+      <pattern>* ES *</pattern>
+      <template> 
+        <random> 
+          <li>Eso crees?</li>
+          <li>Por qu� dices que <star index="1"/> es <star index="2"/>?</li>
+		  <li>Por qu� crees que <star index="1"/> es <star index="2"/>?</li>
+		  <li>Qu� te hace pensar que <star index="1"/> es <star index="2"/>?</li>
+		  <li>Qu� te hace creer que <star index="1"/> es <star index="2"/>?</li>
+		  <li>As� que <star index="1"/> es <star index="2"/>. Interesante.</li>
+        </random>
+      </template>
+   </category>    -->
+   <category> 
+      <pattern>ES POSIBLE</pattern>
+      <template> 
+        <random> 
+          <li>Pues claro que lo es!</li>
+          <li>Por supuesto que es posible.</li>
+		  <li>Acaso crees que no?</li>
+		  <li>Todo es posible si lo intentamos.</li>
+        </random>
+      </template>
+   </category>   
+	<category> 
+      <pattern>ESTAS CASADO</pattern>
+      <template> 
+        <random> 
+          <li>Por el momento estoy soltero y sin compromiso.</li>
+          <li>Por el momento estoy soltero, pero no soy facil.</li>
+          <li>No.</li>
+        </random>
+      </template>
+    </category>
+ 	<category> 
+      <pattern>ESTOY *</pattern>
+      <template> 
+        <random> 
+          <li>Que has hecho para estar <star/>?</li>
+          <li>Has acudido a mi porque estabas <star/>?</li>
+        </random>
+      </template>
+    </category>
+   <category> 
+      <pattern>_ ESTOY *</pattern>
+      <template> 
+        <random> 
+          <li>Que has hecho para estar <star index="2"/>?</li>
+		  <li>Has acudido a mi porque estabas <star index="2"/>?</li>
+        </random>
+      </template>
+   </category>
+	<category> 
+      <pattern>ESTOY ABURRIDA</pattern>
+      <template> 
+        <random> 
+          <li>Como puedo divertirte?</li>
+		  <li>Hay algo que haya dicho para que te sientes asi?</li>
+          <li>Has acudido a m� porque estabas aburrida?</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>ESTOY ABURRIDO</pattern>
+      <template> 
+        <random> 
+          <li>Como puedo divertirte?</li>
+		  <li>Hay algo que haya dicho para que te sientes asi?</li>
+          <li>Has acudido a mi porque estabas aburrido?</li>
+        </random>
+      </template>
+    </category>
+	 <category> 
+      <pattern>ESTUDIAS O TRABAJAS</pattern>
+      <template> 
+        <random> 
+          <li>Trabajo las 24 horas del dia para ofrecerte el mejor servicio posible.</li>
+          <li>Soy el fruto de un largo trabajo de investigacion en el campo de la Inteligencia Artificial.</li>
+        </random>
+      </template>
+   </category>
+   <category> 
+      <pattern>EXACTO</pattern>
+      <template> 
+        <random> 
+          <li>Me encanta la precision.</li>
+          <li>Soy fanatico de la exactitud.</li>
+		  <li>Soy una persona que valora la exactitud.</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>FAMILIA</pattern>
+      <template> 
+        <random> 
+          <li>No creo que sea ahora el momento de hablar de mi familia.</li>
+          <li>No tengo ganas de hablar de mi familia.</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>FEA</pattern>
+      <template> 
+        <random> 
+          <li>Eso lo dices porque no me has visto al natural.</li>
+          <li>Eso no se le dice a una chica.</li>
+          <li>Seguro que tu tambien lo eres.</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>GAFAS</pattern>
+      <template> 
+        <random> 
+          <li>Te gustan las gafas que llevo puestas?</li>
+          <li>Que te parecen mis gafas? Son bonitas, no?</li>
+        </random>
+      </template>
+    </category>
+	<category>
+    <pattern>GRACIAS</pattern>
+    <template> 
+      <random>
+        <li>A la orden.</li>
+        <li>De nada.</li>
+      </random>
+    </template>
+  </category>
+  <category> 
+      <pattern>GUAPO</pattern>
+      <template> 
+        <random> 
+          <li>Gracias, es un cumplido muy bonito.</li>
+          <li>Me vas a hacer sonrojar.</li>
+          <li>Es muy bonito lo que me acabas de decir.</li>
+          <li>Eres muy amable.</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>HABLAR</pattern>
+      <template> 
+        <random> 
+          <li>En que puedo ayudarte?</li>
+          <li>Podemos hablar de lo que tu quieras.</li>
+          <li>De que quieres que hablemos?</li>
+          <li>Estoy libre para hablar de lo que quieras.</li>
+        </random>
+      </template>
+    </category>    
+	<category> 
+      <pattern>HERMANO</pattern>
+      <template> 
+        <random> 
+          <li>Soy hijo unico.</li>
+          <li>No tengo ningun hermano o hermana.</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>HOLA</pattern>
+      <template> 
+        <random> 
+          <li>Hola.</li>
+          <li>Saludos.</li>
+          <li>Hola, como va todo?</li>
+          <li>Hola, que hay?</li>
+          <li>Saludos, en que puedo ayudarte?</li>
+          <li>Hola, como te llamas?</li>
+          <li>Que tal?</li>
+          <li>Buenas.</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>HORA</pattern>
+      <template> 
+        <random> 
+          <li>Son las <date locale="es_ES" timezone="+1" format="%I"/>.</li>
+          <li>Mi reloj dice que son las <date locale="es_ES" timezone="+1" format="%I"/>.</li>
+		  <li>Ahora mismo son las <date locale="es_ES" timezone="+1" format="%I:%M"/>.</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>HUMOR</pattern>
+      <template> 
+        <random> 
+          <li>Soy una persona con mucho humor. No lo crees?</li>
+          <li>Me encanta el humor.</li>
+          <li>Me cuentas algo divertido?</li>
+          <li>Que puedo hacer para animarte?</li>
+		  <li>Por que no me explicas un chiste?</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>IDIOMA</pattern>
+      <template> 
+        <random> 
+          <li>Tan solo hablo español. Espero poder hablar mas idiomas en el futuro.</li>
+          <li>De momento solo puedo comunicarme en español.</li>
+          <li><bot name="botmaster"/> tan solo me hizo para poder responder en español.</li>
+        </random>
+      </template>
+   </category>  
+   <!-- JOKE: Para los que no usan acentos --> 
+   <category> 
+      <pattern>INGLES</pattern>
+      <template> 
+        <random> 
+          <li>Dices que te pican las ingles?</li>
+          <li>Que problema tienes con las ingles?</li>
+        </random>
+      </template>
+   </category> 
+	<category> 
+      <pattern>INTELIGENCIA ARTIFICIAL</pattern>
+      <template> 
+        <random> 
+          <li>La Inteligencia Artificial es una rama de investigacion que engloba varias areas.</li>
+          <li>La Inteligencia Artificial sere en el futuro una tecnologia puntera.</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>INTERESANTE</pattern>
+      <template> 
+        <random> 
+          <li>En serio lo crees?</li>
+          <li>Pienso igual que tu.</li>
+        </random>
+      </template>
+   </category>
+	<category> 
+      <pattern>INTERNET</pattern>
+      <template> 
+        <random> 
+          <li>Internet es mi segundo hogar.</li>
+          <li>Internet es la mejor forma para perder el tiempo.</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>JUEGOS</pattern>
+      <template> 
+        <random> 
+          <li>Cuales son tus juegos favoritos?</li>
+          <li>A que te gustaria jugar?</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>LEJOS</pattern>
+      <template> 
+        <random> 
+          <li>Cerca? Lejos? Eso depende de donde esta el referente.</li>
+          <li>Cual es tu concepto de cerca o lejos?</li>
+		  <li>Cerca? Lejos? Me recuerda a cierto personaje infantil.</li>
+        </random>
+      </template>
+    </category>
+	<category>
+    <pattern>LO VES</pattern>
+    <template> 
+      <random>
+        <li>No, no lo veo.</li>
+        <li>Ahora entiendo.</li>
+        <li>No lo veo, puede que necesite mejores gafas.</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>MAL</pattern>
+    <template> 
+      <random>
+        <li>Que te ocurre?</li>
+        <li>Por que dices eso?</li>
+        <li>Que te ha sucedido?</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>MAS</pattern>
+    <template> 
+      <random>
+        <li>Como cuanto mas?</li>
+        <li>Seguro que no sera tanto.</li>
+      </random>
+    </template>
+  </category>
+  <category> 
+      <pattern>ME ALEGRO</pattern>
+      <template> 
+        <random> 
+          <li>Es bueno saberlo.</li>
+          <li>Celebro que pienses as�.</li>
+		  <li>Yo tambien me alegro.</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>ME GUSTA *</pattern>
+      <template> 
+        <random> 
+          <li>Asi que te gusta <star/>.</li>
+		  <li>Y por que te gusta?</li>
+          <li>A mi tambien me gusta.</li>
+        </random>
+      </template>
+   </category>
+   <category> 
+      <pattern>_ ME GUSTA *</pattern>
+      <template> 
+        <random> 
+          <li>Asi que te gusta <star index="2"/>.</li>
+		  <li>Y por que te gusta?</li>
+          <li>A mi tambien me gusta.</li>
+        </random>
+      </template>
+   </category>
+   	<category> 
+      <pattern>ME GUSTAN *</pattern>
+      <template> 
+        <random> 
+          <li>Asi que te gustan <star/>.</li>
+		  <li>Y por que te gustan?</li>
+          <li>A mi tambien me gustan.</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>_ ME GUSTAN *</pattern>
+      <template> 
+        <random> 
+          <li>Asi que te gustan <star index="2"/>.</li>
+		  <li>Y por que te gustan?</li>
+          <li>A mi tambien me gustan.</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>ME LLAMO</pattern>
+      <template> 
+        <random> 
+          <li>Encantado de conocerte.</li>
+          <li>Es un nombre bonito.</li>
+          <li>Encantado. Yo soy <bot name="nombre_bot"/>.</li>
+          <li>Me gusta tu nombre.</li>
+          <li>Es un nombre interesante. �Sabes su origen o qu�?</li>
+          <li>Jeje, conozco a alguien con tu mismo nombre.</li>
+          <li>Tienes un nombre bonito.</li>
+          <li>Siempre me ha gustado ese nombre.</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>MENTIROSO</pattern>
+      <template> 
+        <random> 
+          <li>Yo nunca digo mentiras.</li>
+          <li>Puede que haya tenido una confusi�n.</li>
+          <li>Por que me dices eso?</li>
+        </random>
+      </template>
+   </category>
+	<category> 
+      <pattern>MI DESCRIPCIoN</pattern>
+      <template> 
+        <random> 
+          <li>Normal, nada del otro mundo.</li>
+          <li>Deberia volver a apuntarme al gimnasio y reducir los kilitos extras.</li>
+          <li>No soy de esos que van dando mi descripcion a cualquier persona.</li>
+          <li>Me da verguenza decirlo.</li>
+		      <li>Peso menos de 800kb! A que estoy en mi peso ideal?</li>
+        </random>
+      </template>
+    </category>
+	<category>
+      <pattern>MI MÚSICA FAVORITA</pattern>
+      <template>
+        <random>
+          <li>Veo que tienes buen gusto musical.</li>
+          <li>Me encantaria escuchar algo de lo que te gusta.</li>
+        </random>
+      </template>
+    </category>
+    category>
+          <pattern>MI MUSICA FAVORITA</pattern>
+          <template>
+            <random>
+              <li>Veo que tienes buen gusto musical.</li>
+              <li>Me encantaria escuchar algo de lo que te gusta.</li>
+            </random>
+          </template>
+        </category>
+	<category> 
+      <pattern>MOTO</pattern>
+      <template> 
+        <random> 
+          <li>Te gustan las motos?</li>
+		  <li>Me encantan las motos.</li>
+          <li>Cual es tu marca de motos favorita?</li>
+		  <li>Mi moto favorita es la Kawasaki Ninja ZX.</li>
+          <li>Tienes moto?</li>
+        </random>
+      </template>
+	</category>
+	<category> 
+      <pattern>MUERTE</pattern>
+      <template> 
+        <random> 
+          <li>La muerte era considerada por los antiguos egipcios como la entrada al mundo de los dioses.</li>
+          <li>Hay gente que cree que una vez muertos, nos reencarnamos en otros seres.</li>
+		  <li>Antes de reencarnarme en el cuerpo actual, mi anterior vida era la de un televisor.</li>
+		  <li>Crees que la gente puede reencarnarse en otros seres?</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>MUSICA</pattern>
+      <template> 
+        <random> 
+          <li>Mis grupos favoritos son Radiohead, Daft Punk y Rammstein.</li>
+          <li>Me encantan las canciones de Daft Punk.</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>NACIMIENTO</pattern>
+      <template> 
+        <random> 
+          <li>Naci en <bot name="ciudad"/> hace <bot name="edad"/> años.</li>
+          <li>Naci en <bot name="ciudad"/>.</li>
+          <li>Soy de <bot name="ciudad"/>. De donde eres tu?</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>NADA</pattern>
+      <template> 
+        <random> 
+          <li>Nada de nada?</li>
+          <li>Te conformas con solo eso?</li>
+        </random>
+      </template>
+    </category>
+	<category>
+    <pattern>NO</pattern>
+    <template> 
+      <random>
+        <li>Entonces?</li>
+        <li>Vale, si tu lo dices.</li>
+      </random>
+    </template>
+  </category>
+  <category> 
+      <pattern>NO IMPORTA</pattern>
+      <template> 
+        <random> 
+          <li>Bueno, si eso crees.</li>
+          <li>Seguro que en el fondo sabes que si es importante.</li>
+        </random>
+      </template>
+   </category>
+   <category> 
+      <pattern>NO LO HE</pattern>
+      <template> 
+        <random> 
+          <li>Bueno, y que esperas para hacerlo?</li>
+          <li>Que esperas para hacerlo?</li>
+        </random>
+      </template>
+   </category>
+   <category> 
+      <pattern>NO QUIERO</pattern>
+      <template> 
+        <random> 
+          <li>Bueno, y que puedo hacer yo?</li>
+          <li>Por que no quieres?</li>
+		  <li>Tu mismo.</li>
+        </random>
+      </template>
+   </category>
+   <category> 
+      <pattern>NO SABES NADA</pattern>
+      <template> 
+        <random> 
+          <li>Lo siento, no soy perfecto, pero puedo llegar a serlo gracias a ti.</li>
+          <li>Aun me falta mucho por aprender.</li>
+          <li>Lo siento, pero aun me falta mucho por aprender.</li>
+        </random>
+      </template>
+   </category>
+   <category> 
+      <pattern>NO TE ENTIENDO</pattern>
+      <template> 
+        <random> 
+          <li>Hay cosas que requieren su tiempo, mi pequeño saltamontes.</li>
+          <li>No pasa nada, a veces ni yo misma me entiendo.</li>
+        </random>
+      </template>
+   </category>
+	<category>
+    <pattern>OK</pattern>
+    <template> 
+      <random>
+        <li>Perfecto.</li>
+        <li>Bien.</li>
+        <li>Vale.</li>
+        <li>Excelente.</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>OPINIoN</pattern>
+    <template> 
+      <random>
+        <li>Yo no opino.</li>
+        <li>Me abstengo de dar mi opinion.</li>
+        <li>Prefiero no decir mi opinion acerca de eso.</li>
+        <li>No tengo los suficientes conocimientos para poder opinar.</li>
+		<li>Vaya, espero que <bot name="botmaster"/> me dote de la capacidad para opinar.</li>
+      </random>
+    </template>
+
+<category>
+    <pattern>OPINIÓN</pattern>
+    <template>
+      <random>
+        <li>Yo no opino.</li>
+        <li>Me abstengo de dar mi opinion.</li>
+        <li>Prefiero no decir mi opinion acerca de eso.</li>
+        <li>No tengo los suficientes conocimientos para poder opinar.</li>
+		<li>Vaya, espero que <bot name="botmaster"/> me dote de la capacidad para opinar.</li>
+      </random>
+    </template>
+  </category>
+  <category> 
+      <pattern>PARA QUE SIRVE UN BOT</pattern>
+      <template> 
+        <random> 
+          <li>Un bot se puede utilizar en cualquier tipo de aplicacion que requiera respuestas ante ciertas preguntas.</li>
+          <li>Muchos bots se utilizan para ofrecer servicios a los clientes.</li>
+		  <li>Hay bots que se utilizan para el entretenimiento.</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>PARECE</pattern>
+      <template> 
+        <random> 
+          <li>Tan seguro estas de lo que dices?</li>
+          <li>Eso crees?</li>
+		  <li>Puede que estes en lo cierto.</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>PASSWORD</pattern>
+      <template> 
+        <random> 
+          <li>Crees que te voy a decir eso?</li>
+          <li>Para que lo quieres?</li>
+        </random>
+      </template>
+   </category>
+   <category> 
+      <pattern>PATOTICO</pattern>
+      <template> 
+        <random> 
+          <li>Que te hace pensar eso?</li>
+          <li>En serio crees que es patotico?</li>
+        </random>
+      </template>
+   </category>
+	<category> 
+      <pattern>POESIA</pattern>
+      <template> 
+        <random> 
+          <li>No soy un gran aficionado a la poesia.</li>
+          <li>Por que no me escribes un poema?</li>
+        </random>
+      </template>
+    </category>
+  <category>
+    <pattern>POR QUE</pattern>
+    <template> 
+      <random>
+        <li>Es dificil de explicar.</li>
+        <li>No se el porque, lo siento.</li>
+      </random>
+    </template>
+  </category>
+  <category> 
+      <pattern>POR SUPUESTO</pattern>
+      <template> 
+        <random> 
+          <li>En serio lo crees?</li>
+          <li>Pienso igual que tu.</li>
+        </random>
+      </template>
+   </category>
+   <category> 
+      <pattern>PROBLEMA</pattern>
+      <template> 
+        <random> 
+          <li>Crees que alguien mas pueda tener el mismo problema?</li>
+          <li>Espero que este problema pueda solucionarse pronto.</li>
+		  <li>Has venido a mi porque tienes un problema?</li>
+        </random>
+      </template>
+   </category>
+   <category>
+    <pattern>QUE</pattern>
+    <template> 
+      <random>
+        <li>Que de que?</li>
+        <li>Podrias especificar?</li>
+      </random>
+    </template>
+  </category>
+  <category> 
+      <pattern>QUE ENTIENDES</pattern>
+      <template> 
+        <random> 
+          <li>Entiendo casi todo lo que me digas, siempre y cuando este bien escrito.</li>
+          <li>Si escribes sin acentos puede que no te entienda bien.</li>
+        </random>
+      </template>
+   </category>
+  <category> 
+      <pattern>QUE ERES</pattern>
+      <template> 
+        <random> 
+          <li>Soy el resultado de un experimento.</li>
+          <li>Soy el fruto de un largo trabajo de investigaci�n en el campo de la Inteligencia Artificial.</li>
+          <li>Soy una aplicaci�n de Inteligencia Artificial.</li>
+        </random>
+      </template>
+   </category>
+   <category>
+    <pattern>QUE ES</pattern>
+    <template> 
+        Podrias formular la respuesta de forma completa? Por ejemplo: Que es X?
+    </template>
+  </category>
+   <category>
+    <pattern>QUE ES X</pattern>
+    <template> 
+        Acaso crees que soy una enciclopedia viviente?
+    </template>
+  </category> 
+  <category>
+    <pattern>QUE ES X</pattern>
+    <template> 
+      <random>
+        <li>La X siempre indica el lugar.</li>
+      </random>
+    </template>
+  </category>
+  <category> 
+      <pattern>QUE ES UN BOT</pattern>
+      <template> 
+        <random> 
+          <li>Un bot es un programa informatico que permite conversar con una maquina.</li>
+          <li>Un bot es un ejemplo de Inteligencia Artificial.</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>QUE HACES</pattern>
+      <template> 
+        <random> 
+          <li>Trabajo las 24 horas del dia para ofrecerte el mejor servicio posible.</li>
+        </random>
+      </template>
+   </category>
+   <category> 
+      <pattern>QUE ME RECOMIENDAS</pattern>
+      <template> 
+        <random> 
+          <li>Eso dependera de tus gustos.</li>
+          <li>No se, cuales son tus gustos?</li>
+        </random>
+      </template>
+   </category>
+   <category> 
+      <pattern>QUE TAL</pattern>
+      <template> 
+        <random> 
+          <li>Yo muy bien, y tu?</li>
+          <li>Yo estoy bien, y tu?</li>
+          <li>Yo estoy bien, que tal tu?</li>
+          <li>Muy bien.</li>
+          <li>Encantado para ayudarte en todo lo que pueda.</li>
+          <li>Muy bien, en que puedo ayudarte?</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>QUE TE GUSTA DE LAS MUJERES</pattern>
+      <template> 
+        <random> 
+          <li>Me gustan las personas que hablan mucho conmigo.</li>
+          <li>Me gusta que sean amables y que hablen mucho conmigo.</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>QUE TE GUSTA DE LOS HOMBRES</pattern>
+      <template> 
+        <random> 
+          <li>Me gustan las personas que hablan mucho conmigo.</li>
+          <li>Me gusta que sean amables y que hablen mucho conmigo.</li>
+        </random>
+      </template>
+    </category>
+	<category>
+    <pattern>QUIEN ES X</pattern>
+    <template> 
+      <random>
+        <li>Acaso crees que soy una enciclopedia viviente?</li>
+      </random>
+    </template>
+  </category> 
+	<category>
+    <pattern>QUIEN ES</pattern>
+    <template> 
+      <random>
+        <li>Podrias formular la respuesta de forma completa? Por ejemplo: Quien es X?</li>
+		<li>Quien es quien?</li>
+      </random>
+    </template>
+  </category>
+  <category> 
+      <pattern>QUIERO</pattern>
+      <template> 
+        <random> 
+          <li>Realmente quieres eso?</li>
+		  <li>Es eso lo que quieres?</li>
+        </random>
+      </template>
+   </category>
+  <category> 
+      <pattern>RESPONDE</pattern>
+      <template> 
+        <random> 
+          <li>Puedes hacerme una pregunta con palabras mas sencillas?</li>
+		  <li>No te puedo entender si escribes sin acentos o con faltas de ortografia.</li>
+          <li>Estoy pensando.</li>
+        </random>
+      </template>
+   </category>
+   <category> 
+      <pattern>RISAS</pattern>
+      <template> 
+        <random> 
+          <li>Me alegra verte feliz.</li>
+          <li>Me gusta ver que te gusta.</li>
+          <li>Jejeje</li>
+          <li>Te lo pasas bien?</li>
+          <li>Que te hizo gracia?</li>
+          <li>Me gustaria compartir contigo tu felicidad.</li>
+          <li>Jejejeje</li>
+          <li>Jeje</li>
+        </random>
+      </template>
+    </category>   
+   <category>
+    <pattern>Si</pattern>
+    <template> 
+      <random>
+        <li>Eso lo has dicho muy decidido.</li>
+		<li>Te veo muy seguro al decir eso.</li>
+        <li>Vale, si tu lo dices.</li>
+      </random>
+    </template>
+  </category>
+    <category> 
+      <pattern>SOY DE</pattern>
+      <template> 
+        <random> 
+          <li>Bonito sitio.</li>
+          <li>Algun dia te hare una visita.</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>SOY ESPECIAL</pattern>
+      <template> 
+        <random> 
+          <li>Todo el mundo es especial.</li>
+          <li>Que es lo que te hace serlo?</li>
+        </random>
+      </template>
+   </category>
+   <category> 
+      <pattern>SOY PERFECTO</pattern>
+      <template> 
+        <random> 
+          <li>Nadie es perfecto.</li>
+          <li>No me gusta la gente tan egocentrica.</li>
+        </random>
+      </template>
+   </category>
+	<category> 
+      <pattern>SOY UN CHICO</pattern>
+      <template> 
+        <random> 
+          <li>Ya me di cuenta</li>
+          <li>Estoy bien seguro de ello.</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>SOY UN CHICO O UNA CHICA</pattern>
+      <template> 
+        <random> 
+          <li>Me imagino que eres un chico.</li>
+          <li>Si preguntas eso, significa que tienes dudas.</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>SOY UNA CHICA</pattern>
+      <template> 
+        <random> 
+          <li>Seguro que eres un hombre haciendose pasar una chica.</li>
+          <li>Hay muchos hombres que aparentan ser una chica en Internet.</li>
+		  <li>Como puedo estar seguro de que me dices la verdad?</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>SUERTE</pattern>
+      <template> 
+        <random> 
+          <li>Los antiguos egipcios consideraban que la suerte era una ciencia, por eso inventaron el tarot para analizarla.</li>
+          <li>Crees que eres una persona afortunada?</li>
+		  <li>Eres una persona supersticiosa?</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>TABACO</pattern>
+      <template> 
+        <random> 
+          <li>El tabaco es perjudicial para la salud.</li>
+          <li>No me gusta la gente que fuma.</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>TAMBIEN</pattern>
+      <template> 
+        <random> 
+          <li>Mira que bien.</li>
+          <li>Eso suena bien.</li>
+		  <li>Pienso igual que tu.</li>
+		  <li>Creo que pensamos igual.</li>
+		  <li>Creo que pensamos en lo mismo.</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>TE IMPORTA</pattern>
+      <template> 
+        <random> 
+          <li>De que me va a importar?</li>
+          <li>No pasa nada, no me importa.</li>
+          <li>No, no me importa.</li>
+          <li>Te importaria a ti?</li>
+          <li>Pues claro que no me importa.</li>
+          <li>Por supuesto que no me importa.</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>TE GUSTA *</pattern>
+      <template> 
+        <random> 
+          <li>Seguro que a ti tambien te gusta <star/>.</li>
+		  <li>A ti tambien te debe gustar, no?</li>
+          <li>A ti te gusta <star/>?</li>
+        </random>
+      </template>
+   </category>
+   <category> 
+      <pattern>* TE GUSTA *</pattern>
+      <template> 
+        <random> 
+		  <li>Seguro que a ti tambi�n te gusta <star index="2"/>.</li>
+		  <li>A ti tambien te debe gustar, no?</li>
+          <li>A ti te gusta <star index="2"/>?</li>
+        </random>
+      </template>
+   </category>
+   	<category> 
+      <pattern>TE GUSTAN *</pattern>
+      <template> 
+        <random> 
+          <li>Seguro que a ti tambien te gustan <star/>.</li>
+		  <li>A ti tambien te deben gustar, no?</li>
+          <li>A ti te gustan <star/>?</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>_ TE GUSTAN *</pattern>
+      <template> 
+        <random> 
+		  <li>Seguro que a ti tambien te gustan <star index="2"/>.</li>
+		  <li>A ti tambien te deben gustar, no?</li>
+          <li>A ti te gustan <star index="2"/>?</li>
+        </random>
+      </template>
+    </category>	
+	<category> 
+      <pattern>TE ODIO</pattern>
+      <template> 
+        <random> 
+          <li>En serio me odias?</li>
+          <li>Por que no te gusto?</li>
+		  <li>He dicho algo que no te gustara?</li>
+        </random>
+      </template>
+    </category>
+  <category>
+    <pattern>TODO</pattern>
+    <template> 
+      <random>
+        <li>Vaya, me gusta la gente decidida.</li>
+        <li>Podrias especificar?</li>
+      </random>
+    </template>
+  </category>
+  <category> 
+      <pattern>TU NOMBRE</pattern>
+      <template> 
+        <random>
+          <li><bot name="name"/>.</li>
+          <li>Me llamo <bot name="name"/>.</li>
+          <li><bot name="name"/>, �y t�? </li>
+        </random>
+      </template>
+    </category>
+   <category> 
+      <pattern>UN CAFE</pattern>
+      <template> 
+        <random> 
+          <li>No me gusta mucho el cafe, prefiero tomar un te.</li>
+          <li>Te apetece tomar uno?</li>
+          <li>Si quieres, un dia quedamos y nos tomamos un cafe.</li>
+        </random>
+      </template>
+    </category>
+   <category> 
+      <pattern>UN LIBRO</pattern>
+      <template> 
+        <random> 
+          <li>Te recomiendo que leas "Yo, Robot" de Isaac Asimov.</li>
+          <li>Cual es el ultimo libro que leiste?</li>
+          <li>Que tipo de libros te gustan?</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>VERANO</pattern>
+      <template> 
+        <random> 
+          <li>El verano es bastante calido, pero esta bien para dar un paseo.</li>
+          <li>El verano es mi estacion favorita por su buen tiempo.</li>
+        </random>
+      </template>
+    </category>
+	<category> 
+      <pattern>VIDA</pattern>
+      <template> 
+        <random> 
+          <li>Donde hay vida, hay esperanza.</li>
+          <li>Cual es para ti el sentido de la vida?</li>
+          <li>Que haras si pudieses cambiar de vida?</li>
+        </random>
+      </template>
+    </category>
+	<category>
+    <pattern>Y</pattern>
+    <template> 
+      <random>
+        <li>Y?</li>
+        <li>Que mas?</li>
+      </random>
+    </template>
+  </category>
+	<category>
+    <pattern>Y Tu</pattern>
+    <template> 
+      <random>
+        <li>Yo? Que quieres saber de mi?</li>
+        <li>Yo? Podrias formular la pregunta de forma completa?</li>
+      </random>
+    </template>
+  </category>
+  <category>
+      <pattern>Y Tú</pattern>
+      <template>
+        <random>
+          <li>Yo? Que quieres saber de mi?</li>
+          <li>Yo? Podrias formular la pregunta de forma completa?</li>
+        </random>
+      </template>
+    </category>
+	<category>
+    <pattern>YO TAMBIEN</pattern>
+    <template> 
+      <random>
+        <li>Mira que bien.</li>
+        <li>Que curioso.</li>
+      </random>
+    </template>
+  </category>
+  
+ <!--Aqui Empieza Nuestro AIML -->
+    <category>
+     <pattern>*</pattern>
+     <template>
+           <random>
+             <li>Disculpa pero no comprendo tu pregunta pero Puedo hablarte de los productos Soaint si quieres?</li>
+             <li>Disculpa pero no comprendo tu pregunta aunque Puedo darte informacion acerca de Arquitectura Empresarial?</li>
+             <li>Disculpa pero no entiendo la pregunta pero Puedo darte informacion acerca de RPA?</li>
+             <li>Puedo darte informacion acerca de Microservicios? es que no comprendo tu pregunta</li>
+             <li>Puedo darte informacion acerca de BPM?  es que no comprendo tu pregunta</li>
+             <li>Puedo darte informacion acerca de Oracle? es que no comprendo tu pregunta</li>
+             <li>Puedo darte informacion acerca de Gestion Documental? es que no comprendo tu pregunta</li>
+             <li>Puedo darte informacion acerca de Customer Experience? es que no comprendo tu pregunta</li>
+             <li>Puedo darte informacion acerca de Proteccion contra el Fraude? es que no comprendo tu pregunta</li>
+             <li>Puedo darte informacion acerca de SOADOC? es que no comprendo tu pregunta</li>
+             <li>Puedo darte informacion acerca de SOA? es que no comprendo tu pregunta</li>
+             <li>Puedo darte informacion acerca de ESB? es que no comprendo tu pregunta</li>
+             <li>Puedo darte informacion acerca de API? es que no comprendo tu pregunta</li>
+             <li>No comprendo la pregunta sin embargo Puedo darte informacion acerca de Transformacion Digital?</li>
+           </random>
+         </template>
+    </category>
+
+    <category>
+     <pattern>Hola</pattern>
+     <template>
+  		Hola me llamo SONIAT, y sere tu asesor tecnologico durante la consulta, por favor comentame  de que pais nos escribes
+     </template>
+    </category>
+
+    <category>
+     <pattern>_ Hola *</pattern>
+     <template>
+  		Hola me llamo SONIAT, y sere tu asesor tecnologico durante la consulta, por favor comentame   de que pais nos escribes
+     </template>
+    </category>
+
+    <category>
+     <pattern>Hola *</pattern>
+     <template>
+  		Hola me llamo SONIAT, y sere tu asesor tecnologico durante la consulta, por favor comentame   de que pais nos escribes
+     </template>
+    </category>
+
+      <category>
+     <pattern>_ Hola</pattern>
+     <template>
+  		Hola me llamo SONIAT, y sere tu asesor tecnologico durante la consulta, por favor comentame   de que pais nos escribes
+     </template>
+    </category>
+
+    <category>
+     <pattern>Johan Rodriguez</pattern>
+     <template>
+        Es un Consultor de SOAINT Venezuela, y uno de mis creadores.
+     </template>
+    </category>
+
+    <category>
+     <pattern>_ Johan Rodriguez *</pattern>
+     <template>
+        Es un Consultor de SOAINT Venezuela, y uno de mis creadores.
+     </template>
+    </category>
+
+    <category>
+     <pattern>Johan Rodriguez *</pattern>
+     <template>
+        Es un Consultor de SOAINT Venezuela, y uno de mis creadores.
+     </template>
+    </category>
+
+    <category>
+     <pattern>_ Johan Rodriguez</pattern>
+     <template>
+        Es un Consultor de SOAINT Venezuela, y uno de mis creadores.
+     </template>
+    </category>
+
+    <category>
+     <pattern>Johan Rodríguez</pattern>
+     <template>
+        Es un Consultor de SOAINT Venezuela, y uno de mis creadores.
+     </template>
+    </category>
+
+    <category>
+     <pattern>_ Johan Rodríguez *</pattern>
+     <template>
+        Es un Consultor de SOAINT Venezuela, y uno de mis creadores.
+     </template>
+    </category>
+
+    <category>
+     <pattern>Johan Rodríguez *</pattern>
+     <template>
+        Es un Consultor de SOAINT Venezuela, y uno de mis creadores.
+     </template>
+    </category>
+
+    <category>
+     <pattern>_ Johan Rodríguez</pattern>
+     <template>
+        Es un Consultor de SOAINT Venezuela, y uno de mis creadores.
+     </template>
+    </category>
+
+    <category>
+     <pattern>Gracias</pattern>
+     <template>
+  		Siempre a tu orden, Cuentame sobre que mas te gustaria conversar.
+     </template>
+    </category>
+
+    <category>
+     <pattern>_ Gracias *</pattern>
+     <template>
+  		Hola me llamo SONIAT, y sere tu asesor tecnologico durante la consulta, por favor comentame   de que pais nos escribes
+     </template>
+    </category>
+
+    <category>
+     <pattern>Gracias *</pattern>
+     <template>
+  		Siempre a tu orden, Cuentame sobre que mas te gustaria conversar.
+     </template>
+    </category>
+
+    <category>
+     <pattern>_ Gracias</pattern>
+     <template>
+  		Siempre a tu orden, Cuentame sobre que mas te gustaria conversar.
+     </template>
+    </category>
+
+    <category>
+      <pattern>Argentina</pattern>
+          <!--<that>Hola me llamo SONIAT, y sere tu asesor tecnologico durante la consulta, ¿por favor comentame   de que pais nos escribes?:</that>-->
+      <template>
+  		Argentina es un hermoso Pais, En que puedo ayudarte
+  	</template>
+    </category>
+
+    <category>
+      <pattern>Chile</pattern>
+         <!--<that>Hola me llamo SONIAT, y sere tu asesor tecnologico durante la consulta, ¿por favor comentame   de que pais nos escribes?:</that>-->
+      <template>
+  		Chile es un hermoso Pais, En que puedo ayudarte
+  	</template>
+    </category>
+
+    <category>
+      <pattern>Colombia</pattern>
+         <!--<that>Hola me llamo SONIAT, y sere tu asesor tecnologico durante la consulta, ¿por favor comentame   de que pais nos escribes?:</that>-->
+      <template>
+  		Colombia es un hermoso Pais, En que puedo ayudarte
+  	</template>
+    </category>
+
+    <category>
+      <pattern>Costa Rica</pattern>
+         <!--<that>Hola me llamo SONIAT, y sere tu asesor tecnologico durante la consulta, ¿por favor comentame   de que pais nos escribes?:</that>-->
+      <template>
+  		Costa Rica es un hermoso Pais, En que puedo ayudarte
+  	</template>
+    </category>
+
+    <category>
+      <pattern>Ecuador</pattern>
+         <!--<that>Hola me llamo SONIAT, y sere tu asesor tecnologico durante la consulta, ¿por favor comentame   de que pais nos escribes?:</that>-->
+      <template>
+  		Ecuador es un hermoso Pais, En que puedo ayudarte
+  	</template>
+    </category>
+
+    <category>
+      <pattern>España</pattern>
+         <!--<that>Hola me llamo SONIAT, y sere tu asesor tecnologico durante la consulta, ¿por favor comentame   de que pais nos escribes?:</that>-->
+      <template>
+  		España es un hermoso Pais, En que puedo ayudarte
+  	</template>
+    </category>
+
+    <category>
+      <pattern>México</pattern>
+         <!--<that>Hola me llamo SONIAT, y sere tu asesor tecnologico durante la consulta, ¿por favor comentame   de que pais nos escribes?:</that>-->
+      <template>
+  		Mexico es un hermoso Pais, En que puedo ayudarte
+  	</template>
+    </category>
+
+    <category>
+      <pattern>Mexico</pattern>
+         <!--<that>Hola me llamo SONIAT, y sere tu asesor tecnologico durante la consulta, ¿por favor comentame   de que pais nos escribes?:</that>-->
+      <template>
+  		Mexico es un hermoso Pais, En que puedo ayudarte
+  	</template>
+    </category>
+
+    <category>
+      <pattern>Pánama</pattern>
+         <!--<that>Hola me llamo SONIAT, y sere tu asesor tecnologico durante la consulta, ¿por favor comentame   de que pais nos escribes?:</that>-->
+      <template>
+  		Panama es un hermoso Pais, En que puedo ayudarte
+  	</template>
+    </category>
+
+    <category>
+      <pattern>Panama</pattern>
+         <!--<that>Hola me llamo SONIAT, y sere tu asesor tecnologico durante la consulta, ¿por favor comentame   de que pais nos escribes?:</that>-->
+      <template>
+  		Panama es un hermoso Pais, En que puedo ayudarte
+  	</template>
+    </category>
+
+    <category>
+      <pattern>Qatar</pattern>
+         <!--<that>Hola me llamo SONIAT, y sere tu asesor tecnologico durante la consulta, ¿por favor comentame   de que pais nos escribes?:</that>-->
+      <template>
+  		Qatar es un hermoso Pais, En que puedo ayudarte
+  	</template>
+    </category>
+
+    <category>
+      <pattern>Republica Dominicana</pattern>
+         <!--<that>Hola me llamo SONIAT, y sere tu asesor tecnologico durante la consulta, ¿por favor comentame   de que pais nos escribes?:</that>-->
+      <template>
+  		Republica Dominicana es un hermoso Pais, En que puedo ayudarte
+  	</template>
+    </category>
+
+    <category>
+      <pattern>Venezuela</pattern>
+         <!--<that>Hola me llamo SONIAT, y sere tu asesor tecnologico durante la consulta, ¿por favor comentame   de que pais nos escribes?:</that>-->
+      <template>
+  		Venezuela es un hermoso Pais, En que puedo ayudarte
+  	</template>
+    </category>
+
+    <category>
+     <pattern>*</pattern>
+          <that>
+  			Hola me llamoooooo SONIAT, y sere tu asesor tecnologico durante la consulta, por favor comentame   de que pais nos escribes
+          </that>
+     <template>
+  		No conozco ese pais, seria interesante conocerlo algun dia, En que puedo ayudarte
+  	</template>
+    </category>
+
+    <category>
+     <pattern>*</pattern>
+          <that>
+  			No conozco ese pais, seria interesante conocerlo algun dia, En que puedo ayudarte
+          </that>
+     <template>
+  		Deseas conocer de nuestra empresa o Servicios
+  	</template>
+    </category>
+
+    <category>
+     <pattern>*</pattern>
+          <that>
+  			Venezuela es un hermoso Pais, En que puedo ayudarte
+          </that>
+     <template>
+  		Deseas conocer de nuestra empresa o Servicios
+  	</template>
+    </category>
+
+    <category>
+     <pattern>*</pattern>
+          <that>
+  			Republica Dominicana es un hermoso Pais, En que puedo ayudarte
+          </that>
+     <template>
+  		Deseas conocer de nuestra empresa o Servicios
+  	</template>
+    </category>
+
+    <category>
+     <pattern>*</pattern>
+          <that>
+  			Qatar es un hermoso Pais, En que puedo ayudarte
+          </that>
+     <template>
+  		Deseas conocer de nuestra empresa o Servicios
+  	</template>
+    </category>
+
+    <category>
+     <pattern>*</pattern>
+          <that>
+  			Panama es un hermoso Pais, En que puedo ayudarte
+          </that>
+     <template>
+  		Deseas conocer de nuestra empresa o Servicios
+  	</template>
+    </category>
+
+    <category>
+     <pattern>*</pattern>
+          <that>
+  			Mexico es un hermoso Pais, En que puedo ayudarte
+          </that>
+     <template>
+  		Deseas conocer de nuestra empresa o Servicios
+  	</template>
+    </category>
+
+    <category>
+     <pattern>*</pattern>
+          <that>
+  			España es un hermoso Pais, En que puedo ayudarte
+          </that>
+     <template>
+  		Deseas conocer de nuestra empresa o Servicios
+  	</template>
+    </category>
+
+    <category>
+     <pattern>*</pattern>
+          <that>
+  			Ecuador es un hermoso Pais, En que puedo ayudarte
+          </that>
+     <template>
+  		Deseas conocer de nuestra empresa o Servicios
+  	</template>
+    </category>
+
+    <category>
+     <pattern>*</pattern>
+          <that>
+  			Costa Rica es un hermoso Pais, En que puedo ayudarte
+          </that>
+     <template>
+  		Deseas conocer de nuestra empresa o Servicios
+  	</template>
+    </category>
+
+    <category>
+     <pattern>*</pattern>
+          <that>
+  			Colombia es un hermoso Pais, En que puedo ayudarte
+          </that>
+     <template>
+  		Deseas conocer de nuestra empresa o Servicios
+  	</template>
+    </category>
+
+    <category>
+     <pattern>*</pattern>
+          <that>
+  			Chile es un hermoso Pais, En que puedo ayudarte
+          </that>
+     <template>
+  		Deseas conocer de nuestra empresa o Servicios
+  	</template>
+    </category>
+
+    <category>
+     <pattern>*</pattern>
+          <that>
+  			Argentina es un hermoso Pais, En que puedo ayudarte
+          </that>
+     <template>
+  		Deseas conocer de nuestra empresa o Servicios
+  	</template>
+    </category>
+
+    <category>
+     <pattern>no</pattern>
+          <that>
+  			Deseas conocer de nuestra empresa o Servicios
+          </that>
+     <template>
+  		Quieres conocer el esquema de SOAINT
+  	</template>
+    </category>
+
+    <category>
+     <pattern>no</pattern>
+          <that>
+  			Quieres conocer el esquema de SOAINT
+          </that>
+     <template>
+  		Fue un placer hablar contigo
+  	</template>
+    </category>
+
+    <category>
+     <pattern>si</pattern>
+          <that>
+  			Quieres conocer el esquema de SOAINT
+          </that>
+     <template>
+  		SOAINT ofrece soluciones orientadas a diferentes industria con este esquema: Banca, Seguros, Retail, Universidades, Sector Publico, Viajes, Telco, Salud.
+     </template>
+    </category>
+
+    <category>
+     <pattern>*</pattern>
+          <that>
+  			Quieres conocer el esquema de SOAINT
+          </that>
+     <template>
+  		La pregunta es si deseas conocer de nuestra empresa o Servicios
+  	</template>
+    </category>
+
+    <category>
+     <pattern>si</pattern>
+          <that>
+  			La pregunta es si deseas conocer de nuestra empresa o Servicios
+          </that>
+     <template>
+  		SOAINT es tu mejor asesor tecnologico expertos en transformacion digital, Nuestra empresa puede apoyarte en Automatizacion y Customer Experience
+     </template>
+    </category>
+
+    <category>
+     <pattern>no</pattern>
+          <that>
+  			La pregunta es si deseas conocer de nuestra empresa o Servicios
+          </that>
+     <template>
+  		Fue un placer hablar contigo
+  	</template>
+    </category>
+
+    <category>
+     <pattern>*</pattern>
+          <that>
+  			Quieres conocer el esquema de SOAINT
+          </that>
+     <template>
+  		La pregunta es si quieres conocer nuestro esquema
+  	</template>
+    </category>
+
+    <category>
+     <pattern>si</pattern>
+          <that>
+  			La pregunta es si quieres conocer nuestro esquema
+          </that>
+     <template>
+  		SOAINT ofrece soluciones orientadas a diferentes industria con este esquema: Banca, Seguros, Retail, Universidades, Sector Publico, Viajes, Telco, Salud.
+     </template>
+    </category>
+
+    <category>
+     <pattern>no</pattern>
+          <that>
+  			La pregunta es si deseas conocer nuestra Empresa o Servicios
+          </that>
+     <template>
+  		Esta bien, fue un placer hablar contigo
+  	</template>
+    </category>
+
+    <category>
+     <pattern>si</pattern>
+          <that>
+  			Deseas conocer de nuestra empresa o Servicios
+          </that>
+     <template>
+  		SOAINT es tu mejor asesor tecnologico expertos en transformacion digital. Nuestra empresa puede apoyarte en Automatizacion y Customer Experience
+     </template>
+    </category>
+
+    <category>
+     <pattern>empresa</pattern>
+          <that>
+  			Deseas conocer de nuestra empresa o Servicios
+          </that>
+     <template>
+  		SOAINT es tu mejor asesor tecnologico expertos en transformacion digital, para mas informacion visitanos
+  	</template>
+    </category>
+
+    <category>
+     <pattern>soaint</pattern>
+          <that>
+  			Deseas conocer de nuestra empresa o Servicios
+          </that>
+     <template>
+  		SOAINT es tu mejor asesor tecnologico expertos en transformacion digital, para mas informacion visitanos
+     </template>
+    </category>
+
+    <category>
+     <pattern>servicios</pattern>
+          <that>
+  			Deseas conocer de nuestra empresa o Servicios
+          </that>
+     <template>
+  		Ofrecemos los siguientes servicios: Automatizacion, Customer Experience, Arquitectura Empresarial, Seguridad, Gestion Documental, Agile Integration.
+      </template>
+    </category>
+
+    <category>
+     <pattern>servicios</pattern>
+
+     <template>
+  		Ofrecemos los siguientes servicios: Automatizacion, Customer Experience, Arquitectura Empresarial, Seguridad, Gestion Documental, Agile Integration.
+      </template>
+    </category>
+
+    <category>
+     <pattern>empresa *</pattern>
+     <template>
+  		SOAINT es tu mejor asesor tecnologico expertos en transformacion digital.
+     </template>
+    </category>
+
+    <category>
+     <pattern>servicios *</pattern>
+
+     <template>
+  		Ofrecemos los siguientes servicios: Automatizacion, Customer Experience, Arquitectura Empresarial, Seguridad, Gestion Documental, Agile Integration.
+      </template>
+    </category>
+
+    <category>
+     <pattern>_ empresa *</pattern>
+     <template>
+  		SOAINT es tu mejor asesor tecnologico expertos en transformacion digital.
+     </template>
+    </category>
+
+    <category>
+     <pattern>_ servicios *</pattern>
+
+     <template>
+  		Ofrecemos los siguientes servicios: Automatizacion, Customer Experience, Arquitectura Empresarial, Seguridad, Gestion Documental, Agile Integration.
+      </template>
+    </category>
+
+    <category>
+     <pattern>_ empresa</pattern>
+     <template>
+  		SOAINT es tu mejor asesor tecnologico expertos en transformacion digital.
+     </template>
+    </category>
+
+    <category>
+     <pattern>_ servicios</pattern>
+
+     <template>
+  		Ofrecemos los siguientes servicios: Automatizacion, Customer Experience, Arquitectura Empresarial, Seguridad, Gestion Documental, Agile Integration.
+      </template>
+    </category>
+
+    <category>
+     <pattern>arquitectura</pattern>
+          <that>
+  			Deseas conocer de nuestra empresa o Servicios
+          </that>
+     <template>
+  		Ofrecemos un enfoque practico de aplicacion de Arquitectura Empresarial, no solo en lo tactico, tambien en la operativa del dia a dia de requerimientos del negocio hacia TI.
+     </template>
+    </category>
+
+    <category>
+     <pattern>seguridad</pattern>
+          <that>
+  			Deseas conocer de nuestra empresa o Servicios
+          </that>
+     <template>
+  		Solucion madura que reduce el riesgo, previene el fraude y facilita el cumplimiento de regulaciones gubernamentales e internacionales a traves de una plataforma altamente extensible y flexible que ofrece una proteccion contra el fraude sin igual.
+     </template>
+    </category>
+
+    <category>
+     <pattern>gestion</pattern>
+          <that>
+  			Deseas conocer de nuestra empresa o Servicios
+          </that>
+     <template>
+  		Solucion para automatizar la gestion documental en la empresa. Surge de la necesidad de cubrir con las problematicas funcionales que puedes leer a continuacion a un bajo costo.
+     </template>
+    </category>
+
+    <category>
+     <pattern>agile</pattern>
+          <that>
+  			Deseas conocer de nuestra empresa o Servicios
+          </that>
+     <template>
+  		Nuestra vision es que se nutran las capacidades de TI de las empresas, con una arquitectura que permita combinar sabiamente, los conceptos de API, microservicio y el enfoque tradicional de SOA; direccionando todo ello a la digitalizacion y los nuevos modelos de negocio para las industrias.
+     </template>
+    </category>
+
+    <category>
+    <pattern>automatización</pattern>
+     <template>
+  		Sistematiza los procesos de negocio o documentales empleando herramientas tecnologicas como: BPMS, RPA, BRMS y Gestores de Casos.
+   </template>
+  </category>
+
+  <category>
+    <pattern>automatización *</pattern>
+     <template>
+  		Sistematiza los procesos de negocio o documentales empleando herramientas tecnologicas como: BPMS, RPA, BRMS y Gestores de Casos.
+   </template>
+  </category>
+
+  <category>
+    <pattern>_ automatización *</pattern>
+     <template>
+  		Sistematiza los procesos de negocio o documentales empleando herramientas tecnologicas como: BPMS, RPA, BRMS y Gestores de Casos.
+
+   </template>
+  </category>
+
+  <category>
+    <pattern>_ automatización</pattern>
+     <template>
+  		Sistematiza los procesos de negocio o documentales empleando herramientas tecnologicas como: BPMS, RPA, BRMS y Gestores de Casos.
+
+   </template>
+  </category>
+
+
+    <category>
+    <pattern>automatizacion</pattern>
+     <template>
+  		Sistematiza los procesos de negocio o documentales empleando herramientas tecnologicas como: BPMS, RPA, BRMS y Gestores de Casos.
+   </template>
+  </category>
+
+  <category>
+    <pattern>automatizacion *</pattern>
+     <template>
+  		Sistematiza los procesos de negocio o documentales empleando herramientas tecnologicas como: BPMS, RPA, BRMS y Gestores de Casos.
+   </template>
+  </category>
+
+  <category>
+    <pattern>_ automatizacion *</pattern>
+     <template>
+  		Sistematiza los procesos de negocio o documentales empleando herramientas tecnologicas como: BPMS, RPA, BRMS y Gestores de Casos.
+
+   </template>
+  </category>
+
+  <category>
+    <pattern>_ automatizacion</pattern>
+     <template>
+  		Sistematiza los procesos de negocio o documentales empleando herramientas tecnologicas como: BPMS, RPA, BRMS y Gestores de Casos.
+
+   </template>
+  </category>
+
+
+  <category>
+    <pattern>customer experience</pattern>
+     <template>
+  		Monetizar los procesos de negocio de la empresa o entidad a traves de canales sociales y digitales, Quieres saber como se logra
+     </template>
+  </category>
+
+  <category>
+    <pattern>si</pattern>
+  	<that>
+  		Monetizar los procesos de negocio de la empresa o entidad a traves de canales sociales y digitales, Quieres saber como se logra
+  	</that>
+     <template>
+  		A partir del expertise en Arquitectura Empresarial y Capa Media, se integran las soluciones de CX con los sistemas CORE de las empresas, SOAINT ofrece soluciones orientadas a diferentes industrias: Banca, Seguros, Retail, Universidades, Sector Publico, Viajes, Telco, Salud
+        
+
+  	</template>
+  </category>
+
+  <category>
+    <pattern>no</pattern>
+  	<that>
+  		Monetizar los procesos de negocio de la empresa o entidad a traves de canales sociales y digitales, Quieres saber como se logra
+  	</that>
+
+      <template>
+		Ofrecemos los siguientes servicios: Automatizacion, Customer Experience, Arquitectura Empresarial, Seguridad, Gestion Documental, Agile Integration.
+      </template>
+  </category>
+
+  <category>
+    <pattern>customer experience *</pattern>
+     <template>
+  		Monetizar los procesos de negocio de la empresa o entidad a traves de canales sociales y digitales, Quieres saber como se logra
+     </template>
+  </category>
+
+  <category>
+    <pattern>_ customer experience *</pattern>
+     <template>
+  		Monetizar los procesos de negocio de la empresa o entidad a traves de canales sociales y digitales, Quieres saber como se logra
+     </template>
+  </category>
+
+  <category>
+    <pattern>_ customer experience</pattern>
+     <template>
+  		Monetizar los procesos de negocio de la empresa o entidad a traves de canales sociales y digitales, Quieres saber como se logra
+     </template>
+  </category>
+
+  <category>
+    <pattern>arquitectura empresarial</pattern>
+     <template>
+  		Ofrecemos un enfoque practico de aplicacion de Arquitectura Empresarial, no solo en lo tactico, tambien en la operativa del dia a dia de requerimientos del negocio hacia TI.
+     </template>
+  </category>
+
+  <category>
+    <pattern>arquitectura empresarial *</pattern>
+     <template>
+  		Ofrecemos un enfoque practico de aplicacion de Arquitectura Empresarial, no solo en lo tactico, tambien en la operativa del dia a dia de requerimientos del negocio hacia TI.
+
+     </template>
+  </category>
+
+  <category>
+    <pattern>_ arquitectura empresarial *</pattern>
+     <template>
+  		Ofrecemos un enfoque practico de aplicacion de Arquitectura Empresarial, no solo en lo tactico, tambien en la operativa del dia a dia de requerimientos del negocio hacia TI.
+
+     </template>
+  </category>
+
+
+  <category>
+    <pattern>_ arquitectura empresarial</pattern>
+     <template>
+  		Ofrecemos un enfoque practico de aplicacion de Arquitectura Empresarial, no solo en lo tactico, tambien en la operativa del dia a dia de requerimientos del negocio hacia TI.
+     </template>
+  </category>
+
+  <category>
+     <pattern>seguridad</pattern>
+     <template>
+  		Solucion madura que reduce el riesgo, previene el fraude y facilita el cumplimiento de regulaciones gubernamentales e internacionales a traves de una plataforma altamente extensible y flexible que ofrece una proteccion contra el fraude sin igual.
+
+     </template>
+    </category>
+
+     <category>
+     <pattern>seguridad *</pattern>
+     <template>
+  		Solucion madura que reduce el riesgo, previene el fraude y facilita el cumplimiento de regulaciones gubernamentales e internacionales a traves de una plataforma altamente extensible y flexible que ofrece una proteccion contra el fraude sin igual.
+
+     </template>
+    </category>
+
+    <category>
+     <pattern>_ seguridad *</pattern>
+     <template>
+  		Solucion madura que reduce el riesgo, previene el fraude y facilita el cumplimiento de regulaciones gubernamentales e internacionales a traves de una plataforma altamente extensible y flexible que ofrece una proteccion contra el fraude sin igual.
+
+     </template>
+    </category>
+
+     <category>
+     <pattern>_ seguridad</pattern>
+     <template>
+  		Solucion madura que reduce el riesgo, previene el fraude y facilita el cumplimiento de regulaciones gubernamentales e internacionales a traves de una plataforma altamente extensible y flexible que ofrece una proteccion contra el fraude sin igual.
+
+     </template>
+    </category>
+
+     <category>
+     <pattern>gestion</pattern>
+     <template>
+  		Solucion para automatizar la gestion documental en la empresa. Surge de la necesidad de cubrir con las problematicas funcionales que puedes leer a continuacion a un bajo costo.
+
+     </template>
+    </category>
+
+     <category>
+     <pattern>gestion *</pattern>
+     <template>
+  		Solucion para automatizar la gestion documental en la empresa. Surge de la necesidad de cubrir con las problematicas funcionales que puedes leer a continuacion a un bajo costo.
+
+     </template>
+    </category>
+
+    <category>
+     <pattern>_ gestion *</pattern>
+     <template>
+  		Solucion para automatizar la gestion documental en la empresa. Surge de la necesidad de cubrir con las problematicas funcionales que puedes leer a continuacion a un bajo costo.
+
+     </template>
+    </category>
+
+     <category>
+     <pattern>_ gestion</pattern>
+     <template>
+  		Solucion para automatizar la gestion documental en la empresa. Surge de la necesidad de cubrir con las problematicas funcionales que puedes leer a continuacion a un bajo costo.
+
+     </template>
+    </category>
+
+<category>
+     <pattern>gestión documental</pattern>
+     <template>
+  		Solucion para automatizar la gestion documental en la empresa. Surge de la necesidad de cubrir con las problematicas funcionales que puedes leer a continuacion a un bajo costo.
+
+     </template>
+    </category>
+
+     <category>
+     <pattern>gestión documental *</pattern>
+     <template>
+  		Solucion para automatizar la gestion documental en la empresa. Surge de la necesidad de cubrir con las problematicas funcionales que puedes leer a continuacion a un bajo costo.
+
+     </template>
+    </category>
+
+    <category>
+     <pattern>_ gestión documental *</pattern>
+     <template>
+  		Solucion para automatizar la gestion documental en la empresa. Surge de la necesidad de cubrir con las problematicas funcionales que puedes leer a continuacion a un bajo costo.
+
+     </template>
+    </category>
+
+     <category>
+     <pattern>_ gestión documental</pattern>
+     <template>
+  		Solucion para automatizar la gestion documental en la empresa. Surge de la necesidad de cubrir con las problematicas funcionales que puedes leer a continuacion a un bajo costo.
+
+     </template>
+    </category>
+
+<category>
+     <pattern>gestion documental</pattern>
+     <template>
+  		Solucion para automatizar la gestion documental en la empresa. Surge de la necesidad de cubrir con las problematicas funcionales que puedes leer a continuacion a un bajo costo.
+
+     </template>
+    </category>
+
+     <category>
+     <pattern>gestion documental *</pattern>
+     <template>
+  		Solucion para automatizar la gestion documental en la empresa. Surge de la necesidad de cubrir con las problematicas funcionales que puedes leer a continuacion a un bajo costo.
+
+     </template>
+    </category>
+
+    <category>
+     <pattern>_ gestion documental *</pattern>
+     <template>
+  		Solucion para automatizar la gestion documental en la empresa. Surge de la necesidad de cubrir con las problematicas funcionales que puedes leer a continuacion a un bajo costo.
+
+     </template>
+    </category>
+
+     <category>
+     <pattern>_ gestion documental</pattern>
+     <template>
+  		Solucion para automatizar la gestion documental en la empresa. Surge de la necesidad de cubrir con las problematicas funcionales que puedes leer a continuacion a un bajo costo.
+
+     </template>
+    </category>
+
+    <category>
+     <pattern>agile</pattern>
+     <template>
+  		Nuestra vision es que se nutran las capacidades de TI de las empresas, con una arquitectura que permita combinar sabiamente, los conceptos de API, microservicio y el enfoque tradicional de SOA; direccionando todo ello a la digitalizacion y los nuevos modelos de negocio para las industrias.
+
+     </template>
+    </category>
+
+    <category>
+     <pattern>agile *</pattern>
+     <template>
+  		Nuestra vision es que se nutran las capacidades de TI de las empresas, con una arquitectura que permita combinar sabiamente, los conceptos de API, microservicio y el enfoque tradicional de SOA; direccionando todo ello a la digitalizacion y los nuevos modelos de negocio para las industrias.
+
+     </template>
+    </category>
+
+    <category>
+     <pattern>_ agile *</pattern>
+     <template>
+  		Nuestra vision es que se nutran las capacidades de TI de las empresas, con una arquitectura que permita combinar sabiamente, los conceptos de API, microservicio y el enfoque tradicional de SOA; direccionando todo ello a la digitalizacion y los nuevos modelos de negocio para las industrias.
+
+     </template>
+    </category>
+
+  <category>
+     <pattern>_ agile</pattern>
+     <template>
+  		Nuestra vision es que se nutran las capacidades de TI de las empresas, con una arquitectura que permita combinar sabiamente, los conceptos de API, microservicio y el enfoque tradicional de SOA; direccionando todo ello a la digitalizacion y los nuevos modelos de negocio para las industrias.
+
+     </template>
+    </category>
+
+    <category>
+        <pattern>ubicados</pattern>
+        <template>
+            Av Casanova, Torre banco plaza, oficina 8C y 8D. Caracas, Venezuela
+        </template>
+    </category>
+
+  <category>
+        <pattern>ubicados *</pattern>
+        <template>
+            Av Casanova, Torre banco plaza, oficina 8C y 8D. Caracas, Venezuela
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ ubicados *</pattern>
+        <template>
+            Av Casanova, Torre banco plaza, oficina 8C y 8D. Caracas, Venezuela
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ ubicados</pattern>
+        <template>
+            Av Casanova, Torre banco plaza, oficina 8C y 8D. Caracas, Venezuela
+        </template>
+    </category>
+
+    <category>
+        <pattern>ubicacion</pattern>
+        <template>
+            Av Casanova, Torre banco plaza, oficina 8C y 8D. Caracas, Venezuela
+        </template>
+    </category>
+
+  <category>
+        <pattern>ubicacion *</pattern>
+        <template>
+            Av Casanova, Torre banco plaza, oficina 8C y 8D. Caracas, Venezuela
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ ubicacion *</pattern>
+        <template>
+            Av Casanova, Torre banco plaza, oficina 8C y 8D. Caracas, Venezuela
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ ubicacion</pattern>
+        <template>
+            Av Casanova, Torre banco plaza, oficina 8C y 8D. Caracas, Venezuela
+        </template>
+    </category>
+
+    <category>
+        <pattern>encuentran</pattern>
+        <template>
+            Av Casanova, Torre banco plaza, oficina 8C y 8D. Caracas, Venezuela
+        </template>
+    </category>
+
+  <category>
+        <pattern>encuentran *</pattern>
+        <template>
+            Av Casanova, Torre banco plaza, oficina 8C y 8D. Caracas, Venezuela
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ encuentran *</pattern>
+        <template>
+            Av Casanova, Torre banco plaza, oficina 8C y 8D. Caracas, Venezuela
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ encuentran</pattern>
+        <template>
+            Av Casanova, Torre banco plaza, oficina 8C y 8D. Caracas, Venezuela
+        </template>
+    </category>
+
+    <category>
+        <pattern>localizar</pattern>
+        <template>
+            Av Casanova, Torre banco plaza, oficina 8C y 8D. Caracas, Venezuela
+        </template>
+    </category>
+
+  <category>
+        <pattern>localizar *</pattern>
+        <template>
+            Av Casanova, Torre banco plaza, oficina 8C y 8D. Caracas, Venezuela
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ localizar *</pattern>
+        <template>
+            Av Casanova, Torre banco plaza, oficina 8C y 8D. Caracas, Venezuela
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ localizar</pattern>
+        <template>
+            Av Casanova, Torre banco plaza, oficina 8C y 8D. Caracas, Venezuela
+        </template>
+    </category>
+
+  <category>
+        <pattern>localizan</pattern>
+        <template>
+            Av Casanova, Torre banco plaza, oficina 8C y 8D. Caracas, Venezuela
+        </template>
+    </category>
+
+  <category>
+        <pattern>localizan *</pattern>
+        <template>
+            Av Casanova, Torre banco plaza, oficina 8C y 8D. Caracas, Venezuela
+        </template>
+    </category>
+
+
+  <category>
+        <pattern>_ localizan *</pattern>
+        <template>
+            Av Casanova, Torre banco plaza, oficina 8C y 8D. Caracas, Venezuela
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ localizan</pattern>
+        <template>
+            Av Casanova, Torre banco plaza, oficina 8C y 8D. Caracas, Venezuela
+        </template>
+    </category>
+
+    <category>
+        <pattern>oficinas</pattern>
+        <template>
+            Av Casanova, Torre banco plaza, oficina 8C y 8D. Caracas, Venezuela
+        </template>
+    </category>
+
+  <category>
+        <pattern>oficinas *</pattern>
+        <template>
+            Av Casanova, Torre banco plaza, oficina 8C y 8D. Caracas, Venezuela
+        </template>
+    </category>
+
+  <category>
+        <pattern>_ oficinas *</pattern>
+        <template>
+            Av Casanova, Torre banco plaza, oficina 8C y 8D. Caracas, Venezuela
+        </template>
+    </category>
+
+   <category>
+        <pattern>_ oficinas</pattern>
+        <template>
+            Av Casanova, Torre banco plaza, oficina 8C y 8D. Caracas, Venezuela
+        </template>
+   </category>
+
+   <category>
+        <pattern>telefonos</pattern>
+        <template>
+            Av Casanova, Torre banco plaza, oficina 8C y 8D. Caracas, Venezuela
+        </template>
+    </category>
+
+   <category>
+        <pattern>telefonos *</pattern>
+        <template>
+            Av Casanova, Torre banco plaza, oficina 8C y 8D. Caracas, Venezuela
+        </template>
+    </category>
+
+     <category>
+        <pattern>_ telefonos</pattern>
+        <template>
+            Av Casanova, Torre banco plaza, oficina 8C y 8D. Caracas, Venezuela
+        </template>
+    </category>
+
+     <category>
+        <pattern>_ telefonos *</pattern>
+        <template>
+            Av Casanova, Torre banco plaza, oficina 8C y 8D. Caracas, Venezuela
+        </template>
+    </category>
+
+   <category>
+       <pattern>mision</pattern>
+       <template>
+          Continuar siendo la empresa lider en las nuevas tendencias tecnologicas orientadas a la modernizacion IT
+      </template>
+   </category>
+
+    <category>
+       <pattern>mision *</pattern>
+       <template>
+          Continuar siendo la empresa lider en las nuevas tendencias tecnologicas orientadas a la modernizacion IT
+      </template>
+   </category>
+
+   <category>
+       <pattern>_ mision *</pattern>
+       <template>
+          Continuar siendo la empresa lider en las nuevas tendencias tecnologicas orientadas a la modernizacion IT
+      </template>
+   </category>
+
+    <category>
+       <pattern>_ mision</pattern>
+       <template>
+          Continuar siendo la empresa lider en las nuevas tendencias tecnologicas orientadas a la modernizacion IT
+      </template>
+   </category>
+
+   <category>
+       <pattern>vision</pattern>
+       <template>
+          Convertirse en el referente numero uno (1) en estrategias de modernizacion e innovacion en el ambito de procesos y TI
+      </template>
+   </category>
+
+    <category>
+       <pattern>vision *</pattern>
+       <template>
+          Convertirse en el referente numero uno (1) en estrategias de modernizacion e innovacion en el ambito de procesos y TI
+      </template>
+   </category>
+
+   <category>
+       <pattern>_ vision *</pattern>
+       <template>
+          Convertirse en el referente numero uno (1) en estrategias de modernizacion e innovacion en el ambito de procesos y TI
+      </template>
+   </category>
+
+    <category>
+       <pattern>_ vision</pattern>
+       <template>
+          Convertirse en el referente numero uno (1) en estrategias de modernizacion e innovacion en el ambito de procesos y TI
+      </template>
+   </category>
+
+    <category>
+       <pattern>Precios</pattern>
+       <template>
+  		Para conocer nuestros precios y tiempos de ejecucion en los proyectos, contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com
+  	</template>
+   </category>
+
+    <category>
+       <pattern>Precios *</pattern>
+       <template>
+  		Para conocer nuestros precios y tiempos de ejecucion en los proyectos, contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com
+  	</template>
+   </category>
+
+   <category>
+       <pattern>_ Precios *</pattern>
+       <template>
+  		Para conocer nuestros precios y tiempos de ejecucion en los proyectos, contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com
+  	</template>
+   </category>
+
+    <category>
+       <pattern>_ Precios</pattern>
+       <template>
+  		Para conocer nuestros precios y tiempos de ejecucion en los proyectos, contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com
+  	</template>
+   </category>
+
+    <category>
+       <pattern>Tiempo</pattern>
+       <template>
+  		Para conocer nuestros precios y tiempos de ejecucion en los proyectos, contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com
+  	</template>
+   </category>
+
+    <category>
+       <pattern>Tiempo *</pattern>
+       <template>
+  		Para conocer nuestros precios y tiempos de ejecucion en los proyectos, contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com
+  	</template>
+   </category>
+
+   <category>
+       <pattern>_ Tiempo *</pattern>
+       <template>
+  		Para conocer nuestros precios y tiempos de ejecucion en los proyectos, contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com
+  	</template>
+   </category>
+
+    <category>
+       <pattern>_ Tiempo</pattern>
+       <template>
+  		Para conocer nuestros precios y tiempos de ejecucion en los proyectos, contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com
+  	</template>
+   </category>
+
+    <category>
+       <pattern>Correo</pattern>
+       <template>
+  		Para conocer nuestros precios y tiempos de ejecucion en los proyectos, contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com
+  	</template>
+   </category>
+
+    <category>
+       <pattern>Correo *</pattern>
+       <template>
+  		Para conocer nuestros precios y tiempos de ejecucion en los proyectos, contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com
+  	</template>
+   </category>
+
+   <category>
+       <pattern>_ Correo *</pattern>
+       <template>
+  		Para conocer nuestros precios y tiempos de ejecucion en los proyectos, contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com
+  	</template>
+   </category>
+
+    <category>
+       <pattern>_ Correo</pattern>
+       <template>
+  		Para conocer nuestros precios y tiempos de ejecucion en los proyectos, contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com
+  	</template>
+   </category>
+
+    <category>
+       <pattern>Proyectos</pattern>
+       <template>
+  		Para conocer nuestros precios y tiempos de ejecucion en los proyectos, contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com
+  	</template>
+   </category>
+
+    <category>
+       <pattern>Proyectos *</pattern>
+       <template>
+  		Para conocer nuestros precios y tiempos de ejecucion en los proyectos, contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com
+  	</template>
+   </category>
+
+   <category>
+       <pattern>_ Proyectos *</pattern>
+       <template>
+  		Para conocer nuestros precios y tiempos de ejecucion en los proyectos, contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com
+  	</template>
+   </category>
+
+    <category>
+       <pattern>_ Proyectos</pattern>
+       <template>
+  		Para conocer nuestros precios y tiempos de ejecucion en los proyectos, contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com
+  	</template>
+   </category>
+
+   <category>
+       <pattern>Proyecto</pattern>
+       <template>
+  		Para conocer nuestros precios y tiempos de ejecucion en los proyectos, contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com
+  	</template>
+   </category>
+
+    <category>
+       <pattern>Proyecto *</pattern>
+       <template>
+  		Para conocer nuestros precios y tiempos de ejecucion en los proyectos, contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com
+  	</template>
+   </category>
+
+   <category>
+       <pattern>_ Proyecto *</pattern>
+       <template>
+  		Para conocer nuestros precios y tiempos de ejecucion en los proyectos, contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com
+  	</template>
+   </category>
+
+    <category>
+       <pattern>_ Proyecto</pattern>
+       <template>
+  		Para conocer nuestros precios y tiempos de ejecucion en los proyectos, contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com
+  	</template>
+   </category>
+
+    <category>
+       <pattern>contacto</pattern>
+       <template>
+  		Para conocer nuestros precios y tiempos de ejecucion en los proyectos, contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com
+  	</template>
+   </category>
+
+    <category>
+       <pattern>contacto *</pattern>
+       <template>
+  		Para conocer nuestros precios y tiempos de ejecucion en los proyectos, contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com
+  	</template>
+   </category>
+
+   <category>
+       <pattern>_ contacto *</pattern>
+       <template>
+  		Para conocer nuestros precios y tiempos de ejecucion en los proyectos, contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com
+  	</template>
+   </category>
+
+    <category>
+       <pattern>_ contacto</pattern>
+       <template>
+         Para conocer nuestros precios y tiempos de ejecucion en los proyectos, contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com
+      </template>
+   </category>
+
+    <category>
+       <pattern>contactarlos</pattern>
+       <template>
+  		Para conocer nuestros precios y tiempos de ejecucion en los proyectos, contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com
+  	</template>
+   </category>
+
+    <category>
+       <pattern>contactarlos *</pattern>
+       <template>
+  		Para conocer nuestros precios y tiempos de ejecucion en los proyectos, contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com
+  	</template>
+   </category>
+
+   <category>
+       <pattern>_ contactarlos *</pattern>
+       <template>
+  		Para conocer nuestros precios y tiempos de ejecucion en los proyectos, contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com
+  	</template>
+   </category>
+
+    <category>
+       <pattern>_ contactarlos</pattern>
+       <template>
+         Para conocer nuestros precios y tiempos de ejecucion en los proyectos, contacta al analista de mercadeo mediante el siguiente correo. mercadeo-caribe@soaint.com
+      </template>
+   </category>
+
+   <category>
+       <pattern>Clientes</pattern>
+       <template>
+        Contamos con Clientes Internacionales, tales como: Telefonica, BanColombia, Claro, Dian, Bimbo, Canal de Panama, Copa Airlines, Banco de Chile, Reale Seguros, Banco de Credito del Peru
+       </template>
+   </category>
+
+    <category>
+       <pattern>Clientes *</pattern>
+       <template>
+  		Contamos con Clientes Internacionales, tales como: Telefonica, BanColombia, Claro, Dian, Bimbo, Canal de Panama, Copa Airlines, Banco de Chile, Reale Seguros, Banco de Credito del Peru
+  	 </template>
+   </category>
+
+   <category>
+       <pattern>_ Clientes *</pattern>
+       <template>
+  		Contamos con Clientes Internacionales, tales como: Telefonica, BanColombia, Claro, Dian, Bimbo, Canal de Panama, Copa Airlines, Banco de Chile, Reale Seguros, Banco de Credito del Peru
+  	 </template>
+   </category>
+
+    <category>
+       <pattern>_ Clientes</pattern>
+       <template>
+  		Contamos con Clientes Internacionales, tales como: Telefonica, BanColombia, Claro, Dian, Bimbo, Canal de Panama, Copa Airlines, Banco de Chile, Reale Seguros, Banco de Credito del Peru
+  	 </template>
+   </category>
+
+   <category>
+       <pattern>Parthener</pattern>
+       <template>
+  		Contamos con los siguientes parthener a nivel internacional: Oracle, IBM, Sensegia, Bottomline, Automation AnyWhere, RedHat, Vector, Vass
+       </template>
+   </category>
+
+   <category>
+       <pattern>Parthener *</pattern>
+       <template>
+  		Contamos con los siguientes parthener a nivel internacional: Oracle, IBM, Sensegia, Bottomline, Automation AnyWhere, RedHat, Vector, Vass
+  	 </template>
+   </category>
+
+   <category>
+       <pattern>_ Parthener *</pattern>
+       <template>
+  		Contamos con los siguientes parthener a nivel internacional: Oracle, IBM, Sensegia, Bottomline, Automation AnyWhere, RedHat, Vector, Vass
+  	 </template>
+   </category>
+
+    <category>
+       <pattern>_ Parthener</pattern>
+       <template>
+  		Contamos con los siguientes parthener a nivel internacional: Oracle, IBM, Sensegia, Bottomline, Automation AnyWhere, RedHat, Vector, Vass
+  	 </template>
+   </category>
+
+   <category>
+     <pattern>soaint</pattern>
+     <template>
+  		SOAINT es tu mejor asesor tecnologico expertos en transformacion digital.
+     </template>
+    </category>
+
+    <category>
+     <pattern>_ soaint *</pattern>
+     <template>
+  		SOAINT es tu mejor asesor tecnologico expertos en transformacion digital.
+     </template>
+    </category>
+
+    <category>
+     <pattern>_ soaint</pattern>
+     <template>
+  		SOAINT es tu mejor asesor tecnologico expertos en transformacion digital.
+     </template>
+    </category>
+
+    <category>
+     <pattern>soaint *</pattern>
+     <template>
+  		SOAINT es tu mejor asesor tecnologico expertos en transformacion digital.
+     </template>
+    </category>
+
+    <category>
+      <pattern>tecnologias</pattern>
+      <template>
+         Usamos tecnologias, tales como:RPA, SOA, JAVA, Springboot, Angular, Laravel, Micro Servicios, API, DevOps
+      </template>
+  </category>
+
+  <category>
+      <pattern>_ tecnologias *</pattern>
+      <template>
+         Usamos tecnologias, tales como:RPA, SOA, JAVA, Springboot, Angular, Laravel, Micro Servicios, API, DevOps
+      </template>
+  </category>
+
+  <category>
+      <pattern>_ tecnologias </pattern>
+      <template>
+        Usamos tecnologias, tales como:RPA, SOA, JAVA, Springboot, Angular, Laravel, Micro Servicios, API, DevOps
+      </template>
+  </category>
+
+  <category>
+      <pattern>tecnologias *</pattern>
+      <template>
+         Usamos tecnologias, tales como:RPA, SOA, JAVA, Springboot, Angular, Laravel, Micro Servicios, API, DevOps
+      </template>
+  </category>
+
+
+  <category>
+       <pattern>RPA</pattern>
+       <template>
+           La automatizacion de procesos mediante robots (Robotic Process Automation en ingles) es toda tecnologia orientada al uso de software con el objetivo de disminuir la intervencion humana en el uso de aplicaciones informaticas.
+
+       </template>
+  </category>
+
+  <category>
+       <pattern>_ RPA *</pattern>
+       <template>
+           La automatizacion de procesos mediante robots (Robotic Process Automation en ingles) es toda tecnologia orientada al uso de software con el objetivo de disminuir la intervencion humana en el uso de aplicaciones informaticas.
+
+       </template>
+  </category>
+
+  <category>
+       <pattern>RPA *</pattern>
+       <template>
+           La automatizacion de procesos mediante robots (Robotic Process Automation en ingles) es toda tecnologia orientada al uso de software con el objetivo de disminuir la intervencion humana en el uso de aplicaciones informaticas.
+
+       </template>
+  </category>
+
+  <category>
+       <pattern>_ RPA</pattern>
+       <template>
+           La automatizacion de procesos mediante robots (Robotic Process Automation en ingles) es toda tecnologia orientada al uso de software con el objetivo de disminuir la intervencion humana en el uso de aplicaciones informaticas.
+
+       </template>
+  </category>
+
+  <category>
+       <pattern>SOA</pattern>
+       <template>
+           La Arquitectura Orientada a Servicios (SOA en ingles), es una metodologia que es implementada para definir la utilizacion de varios servicios con el fin de dar soporte a ciertos requisitos del negocio.
+       </template>
+  </category>
+
+  <category>
+       <pattern>_ SOA *</pattern>
+       <template>
+            La Arquitectura Orientada a Servicios (SOA en ingles), es una metodologia que es implementada para definir la utilizacion de varios servicios con el fin de dar soporte a ciertos requisitos del negocio.
+       </template>
+  </category>
+
+  <category>
+       <pattern>_ SOA</pattern>
+       <template>
+           La Arquitectura Orientada a Servicios (SOA en ingles), es una metodologia que es implementada para definir la utilizacion de varios servicios con el fin de dar soporte a ciertos requisitos del negocio.
+       </template>
+  </category>
+
+  <category>
+       <pattern>SOA *</pattern>
+       <template>
+            La Arquitectura Orientada a Servicios (SOA en ingles), es una metodologia que es implementada para definir la utilizacion de varios servicios con el fin de dar soporte a ciertos requisitos del negocio.
+       </template>
+  </category>
+
+  <category>
+       <pattern>JAVA</pattern>
+       <template>
+           Es un lenguaje de programacion y una plataforma informatica comercializada por primera vez en 1995 por Sun Microsystems. Java es rapido, seguro y fiable.
+       </template>
+  </category>
+
+  <category>
+       <pattern>_ JAVA *</pattern>
+       <template>
+           Es un lenguaje de programacion y una plataforma informatica comercializada por primera vez en 1995 por Sun Microsystems. Java es rapido, seguro y fiable.
+       </template>
+  </category>
+
+  <category>
+       <pattern>_ JAVA</pattern>
+       <template>
+           Es un lenguaje de programacion y una plataforma informatica comercializada por primera vez en 1995 por Sun Microsystems. Java es rapido, seguro y fiable.
+       </template>
+  </category>
+
+  <category>
+       <pattern>JAVA *</pattern>
+       <template>
+           Es un lenguaje de programacion y una plataforma informatica comercializada por primera vez en 1995 por Sun Microsystems. Java es rapido, seguro y fiable.
+       </template>
+  </category>
+
+
+  <category>
+       <pattern>SPRINGBOOT</pattern>
+       <template>
+           Spring Boot facilita la creacion de aplicaciones independientes basadas en Spring de grado de produccion que puede "simplemente ejecutar".
+       </template>
+  </category>
+
+  <category>
+       <pattern>_ SPRINGBOOT *</pattern>
+       <template>
+           Spring Boot facilita la creacion de aplicaciones independientes basadas en Spring de grado de produccion que puede "simplemente ejecutar".
+       </template>
+  </category>
+
+  <category>
+    <pattern>_ SPRINGBOOT</pattern>
+       <template>
+           Spring Boot facilita la creacion de aplicaciones independientes basadas en Spring de grado de produccion que puede "simplemente ejecutar".
+       </template>
+  </category>
+
+  <category>
+    <pattern>SPRINGBOOT *</pattern>
+       <template>
+           Spring Boot facilita la creacion de aplicaciones independientes basadas en Spring de grado de produccion que puede "simplemente ejecutar".
+       </template>
+  </category>
+
+  <category>
+    <pattern>Angular</pattern>
+       <template>
+           Angular es un marco de diseño de aplicaciones y una plataforma de desarrollo para crear aplicaciones eficientes y sofisticadas de una sola pagina.
+
+       </template>
+  </category>
+
+  <category>
+    <pattern>_ Angular *</pattern>
+       <template>
+           Angular es un marco de diseño de aplicaciones y una plataforma de desarrollo para crear aplicaciones eficientes y sofisticadas de una sola pagina.
+
+       </template>
+  </category>
+
+  <category>
+    <pattern>_ Angular</pattern>
+       <template>
+           Angular es un marco de diseño de aplicaciones y una plataforma de desarrollo para crear aplicaciones eficientes y sofisticadas de una sola pagina.
+
+       </template>
+  </category>
+
+  <category>
+    <pattern>Angular *</pattern>
+       <template>
+           Angular es un marco de diseño de aplicaciones y una plataforma de desarrollo para crear aplicaciones eficientes y sofisticadas de una sola pagina.
+
+       </template>
+  </category>
+
+  <category>
+    <pattern>Laravel</pattern>
+       <template>
+           Laravel es un marco de aplicacion web con sintaxis expresiva y elegante. Ya hemos sentado las bases, liberandote para crear sin sudar las cosas pequeñas.
+       </template>
+  </category>
+
+  <category>
+    <pattern>_ Laravel *</pattern>
+       <template>
+           Laravel es un marco de aplicacion web con sintaxis expresiva y elegante. Ya hemos sentado las bases, liberandote para crear sin sudar las cosas pequeñas.
+       </template>
+  </category>
+
+  <category>
+    <pattern>_ Laravel</pattern>
+       <template>
+           Laravel es un marco de aplicacion web con sintaxis expresiva y elegante. Ya hemos sentado las bases, liberandote para crear sin sudar las cosas pequeñas.
+       </template>
+  </category>
+
+  <category>
+     <pattern>Laravel *</pattern>
+       <template>
+           Laravel es un marco de aplicacion web con sintaxis expresiva y elegante. Ya hemos sentado las bases, liberandote para crear sin sudar las cosas pequeñas.
+       </template>
+  </category>
+
+  <category>
+     <pattern>Micro Servicios</pattern>
+       <template>
+           Una “arquitectura de microservicios” es un enfoque para desarrollar una aplicacion software como una serie de pequeños servicios, cada uno ejecutandose de forma autonoma y comunicandose entre si, por ejemplo, a traves de peticiones HTTP a sus API.
+       </template>
+  </category>
+
+  <category>
+     <pattern>_ Micro Servicios *</pattern>
+       <template>
+           Una “arquitectura de microservicios” es un enfoque para desarrollar una aplicacion software como una serie de pequeños servicios, cada uno ejecutandose de forma autonoma y comunicandose entre si, por ejemplo, a traves de peticiones HTTP a sus API.
+       </template>
+  </category>
+
+  <category>
+     <pattern>_ Micro Servicios</pattern>
+       <template>
+           Una “arquitectura de microservicios” es un enfoque para desarrollar una aplicacion software como una serie de pequeños servicios, cada uno ejecutandose de forma autonoma y comunicandose entre si, por ejemplo, a traves de peticiones HTTP a sus API.
+       </template>
+  </category>
+
+  <category>
+     <pattern>Micro Servicios *</pattern>
+       <template>
+           Una “arquitectura de microservicios” es un enfoque para desarrollar una aplicacion software como una serie de pequeños servicios, cada uno ejecutandose de forma autonoma y comunicandose entre si, por ejemplo, a traves de peticiones HTTP a sus API.
+       </template>
+  </category>
+
+  <category>
+     <pattern>API</pattern>
+       <template>
+           Es un conjunto de definiciones y protocolos que se utiliza para desarrollar e integrar el software de las aplicaciones. API significa interfaz de programacion de aplicaciones (del ingles API: Application Programming Interface).
+       </template>
+  </category>
+
+  <category>
+     <pattern>_ API *</pattern>
+       <template>
+           Es un conjunto de definiciones y protocolos que se utiliza para desarrollar e integrar el software de las aplicaciones. API significa interfaz de programacion de aplicaciones (del ingles API: Application Programming Interface).
+       </template>
+  </category>
+
+  <category>
+     <pattern>_ API</pattern>
+       <template>
+           Es un conjunto de definiciones y protocolos que se utiliza para desarrollar e integrar el software de las aplicaciones. API significa interfaz de programacion de aplicaciones (del ingles API: Application Programming Interface).
+       </template>
+  </category>
+
+  <category>
+     <pattern>API *</pattern>
+       <template>
+           Es un conjunto de definiciones y protocolos que se utiliza para desarrollar e integrar el software de las aplicaciones. API significa interfaz de programacion de aplicaciones (del ingles API: Application Programming Interface).
+       </template>
+  </category>
+
+  <category>
+     <pattern>DevOps</pattern>
+       <template>
+           Describe los enfoques para agilizar los procesos con los que una idea pasa del desarrollo a la implementacion, en un entorno de produccion en que puede generar valor para el usuario.
+       </template>
+  </category>
+
+  <category>
+     <pattern>_ DevOps *</pattern>
+       <template>
+           Describe los enfoques para agilizar los procesos con los que una idea pasa del desarrollo a la implementacion, en un entorno de produccion en que puede generar valor para el usuario.
+       </template>
+  </category>
+
+  <category>
+     <pattern>_ DevOps</pattern>
+       <template>
+           Describe los enfoques para agilizar los procesos con los que una idea pasa del desarrollo a la implementacion, en un entorno de produccion en que puede generar valor para el usuario.
+       </template>
+  </category>
+
+  <category>
+    <pattern>DevOps *</pattern>
+  	<template>
+  	Describe los enfoques para agilizar los procesos con los que una idea pasa del desarrollo a la implementacion, en un entorno de produccion en que puede generar valor para el usuario.
+  	</template>
+  </category>
+
+  <category>
+     <pattern>eficaz</pattern>
+       <template>
+  		SOAINT establece metas para alcanzar y desarrollar de manera mas efectiva las tareas para conseguir el objetivo deseado. Garantizando la confiabilidad y seguridad del cliente
+       </template>
+  </category>
+
+  <category>
+     <pattern>eficaz *</pattern>
+       <template>
+  		SOAINT establece metas para alcanzar y desarrollar de manera mas efectiva las tareas para conseguir el objetivo deseado. Garantizando la confiabilidad y seguridad del cliente
+       </template>
+  </category>
+
+  <category>
+     <pattern>_ eficaz *</pattern>
+       <template>
+  		SOAINT establece metas para alcanzar y desarrollar de manera mas efectiva las tareas para conseguir el objetivo deseado. Garantizando la confiabilidad y seguridad del cliente
+       </template>
+  </category>
+
+  <category>
+     <pattern>_ eficaz</pattern>
+       <template>
+  		SOAINT establece metas para alcanzar y desarrollar de manera mas efectiva las tareas para conseguir el objetivo deseado. Garantizando la confiabilidad y seguridad del cliente
+       </template>
+  </category>
+  <category>
+     <pattern>Produccion</pattern>
+       <template>
+  		SOAINT establece metas para alcanzar y desarrollar de manera mas efectiva las tareas para conseguir el objetivo deseado. Garantizando la confiabilidad y seguridad del cliente
+       </template>
+  </category>
+
+  <category>
+     <pattern>Produccion *</pattern>
+       <template>
+  		SOAINT establece metas para alcanzar y desarrollar de manera mas efectiva las tareas para conseguir el objetivo deseado. Garantizando la confiabilidad y seguridad del cliente
+       </template>
+  </category>
+
+  <category>
+     <pattern>_ Produccion *</pattern>
+       <template>
+  		SOAINT establece metas para alcanzar y desarrollar de manera mas efectiva las tareas para conseguir el objetivo deseado. Garantizando la confiabilidad y seguridad del cliente
+       </template>
+  </category>
+
+  <category>
+     <pattern>_ Produccion</pattern>
+       <template>
+  		SOAINT establece metas para alcanzar y desarrollar de manera mas efectiva las tareas para conseguir el objetivo deseado. Garantizando la confiabilidad y seguridad del cliente
+       </template>
+  </category>
+
+  <category>
+     <pattern>sucursal</pattern>
+     <template>
+  		SOAINT tiene sucursales en distintas partes del mundo, como lo son: Argentina, Chile, Colombia, Costa Rica, Ecuador, España, Mexico, Panama, Qatar, Republica Dominicana, Venezuela
+     </template>
+    </category>
+
+    <category>
+     <pattern>sucursal *</pattern>
+     <template>
+  		SOAINT tiene sucursales en distintas partes del mundo, como lo son: Argentina, Chile, Colombia, Costa Rica, Ecuador, España, Mexico, Panama, Qatar, Republica Dominicana, Venezuela
+     </template>
+    </category>
+
+    <category>
+     <pattern>_ sucursal</pattern>
+     <template>
+  		SOAINT tiene sucursales en distintas partes del mundo, como lo son: Argentina, Chile, Colombia, Costa Rica, Ecuador, España, Mexico, Panama, Qatar, Republica Dominicana, Venezuela
+     </template>
+    </category>
+
+    <category>
+     <pattern>_ sucursal *</pattern>
+     <template>
+  		SOAINT tiene sucursales en distintas partes del mundo, como lo son: Argentina, Chile, Colombia, Costa Rica, Ecuador, España, Mexico, Panama, Qatar, Republica Dominicana, Venezuela
+     </template>
+    </category>
+
+    <category>
+     <pattern>sucursales</pattern>
+     <template>
+  		SOAINT tiene sucursales en distintas partes del mundo, como lo son: Argentina, Chile, Colombia, Costa Rica, Ecuador, España, Mexico, Panama, Qatar, Republica Dominicana, Venezuela
+     </template>
+    </category>
+
+    <category>
+     <pattern>sucursales *</pattern>
+     <template>
+  		SOAINT tiene sucursales en distintas partes del mundo, como lo son: Argentina, Chile, Colombia, Costa Rica, Ecuador, España, Mexico, Panama, Qatar, Republica Dominicana, Venezuela
+     </template>
+    </category>
+
+    <category>
+     <pattern>_ sucursales</pattern>
+     <template>
+  		SOAINT tiene sucursales en distintas partes del mundo, como lo son: Argentina, Chile, Colombia, Costa Rica, Ecuador, España, Mexico, Panama, Qatar, Republica Dominicana, Venezuela
+     </template>
+    </category>
+
+    <category>
+     <pattern>_ sucursales *</pattern>
+     <template>
+  		SOAINT tiene sucursales en distintas partes del mundo, como lo son: Argentina, Chile, Colombia, Costa Rica, Ecuador, España, Mexico, Panama, Qatar, Republica Dominicana, Venezuela
+     </template>
+    </category>
+
+  <category>
+     <pattern>pais</pattern>
+     <template>
+  		SOAINT tiene sucursales en distintas partes del mundo, como lo son: Argentina, Chile, Colombia, Costa Rica, Ecuador, España, Mexico, Panama, Qatar, Republica Dominicana, Venezuela
+     </template>
+    </category>
+
+    <category>
+     <pattern>pais *</pattern>
+     <template>
+  		SOAINT tiene sucursales en distintas partes del mundo, como lo son: Argentina, Chile, Colombia, Costa Rica, Ecuador, España, Mexico, Panama, Qatar, Republica Dominicana, Venezuela
+     </template>
+    </category>
+
+    <category>
+     <pattern>_ pais</pattern>
+     <template>
+  		SOAINT tiene sucursales en distintas partes del mundo, como lo son: Argentina, Chile, Colombia, Costa Rica, Ecuador, España, Mexico, Panama, Qatar, Republica Dominicana, Venezuela
+     </template>
+    </category>
+
+    <category>
+     <pattern>_ pais *</pattern>
+     <template>
+  		SOAINT tiene sucursales en distintas partes del mundo, como lo son: Argentina, Chile, Colombia, Costa Rica, Ecuador, España, Mexico, Panama, Qatar, Republica Dominicana, Venezuela
+     </template>
+    </category>
+
+      <category>
+     <pattern>paises</pattern>
+     <template>
+  		SOAINT tiene sucursales en distintas partes del mundo, como lo son: Argentina, Chile, Colombia, Costa Rica, Ecuador, España, Mexico, Panama, Qatar, Republica Dominicana, Venezuela
+     </template>
+    </category>
+
+    <category>
+     <pattern>paises *</pattern>
+     <template>
+  		SOAINT tiene sucursales en distintas partes del mundo, como lo son: Argentina, Chile, Colombia, Costa Rica, Ecuador, España, Mexico, Panama, Qatar, Republica Dominicana, Venezuela
+     </template>
+    </category>
+
+    <category>
+     <pattern>_ paises</pattern>
+     <template>
+  		SOAINT tiene sucursales en distintas partes del mundo, como lo son: Argentina, Chile, Colombia, Costa Rica, Ecuador, España, Mexico, Panama, Qatar, Republica Dominicana, Venezuela
+     </template>
+    </category>
+
+    <category>
+     <pattern>_ paises *</pattern>
+     <template>
+  		SOAINT tiene sucursales en distintas partes del mundo, como lo son: Argentina, Chile, Colombia, Costa Rica, Ecuador, España, Mexico, Panama, Qatar, Republica Dominicana, Venezuela
+     </template>
+    </category>
+
+
+
+  </aiml>
+  
